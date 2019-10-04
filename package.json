@@ -1,0 +1,19 @@
+{
+  "name": "bcrogel",
+  "version": "1.0.0",
+  "description": "Wedding website for Claire Gilligan and Bill Rogel",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feminaprovita/bcrogel.git"
+  },
+  "author": "Claire Gilligan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/feminaprovita/bcrogel/issues"
+  },
+  "homepage": "https://github.com/feminaprovita/bcrogel#readme"
+}
