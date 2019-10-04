@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
-const Navbar = () => {
+const Navbar = () => (
   <nav>
     <div id='navlink-container'>
       <Link to='/' id='navlink-home'>Home</Link>
@@ -14,6 +14,6 @@ const Navbar = () => {
       <Link to='/rsvp' id='navlink-rsvp'>RSVP</Link>
     </div>
   </nav>
-}
+)
 
 export default Navbar
