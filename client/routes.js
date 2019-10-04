@@ -1,12 +1,12 @@
 import React from 'react'
 import {withRouter, Route, Switch} from 'react-router-dom'
-import {Home, OurStory, WeddingDetails, Accommodations, WeddingParty, Registry, Photos, RSVP} from './components'
+import {Home, OurStory, TheDay, Accommodations, WeddingParty, Registry, Photos, RSVP} from './components'
 
 const Routes = () => (
   <Switch>
     <Route exact path="/" component={Home} />
     <Route exact path="/ourstory" component={OurStory} />
-    <Route exact path="/weddingdetails" component={WeddingDetails} />
+    <Route exact path="/theday" component={TheDay} />
     <Route exact path="/accommodations" component={Accommodations} />
     <Route exact path="/weddingparty" component={WeddingParty} />
     <Route exact path="/registry" component={Registry} />
