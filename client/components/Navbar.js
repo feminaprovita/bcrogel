@@ -4,14 +4,14 @@ import {Link} from 'react-router-dom'
 const Navbar = () => (
   <nav>
     <div id='navlink-container'>
-      <Link to='/' id='navlink-home'>Home</Link>
-      <Link to='/ourstory' id='navlink-ourstory'>Our Story</Link>
-      <Link to='/theday' id='navlink-theday'>The Day</Link>
-      <Link to='/accommodations' id='navlink-accommodations'>Accommodations</Link>
-      <Link to='/weddingparty' id='navlink-weddingparty'>Wedding Party</Link>
-      <Link to='/registry' id='navlink-registry'>Registry</Link>
-      <Link to='/photos' id='navlink-photos'>Photos</Link>
-      <Link to='/rsvp' id='navlink-rsvp'>RSVP</Link>
+      <Link to='/' id='navlink-home' className='navlink-one'>Home</Link>
+      <Link to='/ourstory' id='navlink-ourstory' className='navlink-one'>Our Story</Link>
+      <Link to='/photos' id='navlink-photos' className='navlink-one'>Photos</Link>
+      <Link to='/weddingparty' id='navlink-weddingparty' className='navlink-one'>Wedding Party</Link>
+      <Link to='/theday' id='navlink-theday' className='navlink-one'>The Day</Link>
+      <Link to='/accommodations' id='navlink-accommodations' className='navlink-one'>Accommodations</Link>
+      <Link to='/registry' id='navlink-registry' className='navlink-one'>Registry</Link>
+      <Link to='/rsvp' id='navlink-rsvp' className='navlink-one'>RSVP</Link>
     </div>
   </nav>
 )
