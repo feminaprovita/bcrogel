@@ -2,14 +2,15 @@ import React from 'react'
 
 const OurStory = () => (
   <div id='ourstory-container' className='page-container'>
-    <h1>We were set up by friends!</h1>
+    <h1>Our Story</h1>
     <img
-      className='under-construction'
-      src='/../../public/images/under_construction_geek_woman.svg'
+      className='under-construction small-image'
+      src='./images/under_construction_geek_woman.png'
       alt='Under Construction'
       />
-      <h2>Her Story</h2>
-      <h2>His Story</h2>
+      <h2>We were set up by friends!</h2>
+      <h3>Her Story</h3>
+      <h3>His Story</h3>
       <h2>Emails, Texting, and Visiting</h2>
       <h2>Pittsburgh and Engagement</h2>
   </div>

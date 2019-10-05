@@ -89,7 +89,28 @@ nav a:hover,
   padding: 5vw;
 }
 
+.small-image {
+  max-width: 31vw;
+}
+
+.sm-cap {
+  font-variant: small-caps;
+}
+
 /* HOME */
 #homepage-pic {
   max-width: 55vw;
+}
+
+/* WEDDING PARTY */
+#wedding-party {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1vw;
+}
+
+#bridesmaids,
+#groomsmen {
+  margin: 2vw;
 }
