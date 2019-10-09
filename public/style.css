@@ -51,13 +51,9 @@ nav a:hover,
 
 .navlink-one {
   color: white;
-  font-size: 1.1em;
-  padding: 0.5em;
-}
-
-#navlink-theday {
   font-size: 1.2em;
   font-variant: small-caps;
+  padding: 0.5em;
 }
 
 /* FOOTER */
