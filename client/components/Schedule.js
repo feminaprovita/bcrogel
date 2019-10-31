@@ -9,7 +9,16 @@ const Schedule = () => (
       alt='Under Construction'
       />
     <h2>The Nuptial Mass</h2>
+    <p>2:30&ndash;3:45pm<br/>
+      Church of the Sacred Heart <br/>
+      310 Shady Avenue<br/>
+      Pittsburgh (Shadyside)</p>
+
     <h2>The Wedding Reception</h2>
+    <p>5:00&ndash;11:00pm<br/>
+    Rivers Casino<br/>
+    777 Casino Drive<br/>
+    Pittsburgh</p>
   </div>
 )
 
