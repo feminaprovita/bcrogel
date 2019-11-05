@@ -12,6 +12,7 @@ const Navbar = () => (
       <Link to='/accommodations' id='navlink-accommodations' className='navlink-one'>Accommodations</Link>
       <Link to='/registry' id='navlink-registry' className='navlink-one'>Registry</Link>
       <Link to='/rsvp' id='navlink-rsvp' className='navlink-one'>RSVP</Link>
+      <Link to='/guestbook' id='navlink-guestbook' className='navlink-one'>Guestbook</Link>
     </div>
   </nav>
 )
