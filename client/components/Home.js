@@ -3,7 +3,7 @@ import countdown from '../countdown'
 
 const Home = () => (
   <div id='homepage-container' className='page-container'>
-    <p>We're getting married in {countdown} days!</p>
+    <p>{countdown}</p>
     <img
       id='homepage-pic'
       src='images/Gill_wedding.jpg'
