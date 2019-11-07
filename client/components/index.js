@@ -1,4 +1,4 @@
-export {default as Accommodations} from './Accommodations'
+export {default as Attractions} from './Attractions'
 export {default as Guestbook} from './Guestbook'
 export {default as Home} from './Home'
 export {default as OurStory} from './OurStory'
