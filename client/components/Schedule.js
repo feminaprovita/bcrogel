@@ -3,11 +3,6 @@ import React from 'react'
 const Schedule = () => (
   <div id='schedule-container' className='page-container'>
     <h1>Schedule of the Big Day</h1>
-    <img
-      className='under-construction small-image'
-      src='./images/under_construction_geek_woman.png'
-      alt='Under Construction'
-      />
     <h2>The Nuptial Mass</h2>
     <p>2:30&ndash;3:45pm<br/>
       Church of the Sacred Heart <br/>
@@ -19,6 +14,11 @@ const Schedule = () => (
     Rivers Casino<br/>
     777 Casino Drive<br/>
     Pittsburgh</p>
+    <img
+      className='under-construction small-image'
+      src='./images/under_construction_geek_woman.png'
+      alt='Under Construction'
+      />
   </div>
 )
 
