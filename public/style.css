@@ -1,7 +1,8 @@
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 0;
-  background: #48D1CC;
+  background: #212eb1;
+  color: white;
 }
 
 a {
@@ -17,22 +18,22 @@ nav {
   z-index: 2;
   position: fixed;
   top: 0;
-  background: #8003A6;
+  background: #4c1992;
   width: 100%;
-  text-shadow: 0.08em 0.14em darkslategray;
+  text-shadow: 0.08em 0.14em #00908b;
   border-bottom: 1px ridge darkslategray;
 }
 
 nav a {
   color: white;
-  text-decoration: 1px solid #8003A6;
+  text-decoration: 1px solid #4c1992;
 }
 
 nav a:hover,
 .navlink-one a:hover {
   font-weight: bolder;
   /* text-shadow: 0.08em 0.14em darkgreen; */
-  text-shadow: 0.16em 0.28em darkblue;
+  text-shadow: 0.16em 0.28em #00908b;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -67,10 +68,10 @@ nav a:hover,
   max-height: 2em;
   border-top: 1px ridge darkslategray;
   /* background: linear-gradient(to right, #B9DEFF, #dcccfd); */
-  background: #8003A6;
+  background: #4c1992;
   color: white;
   text-align: center;
-  text-shadow: 0.075em 0.12em darkblue;
+  text-shadow: 0.075em 0.12em #00908b;
   font-size: small;
 }
 
