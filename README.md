@@ -12,3 +12,8 @@ https://clipart.info
 Background image by Anthony Cramp on flickr. Used without edit under CC BY 2.0 Generic.
 https://www.flickr.com/photos/anthonycramp/4428561177
 https://creativecommons.org/licenses/by/2.0/
+<!-- (https://live.staticflickr.com/2804/4428561177_831c2f9269_b.jpg) -->
+
+
+Dishwasher donation button from Wikimedia. No machine-readable author provided. Piotrus assumed (based on copyright claims). [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)]
+https://commons.wikimedia.org/wiki/File:Dishwasher_with_dishes.JPG
