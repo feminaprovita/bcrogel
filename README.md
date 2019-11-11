@@ -9,3 +9,6 @@ https://clipart.info/heartpngclipart
 https://clipart.info
 
 
+Background image by Anthony Cramp on flickr. Used without edit under CC BY 2.0 Generic.
+https://www.flickr.com/photos/anthonycramp/4428561177
+https://creativecommons.org/licenses/by/2.0/
