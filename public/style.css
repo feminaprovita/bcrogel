@@ -3,6 +3,22 @@ body {
   margin: 0;
   background: #0e0e0e url("https://live.staticflickr.com/2804/4428561177_831c2f9269_b.jpg") no-repeat fixed center;
   color: white;
+  display: grid;
+  grid-gap: 0rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto 1fr;
+  grid-template-areas:
+    "header"
+    "body"
+    "footer";
+  place-items: stretch;
+  place-content: stretch;
+}
+
+#grid-navbar,
+#grid-body,
+#grid-footer {
+
 }
 
 a {
@@ -43,12 +59,28 @@ nav a:hover,
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   font-weight: bold;
   margin: 0.4em;
-  max-height: 87px;
-  height: 1.3em;
   width: 100vw;
+}
+
+@media (min-width: 781px) {
+  #navlink-container {
+    height: 5vh;
+  }
+}
+
+@media (min-width: 413px) and (max-width: 780px) {
+  #navlink-container {
+    height: 12vh;
+  }
+}
+
+@media (max-width: 412px) {
+  #navlink-container {
+    height: 18vh;
+  }
 }
 
 .navlink-one {
@@ -62,13 +94,15 @@ nav a:hover,
 #footer {
   z-index: 2;
   position: fixed;
+  display: flex;
+  justify-content: center;
+  text-align: center;
   bottom: 0;
   width: 100%;
-  max-height: 2em;
+  max-height: 10vh;
   border-top: 1px ridge darkslategray;
   background: #4c1992;
   color: white;
-  text-align: center;
   text-shadow: 0.075em 0.12em #00908b;
   font-size: small;
 }
