@@ -1,6 +1,6 @@
 import React from 'react'
 import {withRouter, Route, Switch} from 'react-router-dom'
-import {Home, OurStory, Schedule, Attractions, WeddingParty, Registry, Photos, RSVP, Guestbook, CookieTable, Choir} from './components'
+import {Home, OurStory, Schedule, Attractions, WeddingParty, Registry, Photos, RSVP, Guestbook, CookieTable, Choir, RegistryThanks} from './components'
 
 const Routes = () => (
   <Switch>
@@ -10,6 +10,7 @@ const Routes = () => (
     <Route exact path="/attractions" component={Attractions} />
     {/* <Route exact path="/weddingparty" component={WeddingParty} /> */}
     <Route exact path="/registry" component={Registry} />
+    <Route exact path="/registrythanks" component={RegistryThanks} />
     <Route exact path="/photos" component={Photos} />
     <Route exact path="/rsvp" component={RSVP} />
     <Route exact path="/guestbook" component={Guestbook} />
