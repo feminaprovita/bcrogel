@@ -15,10 +15,22 @@ body {
   place-content: stretch;
 }
 
-#grid-navbar,
-#grid-body,
-#grid-footer {
+#grid-navbar {
+  grid-area: header;
+  grid-row: 1 / 1;
+  grid-column: 1 / 2;
+}
 
+#grid-body {
+  grid-area: body;
+  grid-row: 1 / 1;
+  grid-column: 2 / 3;
+}
+
+#grid-footer {
+  grid-area: footer;
+  grid-row: 1 / 1;
+  grid-column: 3 / 4;
 }
 
 a {
