@@ -3,7 +3,10 @@ import React from 'react'
 const Registry = () => (
   <div id='registry-container' className='page-container'>
     <h1>Our Registries</h1>
-    <h2>Bed, Bath, & Beyond</h2>
+    <h2>Primary: Zola</h2>
+    <h2>Mostly fun/sports: Bed, Bath, & Beyond</h2>
+    <h2>More: Ikea</h2>
+    <h2>More: Amazon</h2>
     <h2>Dishwasher $</h2>
     <h2>Couch $</h2>
     <h2>Prie-Dieu $</h2>

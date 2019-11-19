@@ -6,9 +6,10 @@ const Attractions = () => (
     <h2>Churches</h2>
       <ul>
         <li>Sacred Heart</li>
-        <li>St Anthony's</li>
+        <li>St Anthony's (/shrines)</li>
         <li>St Mary of the Mount</li>
         <li>Most Precious Blood</li>
+        <li>Oratory (Ryan Catholic Newman Center)</li>
       </ul>
     <h2>Restaurants</h2>
       <ul>

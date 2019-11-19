@@ -104,6 +104,7 @@ nav a:hover,
   background-color: #212eb1;
   padding: .7em;
   margin: 1vw;
+  box-shadow: .77vw .77vh navajowhite;
 }
 
 .page-container > div,
@@ -112,6 +113,7 @@ nav a:hover,
   background-color: #00908b;
   padding: .7em;
   margin: 1vw;
+  box-shadow: .77vw .77vh navajowhite;
 }
 
 #ourstory-container > .hers {
