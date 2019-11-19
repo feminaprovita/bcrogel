@@ -96,6 +96,7 @@ nav a:hover,
 .page-container > h1 {
   text-shadow: 0.08em 0.14em #00908b;
 }
+
 .page-container > h1,
 .page-container > h2,
 .page-container > h3,
@@ -112,6 +113,19 @@ nav a:hover,
   padding: .7em;
   margin: 1vw;
 }
+
+#ourstory-container > .hers {
+  background-color: #4c1992;
+}
+
+#ourstory-container > .his {
+  background-color: #212eb1;
+}
+
+#ourstory-container > h2 {
+  background-color: #00908b;
+}
+
 
 /* HOME */
 #homepage-pic {

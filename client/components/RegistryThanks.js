@@ -7,7 +7,7 @@ const Registry = () => (
     <img
     className='small-image'
     src='./images/Cheung_wedding.jpg'
-    alt="at Clement and Anna's wedding"
+    alt="Bill and Claire at Clement and Anna's wedding in Hong Kong"
     />
   </div>
 )
