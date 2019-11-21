@@ -5,35 +5,35 @@ const Attractions = () => (
     <h1>Pittsburgh Attractions</h1>
     <h2>Churches</h2>
       <ul>
-        <li>Sacred Heart</li>
-        <li>St Anthony's (/shrines)</li>
-        <li>St Mary of the Mount</li>
-        <li>Most Precious Blood</li>
-        <li>Oratory (Ryan Catholic Newman Center)</li>
+        <li className='wide-left'>Sacred Heart</li>
+        <li className='wide-left'>St Anthony's (/shrines)</li>
+        <li className='wide-left'>St Mary of the Mount</li>
+        <li className='wide-left'>Most Precious Blood</li>
+        <li className='wide-left'>Oratory (Ryan Catholic Newman Center)</li>
       </ul>
     <h2>Restaurants</h2>
       <ul>
-        <li>Primanti Bros</li>
-        <li>Pamela's</li>
-        <li><em>[Pittsburgh and Pizza]</em></li>
-        <li><em>[Pittsburgh and Pierogis]</em></li>
+        <li className='wide-left'>Primanti Bros</li>
+        <li className='wide-left'>Pamela's</li>
+        <li className='wide-left'><em>[Pittsburgh and Pierogis]</em></li>
+        <li className='wide-left'><em>[Pittsburgh and Pizza]</em></li>
       </ul>
     <h2>Sights of Pittsburgh</h2>
       <ul>
-        <li>The Peak</li>
-        <li>The Point</li>
-        <li>The Museums</li>
-        <li>Pittsburgh Zoo & PPG Aquarium</li>
-        <li>The Ballparks</li>
+        <li className='wide-left'>The Peak</li>
+        <li className='wide-left'>The Point</li>
+        <li className='wide-left'>The Museums</li>
+        <li className='wide-left'>Pittsburgh Zoo & PPG Aquarium</li>
+        <li className='wide-left'>The Ballparks</li>
       </ul>
     <h2>Day Trips</h2>
       <ul>
-        <li>Kennywood</li>
+        <li className='wide-left'>Kennywood</li>
       </ul>
     <h2>Further Reading</h2>
       <ul>
-        <li>Theresa's two articles</li>
-        <li>Brandon's forthcoming article</li>
+        <li className='wide-left'>Theresa's two articles</li>
+        <li className='wide-left'>Brandon's forthcoming article</li>
       </ul>
     <img
       className='under-construction small-image'
