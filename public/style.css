@@ -9,6 +9,14 @@ a {
   text-decoration: none;
 }
 
+a:link {
+  color: #FF55FF;
+}
+
+a:visited {
+  color: greenyellow;
+}
+
 a:hover {
   cursor: pointer;
 }
@@ -24,7 +32,8 @@ nav {
   border-bottom: 1px ridge darkslategray;
 }
 
-nav a {
+nav a:link,
+nav a:visited {
   color: white;
   text-decoration: 1px solid #4c1992;
 }
@@ -100,6 +109,8 @@ nav a:hover,
 .page-container > h1,
 .page-container > h2,
 .page-container > h3,
+.page-container > h4,
+.page-container > h5,
 .page-container > img {
   background-color: #212eb1;
   padding: .7em;
@@ -124,14 +135,14 @@ nav a:hover,
   background-color: #212eb1;
 }
 
-#ourstory-container > h2 {
+#ourstory-container > h2,
+#registry-container > h3 {
   background-color: #00908b;
 }
 
 #attractions-container .wide-left {
   margin-left: 2vw;
 }
-
 
 /* HOME */
 #homepage-pic {
