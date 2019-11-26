@@ -59,7 +59,9 @@ nav a:hover,
 @media (min-width: 781px) {
   #navlink-container {
     height: 5vh;
-    /* replace these with px */
+  }
+  .page-container {
+    margin-top: 7vh;
   }
 }
 
@@ -67,11 +69,17 @@ nav a:hover,
   #navlink-container {
     height: 12vh;
   }
+  .page-container {
+    margin-top: 14vh;
+  }
 }
 
 @media (max-width: 412px) {
   #navlink-container {
     height: 18vh;
+  }
+  .page-container {
+    margin-top: 20vh;
   }
 }
 
@@ -142,17 +150,4 @@ nav a:hover,
 /* HOME */
 #homepage-pic {
   max-width: 55vw;
-}
-
-/* WEDDING PARTY */
-#wedding-party {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 1vw;
-}
-
-#bridesmaids,
-#groomsmen {
-  margin: 2vw;
 }
