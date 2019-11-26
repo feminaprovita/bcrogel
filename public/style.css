@@ -1,8 +1,15 @@
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 0;
+  padding: 0;
   background: #0e0e0e url("https://live.staticflickr.com/2804/4428561177_831c2f9269_b.jpg") no-repeat fixed center;
   color: white;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a {
@@ -52,12 +59,37 @@ nav a:hover,
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   font-weight: bold;
   margin: 0.4em;
-  max-height: 87px;
-  height: 1.3em;
   width: 100vw;
+}
+
+@media (min-width: 781px) {
+  #navlink-container {
+    height: 5vh;
+  }
+  .page-container {
+    margin-top: 7vh;
+  }
+}
+
+@media (min-width: 413px) and (max-width: 780px) {
+  #navlink-container {
+    height: 12vh;
+  }
+  .page-container {
+    margin-top: 14vh;
+  }
+}
+
+@media (max-width: 412px) {
+  #navlink-container {
+    height: 18vh;
+  }
+  .page-container {
+    margin-top: 20vh;
+  }
 }
 
 .navlink-one {
@@ -71,13 +103,15 @@ nav a:hover,
 #footer {
   z-index: 2;
   position: fixed;
+  display: flex;
+  justify-content: center;
+  text-align: center;
   bottom: 0;
   width: 100%;
-  max-height: 2em;
+  max-height: 10vh;
   border-top: 1px ridge darkslategray;
   background: #4c1992;
   color: white;
-  text-align: center;
   text-shadow: 0.075em 0.12em #00908b;
   font-size: small;
 }
@@ -147,17 +181,4 @@ nav a:hover,
 /* HOME */
 #homepage-pic {
   max-width: 55vw;
-}
-
-/* WEDDING PARTY */
-#wedding-party {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 1vw;
-}
-
-#bridesmaids,
-#groomsmen {
-  margin: 2vw;
 }

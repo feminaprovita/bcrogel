@@ -8,9 +8,9 @@ const App = () => {
   return (
     <div id='whole-page'>
       <Router history={history}>
-        <Navbar id='grid-navbar' />
-        <Routes id='grid-body'/>
-        <Footer id='grid-footer'/>
+        <Navbar />
+        <Routes />
+        <Footer />
       </Router>
     </div>
   )
