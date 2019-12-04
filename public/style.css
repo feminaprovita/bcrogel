@@ -187,7 +187,8 @@ nav a:hover,
 #money-categories,
 #traditional-registries,
 #money-links,
-#easy-money {
+#easy-money,
+#guest-favorites {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -200,10 +201,15 @@ nav a:hover,
   flex-direction: column;
 }
 
+#guest-favorites .registry-block {
+  padding: 1.8vw;
+}
+
 @media (max-width: 412px) {
   #money-categories,
   #traditional-registries,
-  #money-links {
+  #money-links,
+  #guest-favorites {
   flex-direction: column;
   }
   .icon {

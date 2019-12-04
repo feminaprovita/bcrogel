@@ -2,7 +2,7 @@ import React from 'react'
 
 const Registry = () => (
   <div id='registry-container' className='page-container'>
-    <h1>Two Sets of Registries</h1>
+    <h1>Three Sets of Registries</h1>
     <h2>Donate to the ____ fund:</h2>
     <div id='money-categories'>
       <div id='dishwasher' className='registry'>
@@ -43,7 +43,7 @@ const Registry = () => (
         <div id='paypal' className='registry'>
           <a href='https://paypal.me/feminaprovita' target='blank'>
             <img
-              className='registry-donate icon'
+              className='registry-block icon'
               src='https://www.paypalobjects.com/webstatic/mktg/logo/AM_SbyPP_mc_vs_dc_ae.jpg'
               alt='Gift us via PayPal (or credit card)'
             />
@@ -52,7 +52,7 @@ const Registry = () => (
         <div id='venmo' className='registry'>
           <a href='https://venmo.com/feminaprovita' target='blank'>
             <img
-              className='registry-donate icon'
+              className='registry-block icon'
               src='https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/1f/34/74/1f34746c-054a-560c-640c-a9816c5bd3b1/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.png'
               alt='Gift us via Venmo'
             />
@@ -74,7 +74,7 @@ const Registry = () => (
       <div id='zola-registry' className='registry'>
         <a href='https://www.zola.com/registry/swelltoberogel' target='blank'>
           <img
-            className='registry-button small-image'
+            className='registry-block small-image'
             id='zola-img'
             src='https://images.zola.com/7a478860-56ec-4bf6-8e59-5c1df3539374?h=400'
             alt='Zola Wedding Registry: Anything for Love'
@@ -85,7 +85,7 @@ const Registry = () => (
       <div id='bbb-registry' className='registry'>
         <a href='https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/548270669?eventType=Wedding' target='blank'>
           <img
-            className='registry-button small-image'
+            className='registry-block small-image'
             id='bbb-img'
             src='http://www.orrwedding.com/wp-content/uploads/2016/07/bbb-1.png'
             alt='Bed Bath & Beyond: The Wedding & Gift Registry'
@@ -96,7 +96,7 @@ const Registry = () => (
       <div id='ikea-registry' className='registry'>
         <a href='https://info.ikea-usa.com/giftregistry/en-us/registry/5c757d9d-e026-45c4-a760-f3d8167b66c7' target='blank'>
           <img
-            className='registry-button small-image'
+            className='registry-block small-image'
             id='ikea-img'
             src='https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/30/e2/17/30e217c1-e9e8-33f4-0247-77bfc745a5cd/AppIcon-0-1x_U007emarketing-0-0-85-220-0-5.jpeg/246x0w.jpg'
             alt='Ikea Gift Registry'
@@ -108,7 +108,7 @@ const Registry = () => (
       <div id='amazon-registry' className='registry'>
         <a href='https://www.amazon.com/wedding/share/swelltoberogel' target='blank'>
           <img
-            className='registry-button small-image'
+            className='registry-block small-image'
             id='amazon-img'
             src='https://i.pinimg.com/originals/fd/49/ff/fd49ff0383a2a9cf414aef95d7139bb5.png'
             alt='Amazon.com Wedding Registry'
@@ -116,6 +116,29 @@ const Registry = () => (
         </a>
         <p>Here is everything else, including fun stuff like board games, as well
           as far, far too many spatulas (don't ask)</p>
+      </div>
+    </div>
+    <h2>Your Favorite:</h2>
+    <div id='guest-favorites'>
+      <div id='marriage-books' className='registry'>
+        <h3>Marriage Books</h3>
+        <img
+          className='registry-block small-image'
+          id='marriage-books-img'
+          src='https://cdn.pixabay.com/photo/2017/04/20/16/28/books-2246196_1280.jpg'
+          alt='marriage books'
+          />
+        <p>With a note about what makes this book shine, so we know when to pick it up!</p>
+      </div>
+      <div id='cookbooks'  className='registry'>
+        <h3>Cookbooks</h3>
+        <img
+          className='registry-block small-image'
+          id='cookbooks-img'
+          src='https://images.pexels.com/photos/446399/pexels-photo-446399.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260'
+          alt='cookbooks'
+          />
+        <p>With your favorite dozen or so recipes dog-eared, please!</p>
       </div>
     </div>
   </div>
