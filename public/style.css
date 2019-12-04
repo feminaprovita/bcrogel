@@ -227,16 +227,27 @@ nav a:hover,
   }
 }
 
-@media (min-width: 413px) {
+@media (min-width: 413px) and (max-width: 780px) {
   .icon {
-    max-height: 6vw;
-    max-width: 16vw;
+    max-height: 10vw;
+    max-width: 18vw;
+    margin: 1vw 0vw;
   }
+}
+
+@media (min-width: 413px) {
   .small-image {
     max-width: 31vw;
   }
   .registry {
     padding: 1vw;
     max-width: 31vw;
+  }
+}
+
+@media (min-width: 781px) {
+  .icon {
+    max-height: 6vw;
+    max-width: 16vw;
   }
 }
