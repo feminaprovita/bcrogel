@@ -2,7 +2,7 @@ import React from 'react'
 
 const Registry = () => (
   <div id='registry-container' className='page-container'>
-    <h1>Three Sets of Registries</h1>
+    <h1>Choose from among Three Registry Categories</h1>
     <h2>Donate to the ____ fund:</h2>
     <div id='money-categories'>
       <div id='dishwasher' className='registry'>
@@ -118,7 +118,7 @@ const Registry = () => (
           as far, far too many spatulas (don't ask)</p>
       </div>
     </div>
-    <h2>Your Favorite:</h2>
+    <h2>Give Us Copies of Your Favorite:</h2>
     <div id='guest-favorites'>
       <div id='marriage-books' className='registry'>
         <h3>Marriage Books</h3>
