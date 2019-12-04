@@ -6,8 +6,8 @@ const Attractions = () => (
     <h2>Churches</h2>
       <h4>Sacred Heart</h4>
         <p>We're getting married at <a href='https://straphaelpgh.org/sacred-heart'>
-          Sacred Heart</a> in Pittsburgh's historic Shadyside neighborhood. We've
-          written up more about this gorgeous, detailed building <span className='sm-cap'>here</span>.
+          Sacred Heart</a> in Pittsburgh's historic Shadyside neighborhood. We will soon
+          write up more about this gorgeous, detailed building <span className='sm-cap'>here</span>.
           Consider arriving early enough to look around, because there's so much to see!</p>
       <h4>St Anthony's (/shrines)</h4>
       <h4>St Mary of the Mount</h4>
@@ -39,6 +39,7 @@ const Attractions = () => (
         <p>Bill stans <a href='http://mineospizza.com/squirrel-hill.html'>Mineo's</a>,
           and while Claire has a lot of research yet to do, her top choice so far
           is <a href='http://www.vincentspizzapark.com/'>Vincent's</a>.</p>
+      <h5>Note that pierogi pizza is a thing that exists here! At several local pizzerias. We recommend it.</h5>
     <h2>Sights of Pittsburgh</h2>
       <p>The Peak</p>
       <p>The Point</p>

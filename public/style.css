@@ -128,10 +128,6 @@ nav a:hover,
   padding: 5vw;
 }
 
-.small-image {
-  max-width: 31vw;
-}
-
 .sm-cap {
   font-variant: small-caps;
 }
@@ -181,4 +177,77 @@ nav a:hover,
 /* HOME */
 #homepage-pic {
   max-width: 55vw;
+}
+
+/* REGISTRY */
+#registry-container {
+  text-align: center;
+}
+
+#money-categories,
+#traditional-registries,
+#money-links,
+#easy-money,
+#guest-favorites {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#easy-money {
+  flex-direction: column;
+}
+
+#guest-favorites .registry-block {
+  padding: 1.8vw;
+}
+
+@media (max-width: 412px) {
+  #money-categories,
+  #traditional-registries,
+  #money-links,
+  #guest-favorites {
+  flex-direction: column;
+  }
+  .icon {
+    max-height: 22vw;
+  }
+  .small-image {
+    max-width: 83vw;
+  }
+  .registry {
+    padding: 1vw;
+    max-width: 88vw;
+  }
+  #registry-container {
+    margin-bottom: 8.7vh;
+  }
+}
+
+@media (min-width: 413px) and (max-width: 780px) {
+  .icon {
+    max-height: 10vw;
+    max-width: 18vw;
+    margin: 1vw 0vw;
+  }
+}
+
+@media (min-width: 413px) {
+  .small-image {
+    max-width: 31vw;
+  }
+  .registry {
+    padding: 1vw;
+    max-width: 31vw;
+  }
+}
+
+@media (min-width: 781px) {
+  .icon {
+    max-height: 6vw;
+    max-width: 16vw;
+  }
 }
