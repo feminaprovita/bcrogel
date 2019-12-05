@@ -157,6 +157,13 @@ nav a:hover,
   box-shadow: .77vw .77vh navajowhite;
 }
 
+/* HOME */
+#homepage-pic {
+  max-width: 55vw;
+}
+
+/* OUR STORY */
+
 #ourstory-container > .hers {
   background-color: #4c1992;
 }
@@ -170,13 +177,10 @@ nav a:hover,
   background-color: #00908b;
 }
 
+/* ATTRACTIONS */
+
 #attractions-container .wide-left {
   margin-left: 2vw;
-}
-
-/* HOME */
-#homepage-pic {
-  max-width: 55vw;
 }
 
 /* REGISTRY */
@@ -250,4 +254,18 @@ nav a:hover,
     max-height: 6vw;
     max-width: 16vw;
   }
+}
+
+/* PHOTOS */
+
+.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+.polaroid-caption {
+  text-align: center;
+  padding: 10px 20px;
 }

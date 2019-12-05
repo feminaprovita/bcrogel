@@ -49,8 +49,14 @@ const Attractions = () => (
         <p>Bill stans <a href='http://mineospizza.com/squirrel-hill.html'>Mineo's</a>,
           and while Claire has a lot of research yet to do, her top choice so far
           is <a href='http://www.vincentspizzapark.com/'>Vincent's</a>.</p>
-      <h5>Note that pierogi pizza is a thing that exists here! At several local pizzerias. We recommend it.</h5>
+      <h5>Note that pierogi pizza is a thing that exists here! At several local
+        pizzerias. We recommend it.</h5>
     <h2>Sights of Pittsburgh</h2>
+      <h4>Pennsylvania Libations</h4>
+      <p>All stores that sell liquor are owned by the state here&mdash;except for
+        this recently opened innovator! At <a href='https://pennsylvanialibations.com/manufacturers'>
+          Pennsylvania Libations</a>, you can purchase (and usually taste) spirits
+          distilled all across the state.</p>
       <p>The Peak</p>
       <p>The Point</p>
       <p>The Museums</p>

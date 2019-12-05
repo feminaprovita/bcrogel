@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Photos = () => (
-  <div id='photos-container' className='page-container'>
+  <div id='photo-container' className='page-container'>
     <h1>Photos of Us</h1>
     <img
       className='under-construction small-image'
