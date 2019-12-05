@@ -268,31 +268,26 @@ nav a:hover,
 
 .polaroid {
   width: 80%;
-  max-width: 40vw;
+  max-width: 20vw;
+  max-height: 40vw;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
 }
 
-.polaroid-sideways {
-  width: 80%;
-  max-width: 40vw;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-right: 25px;
-  transform: rotate(0.75turn);
-}
-
-.rotate-back {
-  transform: rotate(0.25turn);
-}
 
 .polaroid-image {
   width: 100%
 }
 
+/* .polaroid:hover {
+  max-width: 40vw;
+  max-height: 80vw;
+} */
+
 .caption {
   text-align: center;
   padding: 10px 20px;
   color: #212eb1;
+  background-color: white;
 }
