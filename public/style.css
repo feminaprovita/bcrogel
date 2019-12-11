@@ -260,34 +260,46 @@ nav a:hover,
 
 #some-photos {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  padding: 1vh;
+}
+
+@media(min-width: 451px) {
+  #some-photos {
+    padding: 5vh;
+    flex-direction: row;
+  }
+}
+
+@media(max-width: 450px) {
+  #some-photos {
+    flex-direction: column;
+  }
 }
 
 .polaroid {
   width: 80%;
   max-width: 20vw;
-  max-height: 40vw;
+  /* max-height: 40vw; */
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
-
 
 .polaroid-image {
   width: 100%
 }
 
-/* .polaroid:hover {
-  max-width: 40vw;
-  max-height: 80vw;
-} */
+.polaroid:hover {
+  box-shadow: 0 8px 16px 0 #4c1992, 0 12px 40px 0 #4c1992;
+}
 
 .caption {
   text-align: center;
-  padding: 10px 20px;
+  padding: 0.3em;
   color: #212eb1;
   background-color: white;
+  font-size: 0.8em;
 }
