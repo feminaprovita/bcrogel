@@ -9,7 +9,8 @@ const Home = () => (
       src='images/Gill_wedding.jpg'
       alt="Bill and Claire at Claire's sister Theresa's wedding in Charlotte"
     />
-    <p>All the stuff you'll need will be here. Sooner or later. We're so excited to celebrate with you!</p>
+    <p>We're so excited to celebrate with you!</p>
+    <p>All the stuff you'll need will be here. Sooner or later.</p>
   </div>
 )
 

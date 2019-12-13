@@ -80,7 +80,7 @@ const Registry = () => (
             alt='Zola Wedding Registry: Anything for Love'
             />
         </a>
-        <p>Your traditional registry items are just about all in this one</p>
+        <p>Your traditional registry items are mostly right here</p>
       </div>
       <div id='bbb-registry' className='registry'>
         <a href='https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/548270669?eventType=Wedding' target='blank'>
@@ -91,7 +91,7 @@ const Registry = () => (
             alt='Bed Bath & Beyond: The Wedding & Gift Registry'
             />
         </a>
-        <p>In here is mostly fun sports-branded kitchenware and household items</p>
+        <p>This one has a lot of fun sports-branded kitchenware and household items</p>
       </div>
       <div id='ikea-registry' className='registry'>
         <a href='https://info.ikea-usa.com/giftregistry/en-us/registry/5c757d9d-e026-45c4-a760-f3d8167b66c7' target='blank'>
@@ -114,8 +114,8 @@ const Registry = () => (
             alt='Amazon.com Wedding Registry'
             />
         </a>
-        <p>Here is everything else, including fun stuff like board games, as well
-          as far, far too many spatulas (don't ask)</p>
+        <p>Here is everything else, including atypical registry items like board
+          games, as well as far, far too many spatulas (don't ask)</p>
       </div>
     </div>
     <h2>Give Us Copies of Your Favorite:</h2>
