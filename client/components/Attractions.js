@@ -21,10 +21,20 @@ const Attractions = () => (
           with their giant sandwiches of meat and cheese with cole slaw, tomato,
           and fries. The original restaurant is in the neighborhood called the
           Strip District, but there are now locations all over, with expanded menus.</p>
+          <p>And come hungry! Seriously, if you're not splitting a Primanti's
+            sandwich with someone, consider skipping the meal before it. Those
+            puppies are <em>gigantic</em>!</p>
       <h4>Pamela's</h4>
         <p><a href='https://www.pamelasdiner.com/'>Pamela's Diner</a> is a beloved
-        local establishment with a location conveniently at the little downtown
-        strip closest to Sacred Heart.</p>
+        local establishment with a location conveniently at the
+        little downtown strip close to Sacred Heart (5227 Walnut St).</p>
+      <h4>Burgatory</h4>
+        <p>A delicious local chain not unlike New York's Bareburger,
+          <a href='https://burgatorybar.com/'> Burgatory</a> is a winner if you're
+          looking for delightful gluten-free food, vegetarian/vegan options, exotic
+          meats, or really just any filling, satisfying, tasty meal. An old favorite
+          of Bill's ("questionable theology, delicious burgers"), and one Claire
+          was sold on immediately!</p>
       <h4><em>Pittsburgh and Pierogis</em></h4>
         <p>Pittsburgh and pierogis go together like eggs and bacon. You can ask
           people where the best pierogis are, but in Claire's opinion it's less
@@ -46,10 +56,14 @@ const Attractions = () => (
       <p>The Museums</p>
       <p>Pittsburgh Zoo & PPG Aquarium</p>
       <p>The Ballparks</p>
+      <p>Flaherty, Fardo, Rogel, & Amick</p>
+      <p><a href='https://www.cityofasylumbooks.org/'>City of Asylum Bookstore</a></p>
     <h2>Day Trips</h2>
       <p>Kennywood</p>
     <h2>Further Reading</h2>
       <ul>
+        <li className='wide-left'><a href='https://www.discovertheburgh.com/the-ultimate-pittsburgh-guide/'>The
+        Ultimate Pittsburgh Guide</a> (this one is <em>seriously</em> detailed)</li>
         <li className='wide-left'><a href='https://epicpew.com/if-you-love-the-catholic-church-and-good-food-pittsburg-is-your-next-pilgrimage-destination/'>
           If You Love the Catholic Church and Good Food, Pittsburgh Is Your Next
           Pilgrimage Destination</a></li>

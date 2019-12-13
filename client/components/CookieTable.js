@@ -16,9 +16,13 @@ const CookieTable = () => (
     <p>Out-of-town guests are likewise welcome to bring cookies for the cookie table!
       Just bring them with you to the reception; there staff members will be available
       to take your cookies and plate them on the big table.</p>
-    <p>Read more about the cookie table and its history <a href='https://www.post-gazette.com/life/food/2012/09/06/This-Is-Pittsburgh-Food-On-the-cookie-tables/stories/201209060367'>here </a>
-    and <a href='https://archive.theincline.com/2018/04/16/the-pittsburgh-cookie-tables-history-mystery-and-etiquette/'>here</a></p>
-    <p><strong>Please label all cookies with allergens: nuts, gluten, dairy</strong></p>
+    <p>Read more about the cookie table and its history in <a href='https://www.post-gazette.com/life/food/2012/09/06/This-Is-Pittsburgh-Food-On-the-cookie-tables/stories/201209060367'>any </a>
+    of <a href='https://archive.theincline.com/2018/04/16/the-pittsburgh-cookie-tables-history-mystery-and-etiquette/'>several </a>
+     essays <a href='https://www.nytimes.com/2009/12/16/dining/16cookies.html'></a> and
+     <a href='https://en.wikipedia.org/wiki/Cookie_table'> articles</a>.</p>
+    <p><strong>Please contact <a href='mailto:bernadetteg19@gmail.com'>Bernadette</a></strong>,
+    mother of the bride, <strong>about special diet cookies</strong> (including
+    but not limited to a separate gluten-free cookie table)</p>
     <img
       className='under-construction small-image'
       src='./images/under_construction_geek_woman.png'
