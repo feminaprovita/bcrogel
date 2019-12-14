@@ -3,6 +3,11 @@ import React from 'react'
 const Attractions = () => (
   <div id='attractions-container' className='page-container'>
     <h1>Pittsburgh Attractions</h1>
+    <img
+      className='under-construction small-image'
+      src='./images/under_construction_geek_woman.png'
+      alt='Under Construction'
+      />
     <h2>Churches</h2>
       <h4>Sacred Heart</h4>
         <p>We're getting married at <a href='https://straphaelpgh.org/sacred-heart'>
@@ -49,8 +54,14 @@ const Attractions = () => (
         <p>Bill stans <a href='http://mineospizza.com/squirrel-hill.html'>Mineo's</a>,
           and while Claire has a lot of research yet to do, her top choice so far
           is <a href='http://www.vincentspizzapark.com/'>Vincent's</a>.</p>
-      <h5>Note that pierogi pizza is a thing that exists here! At several local pizzerias. We recommend it.</h5>
+      <h5>Note that pierogi pizza is a thing that exists here! At several local
+        pizzerias. We recommend it.</h5>
     <h2>Sights of Pittsburgh</h2>
+      <h4>Pennsylvania Libations</h4>
+      <p>All stores that sell liquor are owned by the state here&mdash;except for
+        this recently opened innovator! At <a href='https://pennsylvanialibations.com/manufacturers'>
+          Pennsylvania Libations</a>, you can purchase (and usually taste) spirits
+          distilled all across the state.</p>
       <p>The Peak</p>
       <p>The Point</p>
       <p>The Museums</p>
@@ -71,11 +82,6 @@ const Attractions = () => (
           Even More Reasons to Pilgrimage to Pittsburgh</a></li>
         {/* <li className='wide-left'>Brandon's forthcoming book</li> */}
       </ul>
-    <img
-      className='under-construction small-image'
-      src='./images/under_construction_geek_woman.png'
-      alt='Under Construction'
-      />
   </div>
 )
 
