@@ -7,7 +7,7 @@ const Photos = () => (
       <img
         className='squishy-image'
         id='subway-photo'
-        src='./images/subway.jpg'
+        src='./images/Subway.jpg'
         alt='On the subway'
         />
       <img
