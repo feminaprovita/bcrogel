@@ -6,7 +6,7 @@ const Home = () => (
     <p id='countdown-text'>{countdown} #SwellToBeRogel</p>
     <img
       id='homepage-pic'
-      src='images/Gill_wedding.jpg'
+      src='images/Gill_wedding_spiffed.jpg'
       alt="Bill and Claire at Claire's sister Theresa's wedding in Charlotte"
     />
     <p>We're so excited to celebrate with you!</p>

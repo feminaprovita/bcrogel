@@ -3,6 +3,11 @@ import React from 'react'
 const Attractions = () => (
   <div id='attractions-container' className='page-container'>
     <h1>Pittsburgh Attractions</h1>
+    <img
+      className='under-construction small-image'
+      src='./images/under_construction_geek_woman.png'
+      alt='Under Construction'
+      />
     <h2>Churches</h2>
       <h4>Sacred Heart</h4>
         <p>We're getting married at <a href='https://straphaelpgh.org/sacred-heart'>
@@ -77,11 +82,6 @@ const Attractions = () => (
           Even More Reasons to Pilgrimage to Pittsburgh</a></li>
         {/* <li className='wide-left'>Brandon's forthcoming book</li> */}
       </ul>
-    <img
-      className='under-construction small-image'
-      src='./images/under_construction_geek_woman.png'
-      alt='Under Construction'
-      />
   </div>
 )
 
