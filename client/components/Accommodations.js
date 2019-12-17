@@ -56,15 +56,12 @@ const Accommodations = () => (
           <a href='https://www.hyatt.com/en-US/hotel/pennsylvania/hyatt-place-pittsburgh-north-shore/pitzn?corp_id=G-GIRO'><p><em>Book here!</em></p></a>
         </div>
       </div>
-      <h4><em>Hotel blocks are good through June 4, but we strongly encourage you to book earlier!</em></h4>
-    <h2>AirBnB</h2>
-    <p>...</p>
-    <img
-      className='under-construction small-image'
-      src='./images/under_construction_geek_woman.png'
-      alt='Under Construction'
-      />
-
+      <h4><em>Hotel blocks are available through June 3, but we strongly encourage you to book earlier!</em></h4>
+    <h2>Airbnb</h2>
+    <div id='airbnb' className='hotel-details'>
+    <p>Often a more flexible and cost-effective option, <a href='https://www.airbnb.com/s/Pittsburgh--PA--United-States/all?query=Pittsburgh%2C%20PA%2C%20United%20States&place_id=ChIJA4UGSG_xNIgRNBuiWqEV-Y0&refinement_paths%5B%5D=%2Ffor_you&toddlers=0&source=mc_search_bar&search_type=filter_change&checkin=2020-07-03&checkout=2020-07-05&adults=4'>Airbnb</a> offers a different flavor of experience.</p>
+    <p>If you're looking here, drop us a line and we're happy to help you choose a place! We especially recommend the North Shore (near reception) or Shadyside (near church), and avoiding downtown (crazy with convention guests).</p>
+    </div>
   </div>
 )
 
