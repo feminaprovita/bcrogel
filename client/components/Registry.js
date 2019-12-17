@@ -66,7 +66,7 @@ const Registry = () => (
           alt='check'
         />
         <h4>Check made out to "Bill Rogel" and/or "Claire Gilligan"</h4>
-        <p>("Claire Rogel" is romantic but impractical, as name change paperwork takes <em>forever</em>)</p>
+        <p>(Avoid "Claire Rogel"; it's romantic but impractical, as name change paperwork takes <em>forever</em>)</p>
       </div>
     </div>
     <h2>Shop at:</h2>

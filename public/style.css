@@ -328,3 +328,24 @@ nav a:hover,
   column-count: 1;
   }
 }
+
+/* ACCOMMODATIONS */
+
+@media (max-width: 400px) {
+  .hotel-info {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.hotel-info {
+  display: flex;
+}
+
+.hotel-image {
+  padding: 1em;
+}
+
+#accommodations-container > .teal {
+  background-color: #00908b;
+  text-align: center;
+}
