@@ -4,6 +4,11 @@ const OurStory = () => (
   <div id='ourstory-container' className='page-container'>
     <h1>Our Story</h1>
     <h2>We were set up by friends!</h2>
+    <img
+      className='under-construction smaller-image'
+      src='./images/under_construction_geek_woman.png'
+      alt='Under Construction'
+      />
     <h3 className='hers'>Her Story</h3>
     <p className='hers'>So I have this one atheist friend who likes to talk theology. Just enjoys
       discussing minutiae, and knows that I've a well-educated perspective,
@@ -128,11 +133,6 @@ const OurStory = () => (
       his love again succinctly, and asked The Question. <em>Of course</em> I said
       yes and kissed him! 😍</p>
     <p className='his'>...</p>
-    <img
-      className='under-construction small-image'
-      src='./images/under_construction_geek_woman.png'
-      alt='Under Construction'
-      />
   </div>
 )
 

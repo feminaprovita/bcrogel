@@ -223,6 +223,9 @@ nav a:hover,
   .small-image {
     max-width: 83vw;
   }
+  .smaller-image {
+    max-width: 46vw;
+  }
   .registry {
     padding: 1vw;
     max-width: 88vw;
@@ -244,6 +247,9 @@ nav a:hover,
   .small-image {
     max-width: 31vw;
   }
+  .smaller-image {
+    max-width: 22vw;
+  }
   .registry {
     padding: 1vw;
     max-width: 31vw;
@@ -256,6 +262,7 @@ nav a:hover,
     max-width: 16vw;
   }
 }
+
 
 /* PHOTOS */
 
@@ -348,4 +355,10 @@ nav a:hover,
 #accommodations-container > .teal {
   background-color: #00908b;
   text-align: center;
+}
+
+/* SCHEDULE */
+
+.outline-me > h2 {
+  text-shadow: 0.08em 0.14em #212eb1;
 }
