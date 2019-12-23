@@ -257,33 +257,24 @@ nav a:hover,
   }
 }
 
-.overlay-container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #212eb1;
+.registry-hover .caption {
+	position: relative;
 }
-
-.registry-hover:hover .overlay-container {
-  opacity: 0.3;
+.registry-hover .caption .text {
+		position: absolute;
+    top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 10;
+    opacity: 0;
+    transition: all 0.8s ease;
 }
-
-.overlay-text {
-  color: navajowhite;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+.registry-hover .caption .text h1 {
+		margin: 0;
+		color: white;
+}
+.registry-hover .caption:hover .text {
+	opacity: 1;
 }
 
 /* PHOTOS */

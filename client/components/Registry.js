@@ -7,42 +7,35 @@ const Registry = () => (
     <div id='money-categories'>
       <div id='dishwasher' className='registry registry-hover'>
         <a href='https://www.donsappliances.com/product/bosch-800-series-24-built-in-dishwasher-stainless-steel-shp878wd5n-103858' target='blank'>
+          <span className='caption'>dishwasher</span>
           <img
             className='registry-block small-image'
             id='dishwasher-img'
             src='https://cdn.avbportal.com/magento-media/catalog/product/s/h/shp878wd5n1.png?w=640'
             alt='dishwasher'
             />
-          <div className='overlay-container'>
-            <div className='overlay-text'>dishwasher</div>
-          </div>
         </a>
         <h4>Goal: $1400</h4>
       </div>
       <div id='couch' className='registry registry-hover'>
+        <span className='caption'>couch</span>
         <img
           className='registry-block small-image'
           id='couch-img'
           src='https://www.aquawavecleaning.co.uk/wp-content/uploads/2014/11/Professional-Sofa-Cleaning-Bristol.jpg'
           alt='couch'
           />
-        <div className='overlay-container'>
-          <div className='overlay-text'>couch</div>
-        </div>
         <h4>Goal: $1650</h4>
       </div>
       <div id='prie-dieu' className='registry registry-hover'>
         {/* <a href='https://www.dcriggott.com/antique-double-kneeler-prie-dieu' target='blank'> */}
+        <span className='caption'><a href='https://www.nytimes.com/1997/05/25/arts/glorious-starting-points-for-prayer.html' target='blank'>prie-dieu</a></span>
         <img
           className='registry-block small-image'
           id='prie-dieu-img'
           src='https://www.dcriggott.com/media/catalog/product/cache/1/image/1800x/518a337f71d8af45c99bc01d0812e43a/d/s/dscf0657.jpg'
           alt='prie-dieu'
           />
-        <div className='overlay-container'>
-          <div className='overlay-text'>
-            <a href='https://www.nytimes.com/1997/05/25/arts/glorious-starting-points-for-prayer.html' target='blank'>prie-dieu</a></div>
-        </div>
         {/* </a> */}
         <h4>Goal: $1150</h4>
       </div>
