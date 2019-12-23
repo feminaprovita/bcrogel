@@ -356,3 +356,9 @@ nav a:hover,
   background-color: #00908b;
   text-align: center;
 }
+
+/* SCHEDULE */
+
+.outline-me > h2 {
+  text-shadow: 0.08em 0.14em #212eb1;
+}
