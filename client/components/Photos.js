@@ -142,6 +142,12 @@ const Photos = () => (
         src='./images/with_chewie.jpg'
         alt='Star Wars night at a Penguins game'
         />
+      <img
+        className='squishy-image'
+        id='metlife-photo'
+        src='./images/at_metlife.jpg'
+        alt='At the Jets v Steelers game'
+        />
     </div>
   </div>
 )

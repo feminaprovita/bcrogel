@@ -257,6 +257,35 @@ nav a:hover,
   }
 }
 
+.overlay-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #212eb1;
+}
+
+.registry-hover:hover .overlay-container {
+  opacity: 0.3;
+}
+
+.overlay-text {
+  color: navajowhite;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 /* PHOTOS */
 
 #photo-container {

@@ -23,12 +23,12 @@ const Attractions = () => (
         <p>One of the foods Pittsburgh is known for is putting fries on sandwiches.
           (Try it on your next burger; it's better than you think!) <a
           href='https://primantibros.com/'>Primanti Brothers</a> started this trend,
-          with their giant sandwiches of meat and cheese with cole slaw, tomato,
+          with their <em>giant</em> sandwiches of meat and cheese with cole slaw, tomato,
           and fries. The original restaurant is in the neighborhood called the
           Strip District, but there are now locations all over, with expanded menus.</p>
-          <p>And come hungry! Seriously, if you're not splitting a Primanti's
-            sandwich with someone, consider skipping the meal before it. Those
-            puppies are <em>gigantic</em>!</p>
+        <p>And come hungry! Seriously, if you're not splitting a Primanti's
+          sandwich with someone, consider skipping the meal before it. Those
+          puppies are <em>gigantic</em>!</p>
       <h4>Pamela's</h4>
         <p><a href='https://www.pamelasdiner.com/'>Pamela's Diner</a> is a beloved
         local establishment with a location conveniently at the
@@ -71,6 +71,7 @@ const Attractions = () => (
       <p><a href='https://www.cityofasylumbooks.org/'>City of Asylum Bookstore</a></p>
     <h2>Day Trips</h2>
       <p>Kennywood</p>
+      <p>Franciscan University</p>
     <h2>Further Reading</h2>
       <ul>
         <li className='wide-left'><a href='https://www.discovertheburgh.com/the-ultimate-pittsburgh-guide/'>The
