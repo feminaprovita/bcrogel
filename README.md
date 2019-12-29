@@ -1,9 +1,10 @@
-[# Wedding website for Claire Gilligan and Bill Rogel](bcrogel.herokuapp.com)
+# Wedding website for Claire Gilligan and Bill Rogel
 
+[Here it is!](bcrogel.herokuapp.com)
 
+Could we have done this the easy way, gone through the knot or somebody? Yeah of course. But I'm a software engineer, for crying out loud! And was job searching when we began to seriously talk about marriage. No, obviously I'm going to building this myself.
 
-Could we have done this the easy way, gone through the knot or somebody? Yeah of course. But I'm a software engineer, for crying out loud! And was job searching when we began to seriously talk about marriage. No, obviously I'm going to make this myself.
-
+Unfortunately, I'm not yet a pro at SEO, so Google favors this page, the coding skeleton of the website, to the page itself! So [here's a link](bcrogel.herokuapp.com) to our wedding website. We look forward to celebrating with you!
 
 
 Favicon: Heart Png by Clipart.info is licensed under CC BY 4.0
