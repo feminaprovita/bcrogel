@@ -19,6 +19,7 @@ const Accommodations = () => (
           412-621-0880</p>
           <p>$139/night (king or two queens)<br />
           Parking $20/night</p>
+          <p>Pet-friendly</p>
           <p>Equidistant from church and reception</p>
           <a href='https://www.hotelindigo.com/redirect?path=hd&brandCode=IN&localeCode=en&regionCode=1&hotelCode=PITGH&_PMID=99801505&GPC=BCW&cn=no&viewfullsite=true' target='blank'><p><em>Book here!</em></p></a>
         </div>
