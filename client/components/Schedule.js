@@ -2,7 +2,7 @@ import React from 'react'
 
 const Schedule = () => (
   <div id='schedule-container' className='page-container'>
-    <h1 className='outline-me'>Schedule of the Big Day 👰🏻</h1>
+    <h1 className='outline-me'>Schedule of the Big Day 🤵🏻👰🏻</h1>
     <div className='outline-me'>
       <h2>🙏 The Nuptial Mass 🙏</h2>
       <p>2:30&ndash;3:45pm<br/>
