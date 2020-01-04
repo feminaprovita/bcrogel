@@ -14,28 +14,29 @@ const Registry = () => (
             alt='dishwasher'
             />
         </a>
-        <h4>Goal: $1400</h4>
+        <h4>Goal: $1750</h4>
+        <p><em>for dishwasher and installation</em></p>
       </div>
       <div id='couch' className='registry registry-hover'>
         <img
           className='registry-block small-image'
           id='couch-img'
-          src='https://www.aquawavecleaning.co.uk/wp-content/uploads/2014/11/Professional-Sofa-Cleaning-Bristol.jpg'
+          src='./images/couch.png'
           alt='couch'
           />
-        <h4>Goal: $1650</h4>
+        <h4>Goal: $2100</h4>
+        <p><em>couch, recliner, and loveseat all need replacing</em></p>
       </div>
-      <div id='prie-dieu' className='registry registry-hover'>
-        <a href='https://www.nytimes.com/1997/05/25/arts/glorious-starting-points-for-prayer.html' target='blank'>
-        {/* <a href='https://www.dcriggott.com/antique-double-kneeler-prie-dieu' target='blank'> */}
+      <div id='honeymoon' className='registry registry-hover'>
         <img
           className='registry-block small-image'
-          id='prie-dieu-img'
-          src='https://www.dcriggott.com/media/catalog/product/cache/1/image/1800x/518a337f71d8af45c99bc01d0812e43a/d/s/dscf0657.jpg'
-          alt='prie-dieu'
+          id='honeymoon-img'
+          src='./images/honeymoon.jpg'
+          alt='honeymoon'
           />
-        </a>
-        <h4>Goal: $1150</h4>
+        <h4>Goal: $3200</h4>
+        <p><em>No, we haven't settled on a honeymoon location yet; we'll update
+          the picture/price when we do...</em></p>
       </div>
     </div>
     <h3>3 ways to reach us:</h3>
@@ -66,8 +67,9 @@ const Registry = () => (
           src='https://publicdomainvectors.org/photos/check3GreenF.png'
           alt='check'
         />
-        <h4>Check made out to "Bill Rogel" and/or "Claire Gilligan"</h4>
-        <p>(Avoid "Claire Rogel"; it's romantic but impractical, as name change paperwork takes <em>forever</em>)</p>
+        <h4>Or a check made out to "Bill Rogel" and/or "Claire Gilligan"</h4>
+        <p>(Avoid "Claire Rogel"; it's romantic but impractical, as name change
+          paperwork takes <em>forever</em>)</p>
       </div>
     </div>
     <h2>Shop at:</h2>
@@ -140,6 +142,17 @@ const Registry = () => (
           alt='cookbooks'
           />
         <p>With your favorite dozen or so recipes dog-eared, please!</p>
+      </div>
+      <div id='whiskeys'  className='registry'>
+        <h3>Whiskeys</h3>
+        <img
+          className='registry-block small-image'
+          id='whiskeys-img'
+          src='https://www.inquirer.com/resizer/UZP1HHtKI9gNymqz26uC0bbFw3c=/1400x932/smart/arc-anglerfish-arc2-prod-pmn.s3.amazonaws.com/public/CGXYIUB5ZBBA7LFZXDB3O27A6Y.jpg'
+          alt='whiskeys'
+          />
+        <p>Especially locally made or other uncommon whiskeys that we probably
+          haven't gotten to try!</p>
       </div>
     </div>
   </div>
