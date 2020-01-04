@@ -154,11 +154,17 @@ const Photos = () => (
         src='./images/at_metlife.jpg'
         alt='At the Jets v Steelers game'
         />
+        <img
+          className='squishy-image'
+          id='nye-photo'
+          src='./images/nye_20.jpg'
+          alt='New Years Eve 2020'
+          />
       <img
         className='squishy-image'
-        id='nye-photo'
-        src='./images/nye_20.jpg'
-        alt='New Years Eve 2020'
+        id='gill-nyc-photo-cropped'
+        src='./images/without_Gills.jpg'
+        alt='Enjoying the city'
         />
     </div>
   </div>
