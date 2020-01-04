@@ -96,6 +96,12 @@ const Photos = () => (
         />
       <img
         className='squishy-image'
+        id='st-joseph-photo'
+        src='./images/st_joseph.jpg'
+        alt='Praying in front of the statue of St. Joseph'
+        />
+      <img
+        className='squishy-image'
         id='apron-photo'
         src='./images/aprons.jpg'
         alt='Silly aprons'
@@ -147,6 +153,12 @@ const Photos = () => (
         id='metlife-photo'
         src='./images/at_metlife.jpg'
         alt='At the Jets v Steelers game'
+        />
+      <img
+        className='squishy-image'
+        id='nye-photo'
+        src='./images/nye_20.jpg'
+        alt='New Years Eve 2020'
         />
     </div>
   </div>
