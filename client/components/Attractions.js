@@ -1,14 +1,23 @@
-import React from 'react'
+import React  from 'react'
 
 const Attractions = () => (
   <div id='attractions-container' className='page-container'>
-    <h1>Pittsburgh Attractions</h1>
+    {/* <button onClick='topFunction()' type='button' id='top-button'>⇪</button> */}
+    <h1 id='top'>Pittsburgh Attractions</h1>
+    <div id='button-container'>
+      <a href='#churches'><button type='button'>Churches</button></a>
+      <a href='#restaurants'><button type='button'>Restaurants</button></a>
+      <a href='#sightseeing'><button type='button'>Sightseeing</button></a>
+      <a href='#cool-stores'><button type='button'>Cool Stores</button></a>
+      <a href='#day-trips'><button type='button'>Day Trips</button></a>
+      <a href='#further-reading'><button type='button'>Further Reading</button></a>
+    </div>
     <img
       className='under-construction smaller-image'
       src='./images/under_construction_geek_woman.png'
       alt='Under Construction'
       />
-    <h2>Churches</h2>
+    <h2 id='churches'>Churches</h2>
       <div id='sacred-heart' className='one-attraction'>
         <img
           src='https://i.pinimg.com/originals/19/56/0a/19560a28308423add707fef41b0d876d.jpg'
@@ -86,7 +95,8 @@ const Attractions = () => (
             adorers for a couple years.</p>
         </div>
       </div>
-    <h2>Restaurants</h2>
+      <div>See two more churches in our <a href='#day-trips'>Day Trips</a> section below!</div>
+    <h2 id='restaurants'>Restaurants</h2>
       <div id='primantis' className='one-attraction-reverse'>
         <div className='attr-details'>
           <h3>Primanti Bros</h3>
@@ -212,7 +222,7 @@ const Attractions = () => (
             is too far outside the city to be relevant to wedding events. </p>
         </div>
       </div>
-    <h2>Sights of Pittsburgh</h2>
+    <h2 id='sightseeing'>Sightseeing</h2>
       <div id='point' className='one-attraction-reverse'>
         <div className='attr-details'>
           <h3>The Point</h3>
@@ -270,15 +280,16 @@ const Attractions = () => (
         </div>
       </div>
 
-      <div id='city-of-asylum' className='one-attraction-reverse'>
+      <h2 id='cool-stores'>Cool Stores</h2>
+      <div id='flaherty-fardo' className='one-attraction-reverse'>
         <div className='attr-details'>
-          <h3><a href='https://www.cityofasylumbooks.org/'>City of Asylum Bookstore</a></h3>
-          <p className='lorem-ipsum'>Well, er, yes Mr. Anchovy, but you see your report here says that you are an extremely dull person. You see, our experts describe you as an appallingly dull fellow, unimaginative, timid, lacking in initiative, spineless, easily dominated, no sense of humour, tedious company and irrepressibly drab and awful. And whereas in most professions these would be considerable drawbacks, in chartered accountancy, they're a positive boon. In 1945, peace broke out. It was the end of the Joke. Joke warfare was banned at a special session of the Geneva Convention, and in 1950 the last remaining copy of the joke was laid to rest here in the Berkshire countryside, never to be told again.</p>
+          <h3>Flaherty, Fardo, Rogel, & Amick</h3>
+          <p className='lorem-ipsum'>I object to all this sex on the television. I mean, I keep falling off! What is the capital of Assyria? Oh, oh, I see! Running away, eh? You yellow bastards! Come back here and take what's coming to you! I'll bite your legs off!</p>
         </div>
         <img
-          src='https://9b16f79ca967fd0708d1-2713572fef44aa49ec323e813b06d2d9.ssl.cf2.rackcdn.com/1140x_a10-7_cTC/20170117rldCasellula02-1-1568551198.jpg'
+          src='./images/flaherty_fardo.png'
           className='small-image attr-img'
-          alt='City of Asylum Bookstore'
+          alt='Flaherty, Fardo, Rogel, & Amick'
         />
       </div>
       <div id='pennsylvania-libations' className='one-attraction'>
@@ -295,18 +306,18 @@ const Attractions = () => (
               distilled all across the state.</p>
         </div>
       </div>
-      <div id='flaherty-fardo' className='one-attraction-reverse'>
+      <div id='city-of-asylum' className='one-attraction-reverse'>
         <div className='attr-details'>
-          <h3>Flaherty, Fardo, Rogel, & Amick</h3>
-          <p className='lorem-ipsum'>I object to all this sex on the television. I mean, I keep falling off! What is the capital of Assyria? Oh, oh, I see! Running away, eh? You yellow bastards! Come back here and take what's coming to you! I'll bite your legs off!</p>
+          <h3><a href='https://www.cityofasylumbooks.org/'>City of Asylum Bookstore</a></h3>
+          <p className='lorem-ipsum'>Well, er, yes Mr. Anchovy, but you see your report here says that you are an extremely dull person. You see, our experts describe you as an appallingly dull fellow, unimaginative, timid, lacking in initiative, spineless, easily dominated, no sense of humour, tedious company and irrepressibly drab and awful. And whereas in most professions these would be considerable drawbacks, in chartered accountancy, they're a positive boon. In 1945, peace broke out. It was the end of the Joke. Joke warfare was banned at a special session of the Geneva Convention, and in 1950 the last remaining copy of the joke was laid to rest here in the Berkshire countryside, never to be told again.</p>
         </div>
         <img
-          src='./images/flaherty_fardo.png'
+          src='https://9b16f79ca967fd0708d1-2713572fef44aa49ec323e813b06d2d9.ssl.cf2.rackcdn.com/1140x_a10-7_cTC/20170117rldCasellula02-1-1568551198.jpg'
           className='small-image attr-img'
-          alt='Flaherty, Fardo, Rogel, & Amick'
+          alt='City of Asylum Bookstore'
         />
       </div>
-    <h2>Day Trips</h2>
+    <h2 id='day-trips'>Day Trips</h2>
       <div id='kennywood' className='one-attraction'>
         <img
           src='https://media.thetab.com/blogs.dir/115/files/2016/06/roadsign1-blastcoaster-e1465899287271.jpg'
@@ -330,7 +341,25 @@ const Attractions = () => (
           alt='Franciscan University'
         />
       </div>
-    <h2>Further Reading</h2>
+      <div id='latrobe' className='one-attraction'>
+        <img
+          src='https://upload.wikimedia.org/wikipedia/commons/4/4c/St._Vincent_Archabbey_Basilica.jpg'
+          className='small-image attr-img'
+          alt='Saint Vincent Archabbey'
+        />
+        <div className='attr-details'>
+          <h3>Saint Vincent Archabbey</h3>
+          {/* http://saintvincentarchabbey.org/ */}
+          <p>The <a href='http://saintvincentarchabbey.org/' target='blank'>first
+            Benedictine abbey</a> in the United States, this lovely basilica and
+            its beautiful grounds includes a university, on whose grounds they host
+            the Steelers training camp every year!</p>
+          <p>It's also an active monastery, with over 150 monks in residence, and
+            a lovely place of prayer and retreat into the beauty of nature. It comes
+            <a href='https://www.onlyinyourstate.com/pennsylvania/st-vincent-archabbey-pa/'
+            target='blank'> highly recommended</a>.</p>
+        </div>
+      </div>    <h2 id='further-reading'>Further Reading</h2>
       <div id='further-reading' className='one-attraction'>
       <p><a href='https://www.discovertheburgh.com/the-ultimate-pittsburgh-guide/' target='blank'>The
       Ultimate Pittsburgh Guide</a> (this one is <em>seriously</em> detailed)</p>
