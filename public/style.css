@@ -246,6 +246,7 @@ nav a:hover,
 @media (min-width: 413px) {
   .small-image {
     max-width: 31vw;
+    max-height: 51vh;
   }
   .smaller-image {
     max-width: 22vw;
@@ -344,6 +345,7 @@ nav a:hover,
     text-align: center;
   }
 }
+
 .hotel-info {
   display: flex;
 }
@@ -361,4 +363,41 @@ nav a:hover,
 
 .outline-me > h2 {
   text-shadow: 0.08em 0.14em #212eb1;
+}
+
+/* ATTRACTIONS */
+.lorem-ipsum {
+  color: yellow;
+}
+
+.one-attraction,
+.one-attraction-reverse {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+
+}
+
+@media (max-width: 400px) {
+  .one-attraction {
+    flex-direction: column;
+  }
+  .one-attraction-reverse {
+    flex-direction: column-reverse;
+  }
+}
+
+.attr-img {
+  padding: 1em;
+  flex: 1 1 auto;
+}
+
+.attr-details {
+  flex: 2 2 auto;
+}
+
+#further-reading {
+  flex-direction: column;
 }
