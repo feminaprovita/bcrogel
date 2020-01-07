@@ -166,6 +166,12 @@ const Photos = () => (
         src='./images/without_Gills.jpg'
         alt='Enjoying the city'
         />
+      <img
+        className='squishy-image'
+        id='socks-photo'
+        src='./images/socks.jpg'
+        alt="Wearing socks featuring each others' faces"
+        />
     </div>
   </div>
 )
