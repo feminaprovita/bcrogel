@@ -72,7 +72,10 @@ const Attractions = () => (
       <div id='precious-blood' className='one-attraction-reverse'>
         <div className='attr-details'>
           <h3>Most Precious Blood</h3>
-          <p className='lorem-ipsum'>I cut down trees, I skip and jump, I like to press wildflowers. I put own womens' clothing, and hang around in bars. Pero las llamas son peligrosas. Si usted ve una llama donde hay gente﻿ nadando, usted gritar: ¡Cuidado! ¡Llamas! We interrupt this program to annoy you and make things generally irritating. Oh, king eh? Very nice. And how'd you get that, eh? By exploiting the workers. By hanging on to outdated imperialist dogma which perpetuates the economic and social differences in our society. Are you suggesting coconuts migrate? Nobody expects the Spanish Inquisition!</p>
+          <p>A humble but vibrant parish, <a href='https://www.institute-christ-king.org/pittsburgh-home'
+          target='blank'>Most Precious Blood</a> is run by the canons of the Institute of
+          Christ the King. If you're looking for a Latin Mass while you're in town,
+          this is the place to go!</p>
         </div>
         <img
           src='https://1.bp.blogspot.com/-thh9pDeIZ14/XSYtrNGzlkI/AAAAAAAACYI/IIK9ZzijGXIgwwbOGjuZg4abBneVPoBLgCLcBGAs/s1600/MostPreciousBloodJesusParish-2.jpg'
@@ -127,6 +130,7 @@ const Attractions = () => (
           <p><a href='https://www.pamelasdiner.com/'>Pamela's Diner</a> is a beloved
             local establishment with a location conveniently at the
             little downtown strip close to Sacred Heart (5227 Walnut St).</p>
+          <p>Note: They are cash only.</p>
         </div>
       </div>
       <div id='burgatory' className='one-attraction-reverse'>
@@ -154,17 +158,23 @@ const Attractions = () => (
         <div className='attr-details'>
           <h3>Onion Maiden</h3>
           <p>A short cab ride outside the neighborhoods of the wedding, <a href='https://www.onionmaiden.com/'
-          target='blank'>Onion Maiden</a> is a vegan restaurant whose foods are 1) quite
-          delicious and 2) punning on Iron Maiden songs! Was a bit of a gamble the
-          first time friends took us there, but it's a delight. Highly recommended,
-          even for carnivores like us!</p>
+            target='blank'>Onion Maiden</a> is a vegan restaurant whose foods are 1) quite
+            delicious and 2) punning on Iron Maiden songs! Was a bit of a gamble the
+            first time friends took us there, but it's a delight. Highly recommended,
+            even for carnivores like us!</p>
+          <p>Note: They are cash only.</p>
         </div>
       </div>
       <div id='church-brew-works' className='one-attraction-reverse'>
         <div className='attr-details'>
           <h3>Church Brew Works</h3>
-          {/* <a href='https://churchbrew.com/' target='blank'></a> */}
-          <p className='lorem-ipsum'>You don't frighten us, English pig dogs. Go and boil your bottoms, you sons of a silly person. I blow my nose at you, so-called "Arthur King," you and all your silly English K-nig-hts. Come and see the violence inherent in the system. Help! Help! I'm being repressed! I don't want to talk to you no more, you empty-headed animal food trough wiper! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries!</p>
+          <p>Another interesting, delicious place that's worth the cab fare, <a
+            href='https://churchbrew.com/' target='blank'>Church Brew Works</a> is
+            a microbrewery housed in the shell of a former Catholic church
+            (more detailed history on their <a href='https://churchbrew.com/history/'
+            target='blank'>website</a>).</p>
+          <p>But it's not just the novelty of drinking beer in church... well ok,
+            maybe it is mostly that. But still! They lean into it well.</p>
         </div>
         <img
           src='https://thelifeofaeatingmonster.files.wordpress.com/2012/07/dsc2646.jpg'
@@ -180,9 +190,15 @@ const Attractions = () => (
         />
         <div className='attr-details'>
           <h3>Bakn</h3>
-          <p><a href='https://eatbakn.com/' target='blank'>Be sure to go to the one in
-          Carnegie (pronounced with the emphasis on NEG</a></p>
-          <p className='lorem-ipsum'>Not necessarily. I could be arguing in my spare time. Is your wife a goer, eh? Know what I mean? Know what I mean? Nudge, nudge! Know what I mean? Say no more! I don't want to talk to you no more, you empty-headed animal food trough wiper! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries! Shut your festering gob, you tit! Your type really makes me puke you vacuous, toffy-nosed, malodorous pervert!</p>
+          <p>So all our notable eateries are a little bit of a drive! You nonetheless
+            want to consider this one, the <a href='https://eatbakn.com/' target='blank'>Carnegie*
+            location</a>.</p>
+          <p>In case the name didn't make it obvious, the whole restaurant is bacon-
+            themed! There are a few meatless and other-meat options, but the vast
+            majority of the menu is bacon (and the décor is just delightful)!</p>
+          <p><em>* To avoid outing yourself as a tourist, remember that, around these
+            parts, Carnegie is pronounced as the man himself said it, with the emphasis
+            on the middle syllable (car-NAY-gee / car-NEG-ee).</em></p>
         </div>
       </div>
       <div id='pierogi' className='one-attraction-reverse
@@ -215,8 +231,8 @@ const Attractions = () => (
             own totally distinct style, and every Yinzer has their own opinion about
             whose is best! As of 2014, Pittsburgh is reputed to have "<a href='https://www.thedailybeast.com/the-case-for-pittsburgh-pizza' target='blank'>the highest pizzeria density
             of any American city except Orlando</a>."</p>
-          <p>Bill stans <a href='http://mineospizza.com/squirrel-hill.html'>Mineo's</a>,
-            and while Claire has a lot of research yet to do, her top choice so far
+          <p>Bill loves <a href='http://mineospizza.com/squirrel-hill.html'>Mineo's</a>,
+            and, while Claire has a lot of research yet to do, her top choice so far
             is <a href='http://www.vincentspizzapark.com/'>Vincent's</a> (pictured).
             Both of us quite enjoy pierogi pizza, although our favorite, Lelulo's,
             is too far outside the city to be relevant to wedding events. </p>
@@ -284,7 +300,12 @@ const Attractions = () => (
       <div id='flaherty-fardo' className='one-attraction-reverse'>
         <div className='attr-details'>
           <h3>Flaherty, Fardo, Rogel, & Amick</h3>
-          <p className='lorem-ipsum'>I object to all this sex on the television. I mean, I keep falling off! What is the capital of Assyria? Oh, oh, I see! Running away, eh? You yellow bastards! Come back here and take what's coming to you! I'll bite your legs off!</p>
+          <p>About half a mile from the church you can find the offices of this
+            Very Important law firm (<em>can you tell Bill let Claire write these?</em>)&mdash;in
+            case you want to get a photo op next to our name on the door or something!</p>
+          <p>Also the Mexican place next door is pretty tasty, and <a href='#pamelas'>Pamela's</a> is
+            just around the corner and down the block; it's a whole cute little
+            downtown area.</p>
         </div>
         <img
           src='./images/flaherty_fardo.png'
@@ -301,9 +322,9 @@ const Attractions = () => (
         <div className='attr-details'>
           <h3>Pennsylvania Libations</h3>
           <p>All stores that sell liquor are owned by the state here&mdash;except for
-            this recently opened innovator! At <a href='https://pennsylvanialibations.com/manufacturers'>
-              Pennsylvania Libations</a>, you can purchase (and usually taste) spirits
-              distilled all across the state.</p>
+            this recently opened innovator! At <a href='https://pennsylvanialibations.com/manufacturers'
+            target='blank'>Pennsylvania Libations</a>, you can purchase (and usually
+            taste) spirits distilled all across the state.</p>
         </div>
       </div>
       <div id='city-of-asylum' className='one-attraction-reverse'>
