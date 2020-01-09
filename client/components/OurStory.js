@@ -54,7 +54,7 @@ const OurStory = () => (
       start the conversation that way.  This was a unilateral decision, but he did
       wait all of 24 hours though before thundering ahead.</p>
 
-    <h2>Emails, Texting, and Visiting</h2>
+    <h2>Getting to Know Each Other</h2>
     <p className='hers'>It was apparent from the first emails that there was
       something real here. My mindset was kind of, <em>If this isn't gonna work
       out, let's torpedo it from the beginning, save us both some trouble</em>,
@@ -119,12 +119,12 @@ const OurStory = () => (
         Claire to her sister Theresa's wedding in Charlotte, then (a week later!)
         to her bridesmaid Anna's wedding in <em>Hong Kong</em>!</p>
     <p className='his'>Sincere thanks to Theresa, Adam, Anna, and Clement for allowing
-      me to attend on such short notice.  They were also intense experiences and
-      some greatly accelerated relationship mileposts.  I had never met any of
-      Claire’s family before Theresa’s wedding, so I got to meet ALL of them all
-      at once!  And the trip to Hong Kong—our first trip or vacation together—let
-      Claire and I spend more time together than we had, cumulatively, up to that
-      point. </p>
+      me to attend on such short notice.  They were both great and lots of fun.
+      They were also intense experiences and some greatly accelerated relationship
+      mileposts.  I had never met any of Claire’s family before Theresa’s wedding,
+      so I got to meet ALL of them all at once!  And the trip to Hong Kong—our first
+      trip or vacation together—let Claire and I spend more time together than we had,
+      cumulatively, up to that point. </p>
     <p className='hers'>At some point between the "deciding to move to Pittsburgh"
       part and the "arriving in Pittsburgh" part, I realized I no longer had any
       doubts about marrying Bill, and (rather than give myself the headache of
