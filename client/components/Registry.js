@@ -94,7 +94,8 @@ const Registry = () => (
             alt='Bed Bath & Beyond: The Wedding & Gift Registry'
             />
         </a>
-        <p>This one has a lot of fun sports-branded kitchenware and household items</p>
+        <p>This one has the Kitchenaid stuff! Also a lot of fun sports-branded
+          kitchenware and household items</p>
       </div>
       <div id='ikea-registry' className='registry'>
         <a href='https://info.ikea-usa.com/giftregistry/en-us/registry/5c757d9d-e026-45c4-a760-f3d8167b66c7' target='blank'>

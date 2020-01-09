@@ -361,8 +361,13 @@ nav a:hover,
 
 /* SCHEDULE */
 
-.outline-me > h2 {
+.outline-me > h2,
+.outline-me > h3 {
   text-shadow: 0.08em 0.14em #212eb1;
+}
+
+.outline-me {
+  text-align: center;
 }
 
 /* ATTRACTIONS */

@@ -3,35 +3,55 @@ import React from 'react'
 const Schedule = () => (
   <div id='schedule-container' className='page-container'>
     <h1 className='outline-me'>Schedule of the Big Day 🤵🏻👰🏻</h1>
-    <div className='outline-me'>
-      <h2>🙏 The Nuptial Mass 🙏</h2>
-      <p>2:30&ndash;3:45pm<br/>
-        Church of the Sacred Heart<br/>
-        310 Shady Avenue<br/>
+      <h2>✨ July 4, 2020 ✨</h2>
+      <div className='outline-me'>
+      <h2>💒 Church of the Sacred Heart 💒</h2>
+        <p>310 Shady Avenue<br/>
         Pittsburgh (Shadyside)</p>
-    </div>
-
+        <h3>⛪ Confession ⛪<br />
+        🎶 Organ Concert 🎶<br />
+        🕵️‍♀️🔍 Scavenger Hunt 🕵️‍♂️🔍</h3>
+          <p>1:15&ndash;2:15pm</p>
+          <p>Scavenger hunt details to follow!<br />
+          Both here and in the back of the Mass program.</p>
+        <h3>🙏 The Nuptial Mass 🙏</h3>
+          <p>2:30&ndash;3:45pm</p>
+      </div>
     <div className='outline-me'>
-      <h2>💃 The Wedding Reception 🕺</h2>
-      <p>5:00&ndash;11:00pm<br/>
-      Rivers Casino<br/>
-      777 Casino Drive<br/>
-      Pittsburgh (North Shore)</p>
-    </div>
-
+      <h2>🎲 Rivers Casino 🎰</h2>
+        <p>777 Casino Drive<br/>
+        Pittsburgh (North Shore)</p>
+        <h3>🍸 Cocktail Hour 🍸<br />
+        🍪 Cookie Table Opens 🍪</h3>
+        <p>5:00&ndash;6:00pm</p>
+        <p>More about the delightful Pittsburgh tradition<br />
+        of a cookie table <a href='/cookietable/'>here</a>.</p>
+        <h3>🥂 Reception 🥂</h3>
+        <p>6:00&ndash;11:00pm</p>
+        <h3>🥗 Dinner and Cake 🍰</h3>
+        <p>6:30pm (approx)</p>
+        <h3>💰💃 Money Dance 💰🕺 </h3>
+        <p>8:00pm (subject to change)</p>
+        <h3>🎆 Fireworks Show 🎆</h3>
+        <p>9:30&ndash;10:00pm</p>
+        <p>Barring rain or other disaster, the city's<br />
+        fireworks show will be visible from the dance floor!</p>
+        <h3>🚕 End of Reception 🚕<br />
+        🚬 Cigars and Whiskey Outside 🥃</h3>
+        <p>11:00pm&ndash;??</p>
+        <p><em>This is, of course, very optional</em></p>
+      </div>
+    <h2>⚾ Sunday, July 5 ⚾</h2>
     <div className='outline-me'>
-      <h2>⚾ The Next-Day "Brunch" ⚾</h2>
-      <p>2:00&ndash;5:00pm (projected)<br/>
-      Pittsburgh Pirates v. Boston Red Sox<br/>
-      PNC Park<br/>
-      115 Federal Street<br/>
+      <h2>PNC Park</h2>
+      <p>115 Federal Street<br/>
       Pittsburgh (North Shore)</p>
+      <h3>Pittsburgh Pirates v. Boston Red Sox</h3>
+      <p>1:00&ndash;4:00pm (proj)</p>
+      <p>Not an official wedding weekend event!<br />
+      Bill just wanted to share his season ticket discount.</p>
+      <p>Tickets will be available on the wedding website soon!</p>
     </div>
-    {/* <img
-      className='under-construction small-image outline-me'
-      src='./images/under_construction_geek_woman.png'
-      alt='Under Construction'
-      /> */}
   </div>
 )
 
