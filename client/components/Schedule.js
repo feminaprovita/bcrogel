@@ -12,8 +12,10 @@ const Schedule = () => (
         🎶 Organ Concert 🎶<br />
         🕵️‍♀️🔍 Scavenger Hunt 🕵️‍♂️🔍</h3>
           <p>1:15&ndash;2:15pm</p>
-          <p>Scavenger hunt details to follow!<br />
-          Both here and in the back of the Mass program.</p>
+          <p>Scavenger hunt details to follow,<br />
+          both here and in the back of the Mass program.<br />
+          <em>Participation and completion will each open<br />
+          hidden beverage options at the reception bar!</em></p>
         <h3>🙏 The Nuptial Mass 🙏</h3>
           <p>2:30&ndash;3:45pm</p>
       </div>
@@ -34,8 +36,9 @@ const Schedule = () => (
         <p>8:00pm (subject to change)</p>
         <h3>🎆 Fireworks Show 🎆</h3>
         <p>9:30&ndash;10:00pm</p>
-        <p>Barring rain or other disaster, the city's<br />
-        fireworks show will be visible from the dance floor!</p>
+        <p>Barring rain or other disaster, the<br />
+        city's fireworks show will be visible<br />
+        from the dance floor!</p>
         <h3>🚕 End of Reception 🚕<br />
         🚬 Cigars and Whiskey Outside 🥃</h3>
         <p>11:00pm&ndash;??</p>
