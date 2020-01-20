@@ -29,6 +29,7 @@ a:hover {
 }
 
 /* NAVBAR */
+
 nav {
   z-index: 2;
   position: fixed;
@@ -48,7 +49,6 @@ nav a:visited {
 nav a:hover,
 .navlink-one a:hover {
   font-weight: bolder;
-  /* text-shadow: 0.08em 0.14em darkgreen; */
   text-shadow: 0.16em 0.28em #00908b;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -101,6 +101,7 @@ nav a:hover,
 }
 
 /* FOOTER */
+
 #footer {
   z-index: 2;
   position: fixed;
@@ -122,6 +123,7 @@ nav a:hover,
 }
 
 /* BODY */
+
 .page-container {
   display: flex;
   flex-direction: column;
@@ -159,6 +161,7 @@ nav a:hover,
 }
 
 /* HOME */
+
 #homepage-pic {
   max-width: 55vw;
 }
@@ -178,13 +181,8 @@ nav a:hover,
   background-color: #00908b;
 }
 
-/* ATTRACTIONS */
-
-#attractions-container .wide-left {
-  margin-left: 2vw;
-}
-
 /* REGISTRY */
+
 #registry-container {
   text-align: center;
 }
@@ -337,25 +335,34 @@ nav a:hover,
   }
 }
 
-/* ACCOMMODATIONS */
+/* ACCOMMODATIONS, COOKIE TABLE, FAQ */
 
 @media (max-width: 400px) {
-  .hotel-info {
+  .hotel-info,
+  #cookie-pic-div {
     flex-direction: column;
     text-align: center;
   }
 }
 
-.hotel-info {
+.hotel-info,
+#cookie-pic-div {
   display: flex;
 }
 
-.hotel-image {
+.hotel-image,
+.cookie-img {
   padding: 1em;
 }
 
-#accommodations-container > .teal {
+#accommodations-container > .teal,
+#faq-container > .teal {
   background-color: #00908b;
+  text-align: center;
+}
+
+#faq-container > .purple {
+  background-color: #4c1992;
   text-align: center;
 }
 
@@ -371,6 +378,11 @@ nav a:hover,
 }
 
 /* ATTRACTIONS */
+
+#attractions-container .wide-left {
+  margin-left: 2vw;
+}
+
 .lorem-ipsum {
   color: yellow;
 }
@@ -382,7 +394,6 @@ nav a:hover,
   justify-content: space-around;
   align-items: center;
   align-content: space-around;
-
 }
 
 @media (max-width: 400px) {
@@ -444,3 +455,4 @@ button:hover {
   font-size: 2.1em;
   font-weight: bolder;
 } */
+
