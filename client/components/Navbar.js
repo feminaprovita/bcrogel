@@ -12,7 +12,7 @@ const Navbar = () => (
       <Link to='/faq' id='navlink-faq' className='navlink-one'>FAQ</Link>
       <Link to='/attractions' id='navlink-attractions' className='navlink-one'>Attractions</Link>
       <Link to='/registry' id='navlink-registry' className='navlink-one'>Registry</Link>
-      <Link to='/rsvp' id='navlink-rsvp' className='navlink-one'>RSVP</Link>
+      <a href='http://swelltoberogel.rsvpify.com' id='navlink-rsvp' className='navlink-one' target='blank'>RSVP</a>
     </div>
   </nav>
 )
