@@ -34,7 +34,7 @@ const Registry = () => (
           src='./images/honeymoon.jpg'
           alt='honeymoon'
           />
-        <h4>Goal: $3200</h4>
+        <h4>Goal: $6800</h4>
         <p><em>No, we haven't settled on a honeymoon location yet; we'll update
           the picture/price when we do...</em></p>
       </div>

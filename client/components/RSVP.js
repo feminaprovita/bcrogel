@@ -2,12 +2,14 @@ import React from 'react'
 
 const RSVP = () => (
   <div id='rsvp-container' className='page-container'>
-    <h1>RSVP here soon!</h1>
-    <img
-      className='under-construction small-image'
-      src='./images/under_construction_geek_woman.png'
-      alt='Under Construction'
-      />
+    <h1>Click the photo to go to our RSVP site!</h1>
+    <a href='http://swelltoberogel.rsvpify.com' target='blank'>
+      <img
+        src='./images/ring_balloon.jpg'
+        className='med-image page-img'
+        alt='Bill and Claire with silly giant engagement ring balloons'
+        />
+      </a>
   </div>
 )
 

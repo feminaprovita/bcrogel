@@ -9,10 +9,10 @@ const Navbar = () => (
       <Link to='/photos' id='navlink-photos' className='navlink-one'>Photos</Link>
       <Link to='/schedule' id='navlink-schedule' className='navlink-one'>Schedule</Link>
       <Link to='/accommodations' id='navlink-accommodations' className='navlink-one'>Accommodations</Link>
+      <Link to='/faq' id='navlink-faq' className='navlink-one'>FAQ</Link>
       <Link to='/attractions' id='navlink-attractions' className='navlink-one'>Attractions</Link>
       <Link to='/registry' id='navlink-registry' className='navlink-one'>Registry</Link>
-      <Link to='/rsvp' id='navlink-rsvp' className='navlink-one'>RSVP</Link>
-      {/* <Link to='/guestbook' id='navlink-guestbook' className='navlink-one'>Guestbook</Link> */}
+      <a href='http://swelltoberogel.rsvpify.com' id='navlink-rsvp' className='navlink-one' target='blank'>RSVP</a>
     </div>
   </nav>
 )

@@ -29,6 +29,7 @@ a:hover {
 }
 
 /* NAVBAR */
+
 nav {
   z-index: 2;
   position: fixed;
@@ -48,7 +49,6 @@ nav a:visited {
 nav a:hover,
 .navlink-one a:hover {
   font-weight: bolder;
-  /* text-shadow: 0.08em 0.14em darkgreen; */
   text-shadow: 0.16em 0.28em #00908b;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -101,6 +101,7 @@ nav a:hover,
 }
 
 /* FOOTER */
+
 #footer {
   z-index: 2;
   position: fixed;
@@ -122,6 +123,7 @@ nav a:hover,
 }
 
 /* BODY */
+
 .page-container {
   display: flex;
   flex-direction: column;
@@ -149,6 +151,14 @@ nav a:hover,
   box-shadow: .77vw .77vh navajowhite;
 }
 
+.page-container > h1,
+.page-container > h2,
+.page-container > h3,
+.page-container > h4,
+.page-container > h5 {
+  text-align: center;
+}
+
 .page-container > div,
 .page-container > p,
 .page-container > ul {
@@ -159,6 +169,7 @@ nav a:hover,
 }
 
 /* HOME */
+
 #homepage-pic {
   max-width: 55vw;
 }
@@ -178,13 +189,8 @@ nav a:hover,
   background-color: #00908b;
 }
 
-/* ATTRACTIONS */
-
-#attractions-container .wide-left {
-  margin-left: 2vw;
-}
-
 /* REGISTRY */
+
 #registry-container {
   text-align: center;
 }
@@ -220,7 +226,8 @@ nav a:hover,
   .icon {
     max-height: 22vw;
   }
-  .small-image {
+  .small-image,
+  .med-image {
     max-width: 83vw;
   }
   .smaller-image {
@@ -244,6 +251,10 @@ nav a:hover,
 }
 
 @media (min-width: 413px) {
+  .med-image {
+    max-width: 41vw;
+    max-height: 61vw;
+  }
   .small-image {
     max-width: 31vw;
     max-height: 51vh;
@@ -337,25 +348,44 @@ nav a:hover,
   }
 }
 
-/* ACCOMMODATIONS */
+/* ACCOMMODATIONS, FAQ, COOKIE TABLE, BASEBALL */
 
 @media (max-width: 400px) {
-  .hotel-info {
+  .hotel-info,
+  .page-pic-div {
     flex-direction: column;
     text-align: center;
   }
 }
 
-.hotel-info {
+.hotel-info,
+.page-pic-div {
   display: flex;
 }
 
-.hotel-image {
+.hotel-image,
+.page-img {
   padding: 1em;
 }
 
-#accommodations-container > .teal {
+#accommodations-container > .teal,
+#faq-container > .teal {
   background-color: #00908b;
+  text-align: center;
+}
+
+#faq-container > .purple {
+  background-color: #4c1992;
+  text-align: center;
+}
+
+#faq-container > .blue {
+  background-color: #212eb1;
+  text-align: center;
+}
+
+#faq-container > .black {
+  background-color: #0e0e0e;
   text-align: center;
 }
 
@@ -371,6 +401,11 @@ nav a:hover,
 }
 
 /* ATTRACTIONS */
+
+#attractions-container .wide-left {
+  margin-left: 2vw;
+}
+
 .lorem-ipsum {
   color: yellow;
 }
@@ -382,7 +417,6 @@ nav a:hover,
   justify-content: space-around;
   align-items: center;
   align-content: space-around;
-
 }
 
 @media (max-width: 400px) {
@@ -444,3 +478,4 @@ button:hover {
   font-size: 2.1em;
   font-weight: bolder;
 } */
+
