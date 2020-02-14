@@ -5,6 +5,11 @@ const FAQ = () => (
     <h1>Frequently Asked Questions</h1>
     <h2 className='black'><em>These will all get answered soon&mdash;for now,
       they're placeholders.</em></h2>
+    <img
+      className='under-construction small-image'
+      src='./images/under_construction_geek_woman.png'
+      alt='Under Construction'
+      />
     <h2 className='teal'>What is this "cookie table"?</h2>
       <p className='teal'>A local tradition in Pittsburgh and a few other Midwestern
       cities, a <a href='/cookietable' target='blank'>cookie table</a> is a little
@@ -54,13 +59,9 @@ const FAQ = () => (
     <h2 className='blue'>What's going on with this baseball game?</h2>
       <p className='blue'>This is not an official wedding event! But Bill was able to reserve a block
         of tickets, and we knew that enough of our loved ones would enjoy the game,
-        so we're able to offer them to you at a substantial discount! Details will
-        be <a href='/baseball' target='blank'>here</a> once we get them finalized.</p>
-    <img
-      className='under-construction small-image'
-      src='./images/under_construction_geek_woman.png'
-      alt='Under Construction'
-      />
+        so we're able to offer them to you at a substantial discount! More
+        details <a href='/baseball' target='blank'>here</a>; direct booking
+        link <a href='https://groupmatics.events/event/Gilliganrogel' target='blank'>here</a>.</p>
   </div>
 )
 
