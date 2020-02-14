@@ -176,17 +176,24 @@ nav a:hover,
 
 /* OUR STORY */
 
-#ourstory-container > .hers {
+#ourstory-container > .proposal,
+#ourstorylong-container > .hers {
   background-color: #4c1992;
 }
 
-#ourstory-container > .his {
+#ourstory-container > .comment,
+#ourstorylong-container > .his {
   background-color: #212eb1;
 }
 
-#ourstory-container > h2,
+#ourstory-container > .setup,
+#ourstorylong-container > h2,
 #registry-container > h3 {
   background-color: #00908b;
+}
+
+#ourstory-container > .clear {
+  background-color: none;
 }
 
 /* REGISTRY */
