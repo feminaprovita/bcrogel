@@ -105,7 +105,10 @@ const Attractions = () => (
       <div id='fus' className='one-attraction-reverse'>
         <div className='attr-details'>
           <h3>Franciscan University</h3>
-          <p className='lorem-ipsum'>Claire’s <a href='https://franciscan.edu/visit-franciscan/' target='blank'>alma mater</a> is less than 1h west of the city! She most notably recommends the perpetual adoration chapel (“the port”) (not pictured), a replica of St Francis’ portiuncula chapel in Assisi, the one he built by hand when God first told him to “Rebuild my church” and he took it literally.</p>
+          <p>Claire’s <a href='https://franciscan.edu/visit-franciscan/' target='blank'>alma mater</a> is
+          less than 1h west of the city! She most notably recommends the perpetual adoration chapel
+          (“the port”) (not pictured), a replica of St Francis’ portiuncula chapel in Assisi, the one
+          he built by hand when God first told him to “Rebuild my church” and he took it literally.</p>
         </div>
         <img
           src='https://steubenvilleconferences.com/wp-content/uploads/2016/04/23386872391_b9a451cf5e_o-e1460138113401-1180x590.jpg'
@@ -130,6 +133,7 @@ const Attractions = () => (
             <a href='https://www.onlyinyourstate.com/pennsylvania/st-vincent-archabbey-pa/'
             target='blank'> highly recommended</a>.</p>
         </div>
+      </div>
 
 
     <h2 id='restaurants'>Restaurants</h2>
@@ -261,7 +265,7 @@ const Attractions = () => (
         <div className='attr-details'>
           <h3>The Yard</h3>
           <p>This excellent brewpub, also near our church, specializes in grilled
-            cheese. Need I say more?</p>
+            cheese. And count those taps (frequently rotating)! Need I say more?</p>
         </div>
       </div>
       <div id='pierogi' className='one-attraction-reverse'>
@@ -273,7 +277,7 @@ const Attractions = () => (
             it's less about that contest and more about the fact that pierogies are
             omnipresent: an appetizer at nearly every restaurant, a topping on your
             burger or sandwich, even a popular pizza flavor... Enjoy them!</p>
-          <p>The most convenient place to look for pierogi pizza will be <a href='#shady-grove'>Shady Grove</a></p>
+          <p>The most convenient place to look for pierogi pizza will be <a href='#shady-grove'>Shady Grove</a>.</p>
         </div>
         <img
           src='https://live.staticflickr.com/1296/1084082305_b4f2231676_b.jpg'
@@ -294,11 +298,11 @@ const Attractions = () => (
             own totally distinct style, and every Yinzer has their own opinion about
             whose is best! As of 2014, Pittsburgh is reputed to have "<a href='https://www.thedailybeast.com/the-case-for-pittsburgh-pizza' target='blank'>the highest pizzeria density
             of any American city except Orlando</a>."</p>
-          <p>Bill loves <a href='http://mineospizza.com/squirrel-hill.html'>Mineo's</a>,
-            and, while Claire has a lot of research yet to do, her top choice so far
-            is <a href='http://www.vincentspizzapark.com/'>Vincent's</a> (pictured).
-            Both of us quite enjoy pierogi pizza, although our favorite, Lelulo's,
-            is too far outside the city to be relevant to wedding events. </p>
+          <p>Bill loves <a href='http://mineospizza.com/squirrel-hill.html'>Mineo's</a> (not toooo far
+            from our church), and, while Claire has a lot of research yet to do, her top choice so far
+            is <a href='http://www.vincentspizzapark.com/'>Vincent's</a> (pictured). Both of us quite
+            enjoy pierogi pizza, although our favorite, Lelulo's, is too far outside the city to be
+            relevant to wedding events. </p>
         </div>
       </div>
 
@@ -421,7 +425,6 @@ const Attractions = () => (
           {/* https://www.kennywood.com */}
           <p className='lorem-ipsum'>Oh, oh, I see! Running away, eh? You yellow bastards! Come back here and take what's coming to you! I'll bite your legs off! If we took the bones out, it wouldn't be crunchy, would it? It's not pining, it's passed on! This parrot is no more! It has ceased to be! It's expired and gone to meet its maker! This is a late parrot! It's a stiff! Bereft of life, it rests in peace! If you hadn't nailed it to the perch, it would be pushing up the daisies! It's metabolic processes are now history! He's off the twig! He's kicked the bucket, he's shuffled off the mortal coil, rung down the curtain and joined the choir invisible. This is an ex-parrot! I'm Brian, and so's my wife!</p>
         </div>
-      </div>
       </div>
     <h2 id='further-reading'>Further Reading</h2>
       <div id='further-reading' className='one-attraction'>

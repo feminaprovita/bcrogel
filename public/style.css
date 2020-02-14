@@ -467,6 +467,10 @@ nav a:hover,
   flex: 2 2 auto;
 }
 
+#restaurants {
+  flex-direction: column;
+}
+
 #further-reading {
   flex-direction: column;
 }
