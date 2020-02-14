@@ -31,12 +31,11 @@ const Registry = () => (
         <img
           className='registry-block small-image'
           id='honeymoon-img'
-          src='./images/honeymoon.jpg'
+          src='https://www.britainexpress.com/images/attractions/editor2/lagavulin-2.jpg'
           alt='honeymoon'
           />
         <h4>Goal: $6800</h4>
-        <p><em>No, we haven't settled on a honeymoon location yet; we'll update
-          the picture/price when we do...</em></p>
+        <p><em>Current honeymoon plan (to be finalized soon): Islay, Scotland</em></p>
       </div>
     </div>
     <h3>3 ways to reach us:</h3>
