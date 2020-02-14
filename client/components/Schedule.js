@@ -50,10 +50,11 @@ const Schedule = () => (
       <p>115 Federal Street<br/>
       Pittsburgh (North Shore)</p>
       <h3>Pittsburgh Pirates v. Boston Red Sox</h3>
-      <p>1:00&ndash;4:00pm (proj)</p>
+      <p>1:15&ndash;4:15pm</p>
       <p>Not an official wedding weekend event!<br />
       Bill just wanted to share his season ticket discount.</p>
-      <p>Tickets will be available on the wedding website soon!</p>
+      <p>Tickets are <a href='https://groupmatics.events/event/Gilliganrogel'
+      target='blank'>available now!</a></p>
     </div>
   </div>
 )

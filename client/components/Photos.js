@@ -8,7 +8,7 @@ const Photos = () => (
         className='squishy-image'
         id='subway-photo'
         src='./images/Subway.jpg'
-        alt='On the subway'
+        alt='On the subway (our first photo together)'
         />
       <img
         className='squishy-image'
@@ -171,6 +171,12 @@ const Photos = () => (
         id='socks-photo'
         src='./images/socks.jpg'
         alt="Wearing socks featuring each others' faces"
+        />
+      <img
+        className='squishy-image'
+        id='axe-photo'
+        src='./images/axe_throwing.jpg'
+        alt="At an axe throwing place, with our axes in the wood behind us"
         />
     </div>
   </div>

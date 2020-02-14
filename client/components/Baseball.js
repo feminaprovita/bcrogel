@@ -2,12 +2,7 @@ import React from 'react'
 
 const Baseball = () => (
   <div id='baseball-container' className='page-container'>
-    <h1>Coming Soon: Baseball Tickets</h1>
-      <img
-        className='under-construction small-image'
-        src='./images/under_construction_geek_woman.png'
-        alt='Under Construction'
-        />
+    <h1>Baseball Tickets</h1>
     <div id='baseball-pic-div' className='page-pic-div'>
       <img
         src='https://i.ytimg.com/vi/M1sesd4hHVk/hqdefault.jpg'
@@ -15,18 +10,16 @@ const Baseball = () => (
         alt='Boston Red Sox vs Pittsburgh Pirates'
         />
       <div id='baseball-text'>
-        <p>Check back soon; we are close to having both a booking link and a phone
-          number you can call directly (to save on booking fees) to reserve tickets
-          within the block of tickets Bill reserved for this game!</p>
-        <p>NB 1:00pm is only a projected time! The game might in reality be earlier
-          or later.</p>
-      <img
-        src='./images/Pirates_game'
-        className='small-image baseball-img page-img'
-        alt="At PNC Park for Claire's first Pirates game"
-        />
+        <p>Head <a href='https://groupmatics.events/event/Gilliganrogel' target='blank'>here</a> to see details and buy your discount tickets to Sunday's baseball game! We only reserved 70 (and have invited far more than 70 of you to the wedding), so if you want to guarantee that you get seats, you'd better act fast!</p>
+        <p>If you have a group of 4+ and want to easily coordinate everyone sitting together, Kevin is happy to do that by phone (suggested that might be easier).</p>
       </div>
     </div>
+    <p className='blue'><a href='https://groupmatics.events/event/Gilliganrogel' target='blank'>See you at the ballpark!</a></p>
+    <img
+      src='https://bcrogel.herokuapp.com/images/Pirates_game.jpg'
+      className='med-image baseball-img page-img'
+      alt="At PNC Park for Claire's first Pirates game"
+      />
   </div>
 )
 

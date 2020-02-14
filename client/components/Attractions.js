@@ -30,6 +30,8 @@ const Attractions = () => (
             Sacred Heart</a> in Pittsburgh's historic Shadyside neighborhood. We will soon
             write up more about this gorgeous, detailed building <span className='sm-cap'>here</span>.
             Consider arriving early enough to look around, because there's so much to see!</p>
+          <p>That’s why we created our silly scavenger hunt, to try and invite you all into some
+            of our favorite details!</p>
           {/* <img
             src='https://live.staticflickr.com/6068/6099993001_6fde07cb38_b.jpg'
             className='small-image attr-img'
@@ -39,7 +41,7 @@ const Attractions = () => (
       </div>
       <div id='st-anthonys' className='one-attraction-reverse'>
         <div className='attr-details'>
-          <h3>St Anthony Chapel</h3>
+          <h3>Saint Anthony Chapel</h3>
           <p>Perhaps the most widely known of the six "<a href='https://23091.sites.ecatholic.com/'
             target='blank'>shrines of Pittsburgh</a>," St Anthony Chapel holds <a href='https://23091.sites.ecatholic.com/primer'
             target='blank'>over 5,000 relics</a>, the largest public collection outside the Vatican.
@@ -62,11 +64,13 @@ const Attractions = () => (
           alt='St Mary of the Mount'
         />
         <div className='attr-details'>
-          <h3>St Mary of the Mount</h3>
-          <p>This <a href='https://princeofpeacepittsburgh.com/' target='blank'>lovely mountaintop chapel</a>
-            is beautiful in its own right, but is one of the very best places to see the entire city and
-            her rivers! You can even take the <a href='https://www.tripsavvy.com/exploring-mt-washington-2708253'
-            target='blank'>incline</a> up the mountain and walk over, if you like (it's right between the two).</p>
+          <h3>Saint Mary of the Mount</h3>
+          <p>This <a href='https://princeofpeacepittsburgh.com/' target='blank'>lovely mountaintop chapel</a> is
+            beautiful in its own right, and its foyer is open 24/7 for prayer, with a pew and kneeler looking into
+            the beautifully lit church. It’s also one of the very best places to see the entire city and her rivers!
+            You can even take the <a href='https://monongahelaincline.com/' target='blank'>Mon (Monongahela) incline</a> up
+            the mountain and enjoy the picturesque walk over (you’ll walk right pat several little Scenic Overlooks on
+            the way). It’s just gorgeous.</p>
         </div>
       </div>
       <div id='precious-blood' className='one-attraction-reverse'>
@@ -98,7 +102,40 @@ const Attractions = () => (
             adorers for a couple years.</p>
         </div>
       </div>
-      <div>See two more churches in our <a href='#day-trips'>Day Trips</a> section below!</div>
+      <div id='fus' className='one-attraction-reverse'>
+        <div className='attr-details'>
+          <h3>Franciscan University</h3>
+          <p>Claire’s <a href='https://franciscan.edu/visit-franciscan/' target='blank'>alma mater</a> is
+          less than 1h west of the city! She most notably recommends the perpetual adoration chapel
+          (“the port”) (not pictured), a replica of St Francis’ portiuncula chapel in Assisi, the one
+          he built by hand when God first told him to “Rebuild my church” and he took it literally.</p>
+        </div>
+        <img
+          src='https://steubenvilleconferences.com/wp-content/uploads/2016/04/23386872391_b9a451cf5e_o-e1460138113401-1180x590.jpg'
+          className='small-image attr-img'
+          alt='Franciscan University'
+        />
+      </div>
+      <div id='latrobe' className='one-attraction'>
+        <img
+          src='https://upload.wikimedia.org/wikipedia/commons/4/4c/St._Vincent_Archabbey_Basilica.jpg'
+          className='small-image attr-img'
+          alt='Saint Vincent Archabbey'
+        />
+        <div className='attr-details'>
+          <h3>Saint Vincent Archabbey</h3>
+          <p>Under an hour southeast of the city is the <a href='http://saintvincentarchabbey.org/'
+            target='blank'>first Benedictine abbey</a> in the United States. This lovely
+            basilica and its beautiful grounds includes a university, on whose grounds
+            they host the Steelers training camp every year!</p>
+          <p>It's also an active monastery, with over 150 monks in residence, and
+            a picturesque place of prayer and retreat into the beauty of nature. It comes
+            <a href='https://www.onlyinyourstate.com/pennsylvania/st-vincent-archabbey-pa/'
+            target='blank'> highly recommended</a>.</p>
+        </div>
+      </div>
+
+
     <h2 id='restaurants'>Restaurants</h2>
       <div id='primantis' className='one-attraction-reverse'>
         <div className='attr-details'>
@@ -112,6 +149,8 @@ const Attractions = () => (
           <p>And come hungry! Seriously, if you're not splitting a Primanti's
             sandwich with someone, consider skipping the meal before it. Those
             puppies are <em>gigantic</em>!</p>
+          <p>It's neither Bill's nor Claire's #1 favorite Pittsburgh culinary experience,
+            but it's certainly our most famous one, and it's definitely worth trying!</p>
         </div>
         <img
           src='https://primantibros.com/files/images/PBROS_PUNCHH_POS_r5-A-BS-menu-feature-03_660px.png'
@@ -128,8 +167,8 @@ const Attractions = () => (
         <div className='attr-details'>
           <h3>Pamela's</h3>
           <p><a href='https://www.pamelasdiner.com/'>Pamela's Diner</a> is a beloved
-            local establishment with a location conveniently at the
-            little downtown strip close to Sacred Heart (5227 Walnut St).</p>
+            local establishment with a location conveniently at the little downtown
+            strip close to Sacred Heart (5227 Walnut St).</p>
           <p>Note: They are cash only.</p>
         </div>
       </div>
@@ -139,8 +178,9 @@ const Attractions = () => (
           <p>A delicious local chain not unlike New York's Bareburger,
             <a href='https://burgatorybar.com/'> Burgatory</a> is a winner if you're
             looking for delightful gluten-free food, vegetarian/vegan options, exotic
-            meats, or really just any filling, satisfying, tasty meal. Also known
-            for their shakes. An old favorite of Bill's ("questionable theology,
+            meats, or really just any filling, satisfying, tasty meal. Or for a decadent
+            milkshake!</p>
+          <p>An old favorite of Bill's ("questionable theology,
             delicious burgers"), and one Claire was sold on immediately!</p>
         </div>
         <img
@@ -159,7 +199,7 @@ const Attractions = () => (
           <h3>Onion Maiden</h3>
           <p>A short cab ride outside the neighborhoods of the wedding, <a href='https://www.onionmaiden.com/'
             target='blank'>Onion Maiden</a> is a vegan restaurant whose foods are 1) quite
-            delicious and 2) punning on Iron Maiden songs! Was a bit of a gamble the
+            tasty and 2) punning on Iron Maiden songs! Was a bit of a gamble the
             first time friends took us there, but it's a delight. Highly recommended,
             even for carnivores like us!</p>
           <p>Note: They are cash only.</p>
@@ -201,8 +241,34 @@ const Attractions = () => (
             on the middle syllable (car-NAY-gee / car-NEG-ee).</em></p>
         </div>
       </div>
-      <div id='pierogi' className='one-attraction-reverse
+      <div id='shady-grove' className='one-attraction-reverse
       '>
+        <div className='attr-details'>
+          <h3 id='shady-grove'>Shady Grove</h3>
+          <p>This bar (near our church) has excellent burgers, pierogi pizza, all
+            kinds of good stuff&mdash;yet their salads are so brilliant that both
+            Bill and Claire (but especially Bill) usually end up getting a salad!
+            Come, taste the miracle in action!</p>
+        </div>
+        <img
+          src='https://cooksandeats.com/wp-content/uploads/2009/12/IMG_3177-768x1024.jpg'
+          className='small-image attr-img'
+          alt='Shady Grove'
+        />
+      </div>
+      <div id='yard' className='one-attraction'>
+        <img
+          src='https://dtjew9b6f6zyn.cloudfront.net/wp-content/uploads/2019/02/2-133.jpg'
+          className='small-image attr-img'
+          alt='The Yard'
+        />
+        <div className='attr-details'>
+          <h3>The Yard</h3>
+          <p>This excellent brewpub, also near our church, specializes in grilled
+            cheese. And count those taps (frequently rotating)! Need I say more?</p>
+        </div>
+      </div>
+      <div id='pierogi' className='one-attraction-reverse'>
         <div className='attr-details'>
           <h3><em>Pittsburgh and Pierogies</em></h3>
           <p>Pittsburgh and pierogies go together like eggs and bacon. You can ask
@@ -211,6 +277,7 @@ const Attractions = () => (
             it's less about that contest and more about the fact that pierogies are
             omnipresent: an appetizer at nearly every restaurant, a topping on your
             burger or sandwich, even a popular pizza flavor... Enjoy them!</p>
+          <p>The most convenient place to look for pierogi pizza will be <a href='#shady-grove'>Shady Grove</a>.</p>
         </div>
         <img
           src='https://live.staticflickr.com/1296/1084082305_b4f2231676_b.jpg'
@@ -231,13 +298,19 @@ const Attractions = () => (
             own totally distinct style, and every Yinzer has their own opinion about
             whose is best! As of 2014, Pittsburgh is reputed to have "<a href='https://www.thedailybeast.com/the-case-for-pittsburgh-pizza' target='blank'>the highest pizzeria density
             of any American city except Orlando</a>."</p>
-          <p>Bill loves <a href='http://mineospizza.com/squirrel-hill.html'>Mineo's</a>,
-            and, while Claire has a lot of research yet to do, her top choice so far
-            is <a href='http://www.vincentspizzapark.com/'>Vincent's</a> (pictured).
-            Both of us quite enjoy pierogi pizza, although our favorite, Lelulo's,
-            is too far outside the city to be relevant to wedding events. </p>
+          <p>Bill loves <a href='http://mineospizza.com/squirrel-hill.html'>Mineo's</a> (not toooo far
+            from our church), and, while Claire has a lot of research yet to do, her top choice so far
+            is <a href='http://www.vincentspizzapark.com/'>Vincent's</a> (pictured). Both of us quite
+            enjoy pierogi pizza, although our favorite, Lelulo's, is too far outside the city to be
+            relevant to wedding events. </p>
         </div>
       </div>
+
+
+
+
+
+
     <h2 id='sightseeing'>Sightseeing</h2>
       <div id='point' className='one-attraction-reverse'>
         <div className='attr-details'>
@@ -266,6 +339,8 @@ const Attractions = () => (
         <div className='attr-details'>
           <h3>Mt Washington (and the Incline)</h3>
           {/* <a href='https://www.tripsavvy.com/exploring-mt-washington-2708253' target='blank'>incline</a> */}
+          {/* <a href='#st-marys'></a> */}
+          {/* <a href='http://www.duquesneincline.org/' target='blank'></a> */}
           <p className='lorem-ipsum'>Hegel is arguing that the reality is merely an a priori adjunct of non-naturalistic ethics, Kant via the categorical imperative is holding that ontologically it exists only in the imagination, and Marx claims it was offside. I told you to lay off the beans, you whore! The Lady of the Lake, her arm clad in the purest shimmering samite held aloft Excalibur from the bosom of the water, signifying by divine providence that I, Arthur, was to carry Excalibur. THAT is why I am your king.</p>
         </div>
       </div>
@@ -351,36 +426,7 @@ const Attractions = () => (
           <p className='lorem-ipsum'>Oh, oh, I see! Running away, eh? You yellow bastards! Come back here and take what's coming to you! I'll bite your legs off! If we took the bones out, it wouldn't be crunchy, would it? It's not pining, it's passed on! This parrot is no more! It has ceased to be! It's expired and gone to meet its maker! This is a late parrot! It's a stiff! Bereft of life, it rests in peace! If you hadn't nailed it to the perch, it would be pushing up the daisies! It's metabolic processes are now history! He's off the twig! He's kicked the bucket, he's shuffled off the mortal coil, rung down the curtain and joined the choir invisible. This is an ex-parrot! I'm Brian, and so's my wife!</p>
         </div>
       </div>
-      <div id='fus' className='one-attraction-reverse'>
-        <div className='attr-details'>
-          <h3>Franciscan University</h3>
-          <p className='lorem-ipsum'>It's not pining, it's passed on! This parrot is no more! It has ceased to be! It's expired and gone to meet its maker! This is a late parrot! It's a stiff! Bereft of life, it rests in peace! If you hadn't nailed it to the perch, it would be pushing up the daisies! It's metabolic processes are now history! He's off the twig! He's kicked the bucket, he's shuffled off the mortal coil, rung down the curtain and joined the choir invisible. This is an ex-parrot! In 1945, peace broke out. It was the end of the Joke. Joke warfare was banned at a special session of the Geneva Convention, and in 1950 the last remaining copy of the joke was laid to rest here in the Berkshire countryside, never to be told again. The Lady of the Lake, her arm clad in the purest shimmering samite held aloft Excalibur from the bosom of the water, signifying by divine providence that I, Arthur, was to carry Excalibur. THAT is why I am your king.</p>
-        </div>
-        <img
-          src='https://steubenvilleconferences.com/wp-content/uploads/2016/04/23386872391_b9a451cf5e_o-e1460138113401-1180x590.jpg'
-          className='small-image attr-img'
-          alt='Franciscan University'
-        />
-      </div>
-      <div id='latrobe' className='one-attraction'>
-        <img
-          src='https://upload.wikimedia.org/wikipedia/commons/4/4c/St._Vincent_Archabbey_Basilica.jpg'
-          className='small-image attr-img'
-          alt='Saint Vincent Archabbey'
-        />
-        <div className='attr-details'>
-          <h3>Saint Vincent Archabbey</h3>
-          {/* http://saintvincentarchabbey.org/ */}
-          <p>The <a href='http://saintvincentarchabbey.org/' target='blank'>first
-            Benedictine abbey</a> in the United States, this lovely basilica and
-            its beautiful grounds includes a university, on whose grounds they host
-            the Steelers training camp every year!</p>
-          <p>It's also an active monastery, with over 150 monks in residence, and
-            a lovely place of prayer and retreat into the beauty of nature. It comes
-            <a href='https://www.onlyinyourstate.com/pennsylvania/st-vincent-archabbey-pa/'
-            target='blank'> highly recommended</a>.</p>
-        </div>
-      </div>    <h2 id='further-reading'>Further Reading</h2>
+    <h2 id='further-reading'>Further Reading</h2>
       <div id='further-reading' className='one-attraction'>
       <p><a href='https://www.discovertheburgh.com/the-ultimate-pittsburgh-guide/' target='blank'>The
       Ultimate Pittsburgh Guide</a> (this one is <em>seriously</em> detailed)</p>
