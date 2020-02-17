@@ -4,6 +4,7 @@ const Accommodations = () => (
   <div id='accommodations-container' className='page-container'>
     <h1>Accommodations</h1>
     <h4 className='teal'><em>Book your rooms early, as there's a big baseball game and a big convention that weekend as well as the holiday!</em></h4>
+    <h5 className='purple'><em>If these links give you any errors, please email us at <a href='mailto:bcrogel@gmail.com'>bcrogel@gmail.com</a> so we can make the hotel fix it!</em></h5>
     <h2>Hotels</h2>
       <div id='hotel-indigo' className='hotel-info'>
         <a href='https://www.hotelindigo.com/redirect?path=hd&brandCode=IN&localeCode=en&regionCode=1&hotelCode=PITGH&_PMID=99801505&GPC=BCW&cn=no&viewfullsite=true' target='blank'><img
@@ -58,7 +59,7 @@ const Accommodations = () => (
           <a href='https://www.hyatt.com/en-US/hotel/pennsylvania/hyatt-place-pittsburgh-north-shore/pitzn?corp_id=G-GIRO' target='blank'><p><em>Book here!</em></p></a>
         </div>
       </div>
-      <h4><em>Hotel blocks are available through June 3, but we strongly encourage you to book earlier!</em></h4>
+      <h4><em>Hotel blocks are available through June 3, but don't dally or your preferred hotel among these may book up!</em></h4>
     <h2>Airbnb</h2>
     <div id='airbnb' className='hotel-details'>
     <p>Often a more flexible and cost-effective option, <a href='https://www.airbnb.com/s/Pittsburgh--PA--United-States/all?query=Pittsburgh%2C%20PA%2C%20United%20States&place_id=ChIJA4UGSG_xNIgRNBuiWqEV-Y0&refinement_paths%5B%5D=%2Ffor_you&toddlers=0&source=mc_search_bar&search_type=filter_change&checkin=2020-07-03&checkout=2020-07-05&adults=4' target='blank'>Airbnb</a> offers a different flavor of experience.</p>

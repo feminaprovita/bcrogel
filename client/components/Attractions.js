@@ -2,21 +2,14 @@ import React  from 'react'
 
 const Attractions = () => (
   <div id='attractions-container' className='page-container'>
-    {/* <button onClick='topFunction()' type='button' id='top-button'>⇪</button> */}
     <h1 id='top'>Pittsburgh Attractions</h1>
     <div id='button-container'>
       <a href='#churches'><button type='button'>Churches</button></a>
       <a href='#restaurants'><button type='button'>Restaurants</button></a>
+      <a href='#booze'><button type='button'>Booze</button></a>
       <a href='#sightseeing'><button type='button'>Sightseeing</button></a>
-      <a href='#cool-stores'><button type='button'>Cool Stores</button></a>
-      <a href='#day-trips'><button type='button'>Day Trips</button></a>
-      <a href='#further-reading'><button type='button'>Further Reading</button></a>
+      <a href='#further-reading'><button type='button'>Even More</button></a>
     </div>
-    <img
-      className='under-construction smaller-image'
-      src='./images/under_construction_geek_woman.png'
-      alt='Under Construction'
-      />
     <h2 id='churches'>Churches</h2>
       <div id='sacred-heart' className='one-attraction'>
         <img
@@ -32,11 +25,6 @@ const Attractions = () => (
             Consider arriving early enough to look around, because there's so much to see!</p>
           <p>That’s why we created our silly scavenger hunt, to try and invite you all into some
             of our favorite details!</p>
-          {/* <img
-            src='https://live.staticflickr.com/6068/6099993001_6fde07cb38_b.jpg'
-            className='small-image attr-img'
-            alt='Sacred Heart interior'
-          /> */}
         </div>
       </div>
       <div id='st-anthonys' className='one-attraction-reverse'>
@@ -129,8 +117,8 @@ const Attractions = () => (
             basilica and its beautiful grounds includes a university, on whose grounds
             they host the Steelers training camp every year!</p>
           <p>It's also an active monastery, with over 150 monks in residence, and
-            a picturesque place of prayer and retreat into the beauty of nature. It comes
-            <a href='https://www.onlyinyourstate.com/pennsylvania/st-vincent-archabbey-pa/'
+            a picturesque place of prayer and retreat into the beauty of nature. It
+            comes <a href='https://www.onlyinyourstate.com/pennsylvania/st-vincent-archabbey-pa/'
             target='blank'> highly recommended</a>.</p>
         </div>
       </div>
@@ -175,8 +163,8 @@ const Attractions = () => (
       <div id='burgatory' className='one-attraction-reverse'>
         <div className='attr-details'>
           <h3>Burgatory</h3>
-          <p>A delicious local chain not unlike New York's Bareburger,
-            <a href='https://burgatorybar.com/'> Burgatory</a> is a winner if you're
+          <p>A delicious local chain not unlike New York's Bareburger,<a
+            href='https://burgatorybar.com/'> Burgatory</a> is a winner if you're
             looking for delightful gluten-free food, vegetarian/vegan options, exotic
             meats, or really just any filling, satisfying, tasty meal. Or for a decadent
             milkshake!</p>
@@ -307,22 +295,83 @@ const Attractions = () => (
       </div>
 
 
-
-
+    <h2 id='booze'>Booze</h2>
+      <div id='breweries' className='one-attraction'>
+      <img
+          src='https://pittsburghbreweries.com/wp-content/themes/pbg/dist/assets/images/pbg-logo.svg'
+          className='small-image attr-img'
+          alt='Breweries'
+          />
+      <div className='attr-details'>
+        <h3>Breweries</h3>
+        <p>Pittsburgh is a great city for beer, with over 30 breweries in the city
+          and environs! Most of them are a small drive away from the wedding hotels,
+          but worth it. The <a href='https://pittsburghbreweries.com/' target='blank'>Pittsburgh
+          Brewers Guild</a> has put together this great list (and a passport for
+          trying to visit them all).</p>
+        </div>
+      </div>
+      <div id='wineries' className='one-attraction-reverse'>
+        <div className='attr-details'>
+          <h3>Wineries</h3>
+          <p>It's not just beer; there's plenty of good wine around, too! Just be
+            sure to pop addresses into a map before making plans based on
+            this <a href='https://www.discovertheburgh.com/pittsburgh-wineries/'
+            target='blank'>delightful list</a>, as it freely jumps between city
+            and suburban wineries (with a link to wine bars at the bottom).</p>
+        </div>
+        <img
+          src='https://beveragedynamics.com/wp-content/uploads/2015/04/Generic-Wine-for-GB1.jpg'
+          className='small-image attr-img'
+          alt='Wineries'
+          />
+      </div>
+      <div id='distilleries' className='one-attraction'>
+      <img
+          src='https://media.architecturaldigest.com/photos/574e04fbfd771365462050e3/master/w_4256,h_2841,c_limit/craft-distilleries-03.jpg'
+          className='small-image attr-img'
+          alt='Distilleries'
+          />
+      <div className='attr-details'>
+        <h3>Distilleries</h3>
+        <p>We've spent more time at the distilleries thatn either of the above,
+          and the Burgh has its fair share! The top 4 <a href='https://www.nextpittsburgh.com/eatdrink/8-pittsburgh-distilleries/'
+          target='blank'>here</a> are in the city, and the <a href='https://www.mclaughlindistillery.com/'
+          target='blank'>very last one</a> on their list is our favorite (though
+          it's 15mi north of the city), with an incredibly diverse selection of
+          whiskeys and moonshines of great quality! You may even notice that they
+          made a small donation to our wedding decor...</p>
+        </div>
+      </div>
+      <div id='pennsylvania-libations' className='one-attraction-reverse'>
+        <div className='attr-details'>
+          <h3>Pennsylvania Libations</h3>
+          <p>All stores that sell liquor are owned by the state here&mdash;except for
+            this recently opened innovator! At <a href='https://pennsylvanialibations.com/manufacturers'
+            target='blank'>Pennsylvania Libations</a>, you can purchase (and usually
+            taste) spirits distilled all across the state.</p>
+        </div>
+          <img
+            src='https://pennsylvanialibations.com/wp-content/uploads/2017/06/pa_white-1a-1.png'
+            className='small-image attr-img'
+            alt='Pennsylvania Libations'
+          />
+      </div>
 
 
     <h2 id='sightseeing'>Sightseeing</h2>
       <div id='point' className='one-attraction-reverse'>
         <div className='attr-details'>
           <h3>The Point</h3>
-          <p>A ten-minute walk from our reception (and across the river, technically),
-            <a href='https://www.dcnr.pa.gov/StateParks/FindAPark/PointStatePark/Pages/default.aspx'
+          <p>A ten-minute walk from our reception (and across the river, technically), <a
+            href='https://www.dcnr.pa.gov/StateParks/FindAPark/PointStatePark/Pages/default.aspx'
             target='blank'> Point State Park</a> and its fountain mark where the Ohio,
             Allegheny, and Monongahela Rivers meet. The remnants of Fort Pitt and
-            Fort Duquesne are right around here (more cool history <a href='https://popularpittsburgh.com/pittsburghs-heart-point-state-park/' target='blank'>here</a>). This
-            is where the fireworks will be shot off, so it'll be busy on our Big
-            Day, but it's a delightful walk, even if perhaps less quiet than typically.
-            Very scenic.</p>
+            Fort Duquesne are also in this immediate area (more cool history <a
+            href='https://popularpittsburgh.com/pittsburghs-heart-point-state-park/'
+            target='blank'>here</a>). This is where the fireworks will be shot off, so
+            it'll be busy on our Big Day, but it's a delightful walk, even if perhaps
+            less quiet than typically. Very scenic.</p>
         </div>
         <img
           src='https://upload.wikimedia.org/wikipedia/commons/a/a8/PittSkyline082904.jpg'
@@ -338,22 +387,14 @@ const Attractions = () => (
         />
         <div className='attr-details'>
           <h3>Mt Washington (and the Incline)</h3>
-          {/* <a href='https://www.tripsavvy.com/exploring-mt-washington-2708253' target='blank'>incline</a> */}
-          {/* <a href='#st-marys'></a> */}
-          {/* <a href='http://www.duquesneincline.org/' target='blank'></a> */}
-          <p className='lorem-ipsum'>Hegel is arguing that the reality is merely an a priori adjunct of non-naturalistic ethics, Kant via the categorical imperative is holding that ontologically it exists only in the imagination, and Marx claims it was offside. I told you to lay off the beans, you whore! The Lady of the Lake, her arm clad in the purest shimmering samite held aloft Excalibur from the bosom of the water, signifying by divine providence that I, Arthur, was to carry Excalibur. THAT is why I am your king.</p>
+          <p>If you want a birds-eye view of the whole city, Mt Washington is the
+            place to go! You can drive up and park on the street, or you can take
+            one of two historic <a href='https://www.tripsavvy.com/exploring-mt-washington-2708253'
+            target='blank'>inclines</a>: the <a href='http://www.duquesneincline.org/'
+            target='blank'>Duquesne</a> or the <a href='https://monongahelaincline.com/' target='blank'>Mon
+            (Monongahela)</a>. The Mon has the better view for walking (more about
+            this <a href='#st-marys'>above</a>.</p>
         </div>
-      </div>
-      <div id='ballparks' className='one-attraction-reverse'>
-        <div className='attr-details'>
-          <h3>The Ballparks</h3>
-          <p className='lorem-ipsum'>And Dinsdale says 'I hear you've been a naughty boy, Clement', and he splits me nostrils open, saws me leg off and pulls me liver out. And I tell him 'My name's not Clement', and then he loses his temper and nails my head to the floor. Listen, strange women lyin' in ponds distributin' swords is no basis for a system of government. Supreme executive power derives from a mandate from the masses, not from some farcical aquatic ceremony. You don't frighten us, English pig dogs. Go and boil your bottoms, you sons of a silly person. I blow my nose at you, so-called "Arthur King," you and all your silly English K-nig-hts.</p>
-        </div>
-        <img
-          src='https://images.squarespace-cdn.com/content/v1/5ba1407b9d5abbcd46c597a6/1546552392574-SSJ4DNOQQMC6TA1KL9K3/ke17ZwdGBToddI8pDm48kKf4q2_pEHkS5KDxm2bm030UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcyOho2e0NVAkIlv2u-pApubBCP9-_2M7_jQz05G2v8uoyy77yJ5HZ0VKRV9aKCidC/1+Sports+copy.jpg'
-          className='small-image attr-img'
-          alt='The Ballparks'
-        />
       </div>
       <div id='museums' className='one-attraction'>
         <img
@@ -363,49 +404,54 @@ const Attractions = () => (
         />
         <div className='attr-details'>
           <h3>The Museums</h3>
-          {/* <p></p>
-          https://carnegiemuseums.org/
-          https://www.discovertheburgh.com/unusual-museums-in-pittsburgh/
-          https://www.pittsburghzoo.org/ */}
-          <p className='lorem-ipsum'>Why is it the world never remembered the name of Johann Gambolputty de von Ausfern-schplenden-schlitter-crasscrenbon-fried-digger-dangle-dongle-dungle-burstein-Von-knacker-thrasher-apple-banger-horowitz-ticolensic-grander-knotty-spelltinkle-grandlich-grumblemeyer-spelterwasser-kurstlich-himbleeisen-bahnwagen-gutenabend-bitte-ein-nürnburger-bratwurstle-gerspurten-mit-zwei-macheluber-hundsfut-gumberaber-shoenendanker-kalbsfleisch-mittler-aucher von Hautkopft of Ulm? We use only the finest baby frogs, dew picked and flown from Iraq, cleansed in finest quality spring water, lightly killed, and then sealed in a succulent Swiss quintuple smooth treble cream milk chocolate envelope and lovingly frosted with glucose. Get on with it!</p>
+          <p>This city has a number of great museums around! The <a href='https://carnegiemuseums.org/'
+          target='blank'>Carnegie Museums</a> are perhaps the most notable (and
+          the Science Center is right next to the Casino), but the <a href='https://www.heinzhistorycenter.org/'
+          target='blank'>Heinz History Museum</a> is a cool history of Pittsburgh,
+          the <a href='https://www.pittsburghzoo.org/' target='blank'>zoo</a> is
+          delightful, and we've got <a href='https://www.discovertheburgh.com/unusual-museums-in-pittsburgh/'
+          target='blank'>several weirder options</a> as well. The world is your oyster!</p>
         </div>
       </div>
-
-      <h2 id='cool-stores'>Cool Stores</h2>
-      <div id='flaherty-fardo' className='one-attraction-reverse'>
+      <div id='kennywood' className='one-attraction-reverse'>
         <div className='attr-details'>
-          <h3>Flaherty, Fardo, Rogel, & Amick</h3>
-          <p>About half a mile from the church you can find the offices of this
-            Very Important law firm (<em>can you tell Bill let Claire write these?</em>)&mdash;in
-            case you want to get a photo op next to our name on the door or something!</p>
-          <p>Also the Mexican place next door is pretty tasty, and <a href='#pamelas'>Pamela's</a> is
-            just around the corner and down the block; it's a whole cute little
-            downtown area.</p>
+          <h3>Kennywood</h3>
+          <p>This beloved local <a href='https://www.kennywood.com' target='blank'>theme
+          park</a> is well under an hour southeast of the city. It boasts "6 coasters,
+          a 14-ride Kiddieland, and several attractions," and is a smaller park, but
+          a great one. Most lifelong Yinzers (Pittsburghers) have numerous childhood
+          memories of Kennywood, and Bill and Claire currently have season tickets.</p>
         </div>
         <img
-          src='./images/flaherty_fardo.png'
+          src='https://media.thetab.com/blogs.dir/115/files/2016/06/roadsign1-blastcoaster-e1465899287271.jpg'
           className='small-image attr-img'
-          alt='Flaherty, Fardo, Rogel, & Amick'
+          alt='Kennywood'
         />
       </div>
-      <div id='pennsylvania-libations' className='one-attraction'>
+      <div id='ballparks' className='one-attraction'>
         <img
-          src='https://pennsylvanialibations.com/wp-content/uploads/2017/06/pa_white-1a-1.png'
+          src='https://images.squarespace-cdn.com/content/v1/5ba1407b9d5abbcd46c597a6/1546552392574-SSJ4DNOQQMC6TA1KL9K3/ke17ZwdGBToddI8pDm48kKf4q2_pEHkS5KDxm2bm030UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcyOho2e0NVAkIlv2u-pApubBCP9-_2M7_jQz05G2v8uoyy77yJ5HZ0VKRV9aKCidC/1+Sports+copy.jpg'
           className='small-image attr-img'
-          alt='Pennsylvania Libations'
+          alt='The Ballparks'
         />
         <div className='attr-details'>
-          <h3>Pennsylvania Libations</h3>
-          <p>All stores that sell liquor are owned by the state here&mdash;except for
-            this recently opened innovator! At <a href='https://pennsylvanialibations.com/manufacturers'
-            target='blank'>Pennsylvania Libations</a>, you can purchase (and usually
-            taste) spirits distilled all across the state.</p>
+          <h3>The Ballparks</h3>
+          <p>Pittsburgh is a city that loves its sports! The only one likely to be open now is PNC Park,
+            where the Pirates play their baseball games (and <a href='/baseball'>you're welcome to join
+            us at the game the next day</a>), but also notable are Heinz Field, where the Steelers play
+            football, PPG Paints Arena, where the Penguins play hockey, and  Highmark Field, where the
+            Riverhounds play soccer. You can expect to see most of the city in black and gold on any
+            given game day!</p>
         </div>
       </div>
       <div id='city-of-asylum' className='one-attraction-reverse'>
         <div className='attr-details'>
-          <h3><a href='https://www.cityofasylumbooks.org/'>City of Asylum Bookstore</a></h3>
-          <p className='lorem-ipsum'>Well, er, yes Mr. Anchovy, but you see your report here says that you are an extremely dull person. You see, our experts describe you as an appallingly dull fellow, unimaginative, timid, lacking in initiative, spineless, easily dominated, no sense of humour, tedious company and irrepressibly drab and awful. And whereas in most professions these would be considerable drawbacks, in chartered accountancy, they're a positive boon. In 1945, peace broke out. It was the end of the Joke. Joke warfare was banned at a special session of the Geneva Convention, and in 1950 the last remaining copy of the joke was laid to rest here in the Berkshire countryside, never to be told again.</p>
+          <h3>City of Asylum Bookstore</h3>
+          <p>This <a href='https://www.cityofasylumbooks.org/' target='blank'>nonprofit
+            bookstore</a> features a lot of works that are difficult to find elsewhere,
+            including local authors and people who can't write in their home country
+            for fear of persecution. Their selection also includes a robust children's
+            section and a large sale section of donated books.</p>
         </div>
         <img
           src='https://9b16f79ca967fd0708d1-2713572fef44aa49ec323e813b06d2d9.ssl.cf2.rackcdn.com/1140x_a10-7_cTC/20170117rldCasellula02-1-1568551198.jpg'
@@ -413,20 +459,26 @@ const Attractions = () => (
           alt='City of Asylum Bookstore'
         />
       </div>
-    <h2 id='day-trips'>Day Trips</h2>
-      <div id='kennywood' className='one-attraction'>
+      <div id='flaherty-fardo' className='one-attraction'>
         <img
-          src='https://media.thetab.com/blogs.dir/115/files/2016/06/roadsign1-blastcoaster-e1465899287271.jpg'
+          src='./images/flaherty_fardo.png'
           className='small-image attr-img'
-          alt='Kennywood'
+          alt='Flaherty, Fardo, Rogel, & Amick'
         />
         <div className='attr-details'>
-          <h3>Kennywood</h3>
-          {/* https://www.kennywood.com */}
-          <p className='lorem-ipsum'>Oh, oh, I see! Running away, eh? You yellow bastards! Come back here and take what's coming to you! I'll bite your legs off! If we took the bones out, it wouldn't be crunchy, would it? It's not pining, it's passed on! This parrot is no more! It has ceased to be! It's expired and gone to meet its maker! This is a late parrot! It's a stiff! Bereft of life, it rests in peace! If you hadn't nailed it to the perch, it would be pushing up the daisies! It's metabolic processes are now history! He's off the twig! He's kicked the bucket, he's shuffled off the mortal coil, rung down the curtain and joined the choir invisible. This is an ex-parrot! I'm Brian, and so's my wife!</p>
+          <h3>Flaherty, Fardo, Rogel, & Amick</h3>
+          <p>About half a mile from the church you can find the offices of this
+            Very Important law firm (<em>can you tell Bill let Claire write these?</em>)&mdash;in
+            case you want to get a photo op next to our name on the door or something!</p>
+          <p>Also the Mexican place next door is pretty tasty, and <a href='#pamelas'>Pamela's</a>, <a
+          href='#shady-grove'>Shady Grove</a>, and <a href='#yard'>the Yard</a> are
+            just around the corner and down the block; it's a whole cute little
+            downtown area.</p>
         </div>
       </div>
-    <h2 id='further-reading'>Further Reading</h2>
+
+
+    <h2 id='further-reading'>Even More</h2>
       <div id='further-reading' className='one-attraction'>
       <p><a href='https://www.discovertheburgh.com/the-ultimate-pittsburgh-guide/' target='blank'>The
       Ultimate Pittsburgh Guide</a> (this one is <em>seriously</em> detailed)</p>
