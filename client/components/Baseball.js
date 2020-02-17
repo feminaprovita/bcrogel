@@ -11,7 +11,7 @@ const Baseball = () => (
         />
       <div id='baseball-text'>
         <p>Head <a href='https://groupmatics.events/event/Gilliganrogel' target='blank'>here</a> to see details and buy your discount tickets to Sunday's baseball game! We only reserved 70 (and have invited far more than 70 of you to the wedding), so if you want to guarantee that you get seats, you'd better act fast!</p>
-        <p>If you have a group of 4+ and want to easily coordinate everyone sitting together, Kevin is happy to do that by phone (suggested that might be easier).</p>
+        <p>If you have a group of 4+ and want to easily coordinate everyone sitting together, Kevin is happy to do that by phone (even suggested that might be easier).</p>
       </div>
     </div>
     <p className='blue'><a href='https://groupmatics.events/event/Gilliganrogel' target='blank'>See you at the ballpark!</a></p>
