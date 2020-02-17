@@ -403,6 +403,7 @@ nav a:hover,
   text-align: center;
 }
 
+#accommodations-container > .purple,
 #faq-container > .purple {
   background-color: #4c1992;
   text-align: center;
@@ -473,6 +474,14 @@ nav a:hover,
 
 #further-reading {
   flex-direction: column;
+}
+
+#button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  /* align-content: space-around; */
 }
 
 button {
