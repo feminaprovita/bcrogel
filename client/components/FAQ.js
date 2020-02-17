@@ -56,6 +56,7 @@ const FAQ = () => (
     <h2 className='purple'>Is transportation going to be provided between the hotels and the church?</h2>
     <h2 className='purple'>Is transportation going to be provided between the church and the casino?</h2>
     <h2 className='purple'>Is transportation going to be provided between the casino and the hotels?</h2>
+    <h2 className='purple'>What is Pittsburgh's public transit like?</h2>
     <h2 className='blue'>What's going on with this baseball game?</h2>
       <p className='blue'>This is not an official wedding event! But Bill was able to reserve a block
         of tickets, and we knew that enough of our loved ones would enjoy the game,

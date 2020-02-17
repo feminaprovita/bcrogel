@@ -20,8 +20,9 @@ const Accommodations = () => (
           412-621-0880</p>
           <p>$139/night (king or two queens)<br />
           Parking $20/night</p>
-          <p>Pet-friendly</p>
           <p>Equidistant from church and reception</p>
+          <p>Pet-friendly</p>
+          <p>In an office park, but closeish (0.6mi walk across the bridge) to local favorite the <a href='/attractions#breweries'>Hofbräuhaus</a></p>
           <a href='https://www.hotelindigo.com/redirect?path=hd&brandCode=IN&localeCode=en&regionCode=1&hotelCode=PITGH&_PMID=99801505&GPC=BCW&cn=no&viewfullsite=true' target='blank'><p><em>Book here!</em></p></a>
         </div>
       </div>
@@ -39,6 +40,9 @@ const Accommodations = () => (
           <p>$149-189/night (king, two queens, or luxury king)<br />
           Parking $20/night</p>
           <p>Equidistant from church and reception (slightly closer)</p>
+          <p>Nearby faves, sorted by distance:<br />
+          Hello Bistro (salads), Stack'd (burgers/etc, easily customized),<br />
+          <a href='attractions#primantis'>Primanti Bros</a>, Original Hot Dog Shop</p>
           <a href='http://hiltongardeninn.hilton.com/en/gi/groups/personalized/P/PITUCGI-GRW-20200703/index.jhtml' target='blank'><p><em>Book here!</em></p></a>
         </div>
       </div>
@@ -55,7 +59,8 @@ const Accommodations = () => (
           412-321-3000</p>
           <p>$229/night (king or two queens, both with sofa bed)<br />
           Parking $22/night</p>
-          <p>Closest to reception</p>
+          <p>Closest to reception (and baseball stadium)</p>
+          <p>Also very close to <a href='/attractions#burgatory'>Burgatory</a> and <a href='attractions#breweries'>Southern Tier</a></p>
           <a href='https://www.hyatt.com/en-US/hotel/pennsylvania/hyatt-place-pittsburgh-north-shore/pitzn?corp_id=G-GIRO' target='blank'><p><em>Book here!</em></p></a>
         </div>
       </div>
