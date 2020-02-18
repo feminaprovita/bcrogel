@@ -233,6 +233,10 @@ nav a:hover,
   padding: 1.8vw;
 }
 
+#distillery-list {
+  list-style-type: none;
+}
+
 @media (max-width: 412px) {
   #money-categories,
   #traditional-registries,
