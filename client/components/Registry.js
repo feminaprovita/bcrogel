@@ -35,7 +35,19 @@ const Registry = () => (
           alt='honeymoon'
           />
         <h4>Goal: $6800</h4>
-        <p><em>Current honeymoon plan (to be finalized soon): Islay, Scotland</em></p>
+        <p><em>Current honeymoon plan: Islay, Scotland</em></p>
+        <p>You're welcome to flag some or all of your gift for a particular distillery:<br />
+        <ul id='distillery-list'><strong>
+          <li>❑ <a href='https://www.ardbeg.com/en-int' target='blank'>Ardbeg</a></li>
+          <li>❑ <a href='https://www.malts.com/en-us/distilleries/lagavulin/' target='blank'>Lagavulin</a></li>
+          <li>❑ <a href='https://www.laphroaig.com/' target='blank'>Laphroaig</a></li>
+          <li>❑ <a href='http://www.bowmore.com/node/16' target='blank'>Bowmore</a></li>
+          <li>❑ <a href='https://www.bruichladdich.com/' target='blank'>Bruichladdich</a></li>
+          <li>❑ <a href='https://www.malts.com/en-us/distilleries/caol-ila/' target='blank'>Caol Ila</a></li>
+          <li>❑ <a href='https://bunnahabhain.com/' target='blank'>Bunnahabhain</a></li>
+          <li>❑ <a href='https://ardnahoedistillery.com/' target='blank'>Ardnahoe</a></li>
+          <li>❑ <a href='https://kilchomandistillery.com/' target='blank'>Kilchoman</a></li></strong></ul></p>
+          {/* check mark: ✓ */}
       </div>
     </div>
     <h3>3 ways to reach us:</h3>
@@ -63,11 +75,11 @@ const Registry = () => (
       <div id='check' className='registry'>
         <img
           className='check icon'
-          src='https://publicdomainvectors.org/photos/check3GreenF.png'
+          src='https://www.investopedia.com/thmb/cH0ymcRX6Z4RSEvyUQMcDoxDqug=/2583x1163/filters:fill(auto,1)/GettyImages-528413731-5654919b5f9b5843e123c9ec.jpg'
           alt='check'
         />
-        <h4>Or a check made out to "Bill Rogel" and/or "Claire Gilligan"</h4>
-        <p>(Avoid "Claire Rogel"; it's romantic but impractical, as name change
+        <h4>Check made out to "Bill Rogel" and/or "Claire Gilligan"</h4>
+        <p>(Avoid "Bill and Claire Rogel"; it's romantic but impractical, as name change
           paperwork takes <em>forever</em>)</p>
       </div>
     </div>
