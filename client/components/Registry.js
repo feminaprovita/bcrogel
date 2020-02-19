@@ -85,17 +85,6 @@ const Registry = () => (
     </div>
     <h2>Shop at:</h2>
     <div id='traditional-registries'>
-      <div id='zola-registry' className='registry'>
-        <a href='https://www.zola.com/registry/swelltoberogel' target='blank'>
-          <img
-            className='registry-block small-image'
-            id='zola-img'
-            src='https://images.zola.com/7a478860-56ec-4bf6-8e59-5c1df3539374?h=400'
-            alt='Zola Wedding Registry: Anything for Love'
-            />
-        </a>
-        <p>Your traditional registry items are mostly right here</p>
-      </div>
       <div id='bbb-registry' className='registry'>
         <a href='https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/548270669?eventType=Wedding' target='blank'>
           <img
@@ -105,20 +94,8 @@ const Registry = () => (
             alt='Bed Bath & Beyond: The Wedding & Gift Registry'
             />
         </a>
-        <p>This one has the Kitchenaid stuff! Also a lot of fun sports-branded
-          kitchenware and household items</p>
-      </div>
-      <div id='ikea-registry' className='registry'>
-        <a href='https://info.ikea-usa.com/giftregistry/en-us/registry/5c757d9d-e026-45c4-a760-f3d8167b66c7' target='blank'>
-          <img
-            className='registry-block small-image'
-            id='ikea-img'
-            src='https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/30/e2/17/30e217c1-e9e8-33f4-0247-77bfc745a5cd/AppIcon-0-1x_U007emarketing-0-0-85-220-0-5.jpeg/246x0w.jpg'
-            alt='Ikea Gift Registry'
-            />
-        </a>
-        <p>Our bookcases of choice are here (along with their extra shelves),
-          plus some important affordable kitchenware</p>
+        <p>A lot of traditional registry items, Kitchenaid and accessories, and some
+          fun sports-branded household items</p>
       </div>
       <div id='amazon-registry' className='registry'>
         <a href='https://www.amazon.com/wedding/share/swelltoberogel' target='blank'>
@@ -129,8 +106,19 @@ const Registry = () => (
             alt='Amazon.com Wedding Registry'
             />
         </a>
-        <p>Here is everything else, including atypical registry items like board
-          games, as well as far, far too many spatulas (don't ask)</p>
+        <p>Here we've got a mixture of household items that weren't on the other
+          sites and atypical registry items like board games and books</p>
+      </div>
+      <div id='ikea-registry' className='registry'>
+        <a href='https://info.ikea-usa.com/giftregistry/en-us/registry/5c757d9d-e026-45c4-a760-f3d8167b66c7' target='blank'>
+          <img
+            className='registry-block small-image'
+            id='ikea-img'
+            src='https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/30/e2/17/30e217c1-e9e8-33f4-0247-77bfc745a5cd/AppIcon-0-1x_U007emarketing-0-0-85-220-0-5.jpeg/246x0w.jpg'
+            alt='Ikea Gift Registry'
+            />
+        </a>
+        <p>Please buy us these bookcases! We own so many books!</p>
       </div>
     </div>
     <h2>Give Us Copies of Your Favorite:</h2>
