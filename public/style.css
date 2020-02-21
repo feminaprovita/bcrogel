@@ -380,6 +380,14 @@ nav a:hover,
   }
 }
 
+@media (min-width: 781px) {
+  #faq-container > h1,
+  #faq-container > h2,
+  #faq-container > p {
+    max-width: 830px;
+  }
+}
+
 .hotel-info,
 .page-pic-div,
 .story-holder {
