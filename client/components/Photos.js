@@ -178,6 +178,12 @@ const Photos = () => (
         src='./images/axe_throwing.jpg'
         alt="At an axe throwing place, with our axes in the wood behind us"
         />
+      <img
+        className='squishy-image'
+        id='little-shop-photo'
+        src='./images/little_shop_cropped.jpg'
+        alt="At our first large-scale theatrical production, with the stage cropped out of view"
+        />
     </div>
   </div>
 )
