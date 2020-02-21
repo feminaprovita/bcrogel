@@ -70,31 +70,53 @@ nav a:hover,
   width: 100vw;
 }
 
-@media (min-width: 781px) {
+/* old: 781 // 413-780 // 412 */
+
+/* 894 (two) / 895 (one) */
+/* 526 (three) / 527 (two) */
+/* 331 (three) / 330 (four) */
+
+/* one row */
+@media (min-width: 895px) {
   #navlink-container {
     height: 5vh;
   }
   .page-container {
-    margin-top: 7vh;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
   }
 }
 
-@media (min-width: 413px) and (max-width: 780px) {
+/* two rows */
+@media (min-width: 527px) and (max-width: 894px) {
   #navlink-container {
     height: 12vh;
   }
   .page-container {
-    margin-top: 14vh;
+    margin-top: 10vh;
+    margin-bottom: 4vh;
   }
 }
 
-@media (max-width: 412px) {
+/* three rows, take 2 */
+@media (min-width: 331px) and (max-width: 526px) {
   #navlink-container {
     height: 18vh;
   }
   .page-container {
-    margin-top: 20vh;
-    margin-bottom: 8vh;
+    margin-top: 19vh;
+    margin-bottom: 6vh;
+  }
+}
+
+/* four rows */
+@media (max-width: 330px) {
+  #navlink-container {
+    height: 22vh;
+  }
+  .page-container {
+    margin-top: 24vh;
+    margin-bottom: 9vh;
   }
 }
 
@@ -383,7 +405,8 @@ nav a:hover,
 @media (min-width: 781px) {
   #faq-container > h1,
   #faq-container > h2,
-  #faq-container > p {
+  #faq-container > p,
+  #baseball-container > div {
     max-width: 830px;
   }
 }

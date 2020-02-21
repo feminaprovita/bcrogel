@@ -52,7 +52,7 @@ const Schedule = () => (
       <h3>Pittsburgh Pirates v. Boston Red Sox</h3>
       <p>1:15&ndash;4:15pm</p>
       <p>Not an official wedding weekend event!<br />
-      Bill just wanted to share his season ticket discount.</p>
+      Bill just wanted to <a href='/baseball/'>share his season ticket discount</a>.</p>
       <p>Tickets are <a href='https://groupmatics.events/event/Gilliganrogel'
       target='blank'>available now!</a></p>
     </div>
