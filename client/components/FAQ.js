@@ -4,12 +4,12 @@ const FAQ = () => (
   <div id='faq-container' className='page-container'>
     <h1>Frequently Asked Questions</h1>
     <h2 className='black'><em>These will all get answered soon&mdash;for now,
-      they're placeholders.</em></h2>
-    <img
+      several are just placeholders.</em></h2>
+    {/* <img
       className='under-construction small-image'
       src='./images/under_construction_geek_woman.png'
       alt='Under Construction'
-      />
+      /> */}
     <h2 className='teal'>What is this "cookie table"?</h2>
       <p className='teal'>A local tradition in Pittsburgh and a few other Midwestern
       cities, a <a href='/cookietable' target='blank'>cookie table</a> is a little
@@ -24,7 +24,7 @@ const FAQ = () => (
       target='blank'>cookie table</a> page for more details, bring as many as you
       like, and drop them off when you can. It's fantastic to see the spread of
       everyone's favorite treats.</p>
-    <h2 className='purple'>Tell me about the "Money Dance"</h2>
+    <h2 className='purple'>Tell me about the "Money Dance"!</h2>
     <h2 className='blue'>What's the deal with the cigars at the end of the reception?
       Are you not having a formal exit?</h2>
       <p className='blue'>The reception ends at 11, but we're going to head outside
@@ -53,10 +53,22 @@ const FAQ = () => (
        floor, but we're also providing an alternative space where they can go and
        color pictures and play with toys and hang out with their peers (and be out
        of their parents' hair once mealtime is over).</p>
-    <h2 className='purple'>Is transportation going to be provided between the hotels and the church?</h2>
-    <h2 className='purple'>Is transportation going to be provided between the church and the casino?</h2>
-    <h2 className='purple'>Is transportation going to be provided between the casino and the hotels?</h2>
+    <h2 className='purple'>Is any transportation going to be provided?</h2>
+    <p className='purple'>Unfortunately we are not able to bus you between locations,
+      partly because we're split between so many hotels! But Ubers and Lyfts are responsive
+      (New Yorkers, remember to allot an extra 10m for the cab to arrive), and there's
+      free parking at both church and casino.</p>
+    {/* <h2 className='purple'>Is transportation going to be provided between the casino and the hotels?</h2> */}
     <h2 className='purple'>What is Pittsburgh's public transit like?</h2>
+    <p className='purple'>It's limited but pretty good! The T (subway) is free downtown,
+      and only $2.50 for other trips. Buses are $2.50 ($2.75 if cash) each way, and do
+      tend to arrive pretty close to on schedule. Weekend schedules are of course different
+      from weekday schedules, so confirm on the <a href='https://www.portauthority.org/trip-planner/'
+      target='blank'>Port Authority website</a> or Google Maps, but if you see a bus
+      option, it's probably a good one.</p>
+      <p className='purple'>There is <a href='https://www.portauthority.org/pdfs/28X.pdf' target='blank'>exactly
+      one bus</a> to downtown from the airport (and back); rumor has it it's reliable
+      and pleasant enough (costs $3.75), but that's just hearsay. 🤷🏻‍♀️</p>
     <h2 className='blue'>What's going on with this baseball game?</h2>
       <p className='blue'>This is not an official wedding event! But Bill was able to reserve a block
         of tickets, and we knew that enough of our loved ones would enjoy the game,
