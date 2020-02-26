@@ -557,3 +557,13 @@ button:hover {
   font-weight: bolder;
 } */
 
+/* MONEY DANCE */
+
+li {
+  margin-left: 2em;
+}
+
+li.indented {
+  margin-left: 4em;
+  font-style: italic;
+}

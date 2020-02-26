@@ -3,13 +3,6 @@ import React from 'react'
 const FAQ = () => (
   <div id='faq-container' className='page-container'>
     <h1>Frequently Asked Questions</h1>
-    <h2 className='black'><em>These will all get answered soon&mdash;for now,
-      several are just placeholders.</em></h2>
-    {/* <img
-      className='under-construction small-image'
-      src='./images/under_construction_geek_woman.png'
-      alt='Under Construction'
-      /> */}
     <h2 className='teal'>What is this "cookie table"?</h2>
       <p className='teal'>A local tradition in Pittsburgh and a few other Midwestern
       cities, a <a href='/cookietable' target='blank'>cookie table</a> is a little
@@ -25,6 +18,10 @@ const FAQ = () => (
       like, and drop them off when you can. It's fantastic to see the spread of
       everyone's favorite treats.</p>
     <h2 className='purple'>Tell me about the "Money Dance"!</h2>
+      <p className='purple'>The money dance is a Slovak wedding tradition kept by
+      the Rogels. In short: pay a dollar, take a shot, dance with the bride or groom.
+      More details <a href='/moneydance'>here</a>.</p>
+      <p className='purple'>This <em>will</em> take the place of the receiving line.</p>
     <h2 className='blue'>What's the deal with the cigars at the end of the reception?
       Are you not having a formal exit?</h2>
       <p className='blue'>The reception ends at 11, but we're going to head outside
@@ -32,6 +29,11 @@ const FAQ = () => (
       are welcome.</p>
       <p className='blue'>So no, we are not having a formal exit.</p>
     <h2 className='teal'>What's this about a scavenger hunt before the wedding Mass?</h2>
+      <p className='teal'>We hope it'll be a way for you to enjoy this beautiful
+      church we're getting married in; <a href='scavengerhunt'>we'll give you a
+      list</a> of things to look for, and if you find some or all of them, there
+      will be a secret cocktail or two open to you at the reception bar (one boozy
+      and one virgin cocktail each, for participation and for completion).</p>
     <h2 className='purple'>Why are you offering confession before your wedding?</h2>
       <p className='purple'>When you've got this many priests on the invite list, might
       as well put 'em to work! Besides, so many people show up early to get a good seat;
