@@ -32,7 +32,7 @@ const Schedule = () => (
         <p>6:00&ndash;11:00pm</p>
         <h3>🥗 Dinner and Cake 🍰</h3>
         <p>6:30pm (approx)</p>
-        <h3>💰💃 Money Dance 💰🕺 </h3>
+        <h3>💰💃 Money Dance 💰🕺</h3>
         <p>8:00pm (subject to change)</p>
         <h3>🎆 Fireworks Show 🎆</h3>
         <p>9:30&ndash;10:00pm</p>
