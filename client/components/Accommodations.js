@@ -3,8 +3,13 @@ import React from 'react'
 const Accommodations = () => (
   <div id='accommodations-container' className='page-container'>
     <h1>Accommodations</h1>
-    <h4 className='teal'><em>Book your rooms early, as there's a big baseball game and a big convention that weekend as well as the holiday!</em></h4>
-    <h5 className='purple'><em>If these links give you any errors, please email us at <a href='mailto:bcrogel@gmail.com'>bcrogel@gmail.com</a> so we can make the hotel fix it!</em></h5>
+    <h4 className='teal'><em>Book your rooms and travel early, as there's a big <a href='/baseball/'>baseball
+      game</a> and a big <a href='/faq#furries-faq'>convention</a> that weekend
+      in addition to the holiday!</em></h4>
+    <h5 className='purple'><em>If these links give you any errors, please email
+      us at <a href='mailto:bcrogel@gmail.com'>bcrogel@gmail.com</a> so we can
+      make the hotel fix it!</em></h5>
+
     <h2>Hotels</h2>
       <div id='hotel-indigo' className='hotel-info'>
         <a href='https://www.hotelindigo.com/redirect?path=hd&brandCode=IN&localeCode=en&regionCode=1&hotelCode=PITGH&_PMID=99801505&GPC=BCW&cn=no&viewfullsite=true' target='blank'><img
@@ -26,9 +31,10 @@ const Accommodations = () => (
           <a href='https://www.hotelindigo.com/redirect?path=hd&brandCode=IN&localeCode=en&regionCode=1&hotelCode=PITGH&_PMID=99801505&GPC=BCW&cn=no&viewfullsite=true' target='blank'><p><em>Book here!</em></p></a>
         </div>
       </div>
+
       <div id='hilton' className='hotel-info'>
         <a href='http://hiltongardeninn.hilton.com/en/gi/groups/personalized/P/PITUCGI-GRW-20200703/index.jhtml' target='blank'><img
-          src='https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2017/01/05/1050/Hyatt-Place-Pittsburgh-North-Shore-P004-Exterior-Dusk.jpg/Hyatt-Place-Pittsburgh-North-Shore-P004-Exterior-Dusk.16x9.jpg?imwidth=960'
+          src='https://pix10.agoda.net/hotelImages/69/0/45bf6f3bfdbf04196eabaacdfaae2ff4.jpg?s=1024x768'
           className='small-image hotel-image'
           alt='Hilton Garden Inn'
         /></a>
@@ -46,9 +52,10 @@ const Accommodations = () => (
           <a href='http://hiltongardeninn.hilton.com/en/gi/groups/personalized/P/PITUCGI-GRW-20200703/index.jhtml' target='blank'><p><em>Book here!</em></p></a>
         </div>
       </div>
+
       <div id='hyatt' className='hotel-info'>
         <a href='https://www.hyatt.com/en-US/hotel/pennsylvania/hyatt-place-pittsburgh-north-shore/pitzn?corp_id=G-GIRO' target='blank'><img
-          src='https://pix10.agoda.net/hotelImages/69/0/45bf6f3bfdbf04196eabaacdfaae2ff4.jpg?s=1024x768'
+          src='https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2017/01/05/1050/Hyatt-Place-Pittsburgh-North-Shore-P004-Exterior-Dusk.jpg/Hyatt-Place-Pittsburgh-North-Shore-P004-Exterior-Dusk.16x9.jpg?imwidth=960'
           className='small-image hotel-image'
           alt='Hyatt Place'
         /></a>
@@ -64,6 +71,7 @@ const Accommodations = () => (
           <a href='https://www.hyatt.com/en-US/hotel/pennsylvania/hyatt-place-pittsburgh-north-shore/pitzn?corp_id=G-GIRO' target='blank'><p><em>Book here!</em></p></a>
         </div>
       </div>
+
       <h4><em>Hotel blocks are available through June 3, but don't dally or your preferred hotel among these may book up!</em></h4>
     <h2>Airbnb</h2>
     <div id='airbnb' className='hotel-details'>
