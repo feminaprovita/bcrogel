@@ -6,36 +6,54 @@ const FAQ = () => (
     <h2 id='guest-transportation-faq' className='teal'>Is any transportation going
     to be provided?</h2>
       <p className='teal'>Unfortunately we are not able to bus you between locations,
-      partly because we're split between so many hotels! But Ubers and Lyfts are responsive
-      (New Yorkers, remember to allot an extra 10m for the cab to arrive), and there's
-      free parking at both church and casino.</p>
-    <h2 className='teal'>What is Pittsburgh's public transit like?</h2>
-      <p className='teal'>It's limited but pretty good! The T (subway) is free downtown
+      partly because we're split between <a href='/accommodations'>so many hotels</a>!
+      But Ubers and Lyfts are responsive (New Yorkers, remember to allot an extra
+      10m for the cab to arrive), and there's free parking at both church and casino.</p>
+      <p className='teal'>Further details on church parking will be coming, both here
+      and to whoever gives us an email with their <a href='http://swelltoberogel.rsvpify.com'
+      target='blank'>RSVP</a>.</p>
+
+    <h2 className='purple'>What is Pittsburgh's public transit like?</h2>
+      <p className='purple'>It's limited but pretty good! The T (subway) is free downtown
       (no metrocard required, all lines making the same stops), and only $2.50
       for other trips. Buses are $2.50 ($2.75 if cash) each way, and do tend to
       arrive pretty close to on schedule. Weekend schedules are of course different
       from weekday schedules, so confirm on the <a href='https://www.portauthority.org/trip-planner/'
       target='blank'>Port Authority website</a> or Google Maps, but if you see a
       bus option, it's probably a good one.</p>
-      <p className='teal'>The casino is right off the North Shore T stop, as is
+      <p className='purple'>The casino is right off the North Shore T stop, as is
       the <a href='/accommodations#hyatt'>Hyatt</a>; neither other hotel nor the
       church are within walking distance of one, but combination options are available
       (e.g., cab to nearest T station).</p>
-      <p className='teal'>There is <a href='https://www.portauthority.org/pdfs/28X.pdf'
+      <p className='purple'>There is <a href='https://www.portauthority.org/pdfs/28X.pdf'
       target='blank'>exactly one bus</a> to downtown from the airport (and back);
       rumor has it it's reliable and pleasant enough (costs $3.75), but that's just hearsay. 🤷🏻‍♀️</p>
-    <h2 id='carpooling-faq' className='teal'>Is anybody carpooling to and from Pittsburgh?</h2>
-      <p className='teal'>We do anticipate carpools from nearbyish major cities,
+
+    <h2 id='carpooling-faq' className='blue'>Is anybody carpooling to and from Pittsburgh?</h2>
+      <p className='blue'>We do anticipate carpools from nearbyish major cities,
       particularly New York, Boston, DC, and Chicago. If interested, as either
       driver or passenger, check out <a href='https://docs.google.com/spreadsheets/d/1dw9l_unX_LI1XbhYc8Usmw_1kjqa2mjqKOkUtxeKZuM/edit?usp=sharing'
       target='blank'>this hidden spreadsheet</a> (shared only with wedding guests)
       and add your info. This way, y'all can contact your drivers and passengers
-      yourselves! (We'll see how it goes. But yes, it should totally be doable.)</p>
+      yourselves!</p>
+      <p>We'll see how this spreadsheet goes, as a way of connecting people. But yes,
+      carpools should totally be doable.</p>
 
-    <h2 id='budget-lodging-faq' className='purple'>Any ideas for ultra budget accommodations?</h2>
-      <p className='purple'>We have had some generous local friends offer to let individuals crash with
+    <h2 id='budget-lodging-faq' className='teal'>Any ideas for ultra budget accommodations?</h2>
+      <p className='teal'>We have had some generous local friends offer to let individuals crash with
       them for the weekend! If you're interested, <a href='mailto:bcrogel@gmail.com'>drop
       us a line</a> and we'll connect you.</p>
+
+    <h2 id='furries-faq' className='purple'>You said there's a convention downtown
+    the same weekend?</h2>
+      <p className='purple'>Yep: the world's second-largest furry convention.</p>
+      <p className='purple'>Claire's explanation: <a href='https://www.buzzfeed.com/joshbergren/commonly-asked-questions-about-furries'
+      target='blank'>Furries get a bad rap</a>, but they're just people, trying to
+      figure out life (just in a way that looks a little different). Reportedly the
+      crowd that comes to this convention is polite and kind, and happy to take
+      pictures with kids who think they're characters...</p>
+      <p className='purple'>Bill's explanation: What? No. They're weirdos. Harmless
+      weirdos, but weirdos.</p>
 
     <h2 id='dress-code-faq' className='blue'>How dressed up should I get?</h2>
       <p className='blue'>Wear what you'd wear to any other wedding. Nothing fancy
@@ -44,7 +62,7 @@ const FAQ = () => (
       had your eye on that hat since the last royal wedding and we're your Excuse,
       then go wild.</p>
 
-    <h2 id='kids-faq' className='teal'>What's going on with the kids?</h2>
+    <h2 id='kids-faq' className='teal'>What's the deal with the kids?</h2>
       <p className='teal'>We're going to have a lot of them! So many that we're hiring
       babysitters for the reception, possibly playing a movie that'll end before the
       fireworks show starts.</p>
