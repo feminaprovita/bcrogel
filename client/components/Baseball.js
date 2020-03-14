@@ -3,6 +3,9 @@ import React from 'react'
 const Baseball = () => (
   <div id='baseball-container' className='page-container'>
     <h1>Baseball Tickets</h1>
+    <h3><em>These plans are based on the MLB schedule as it currently stands;
+      we'll be keeping an eye on whether it restarts and what happens to the
+      existing schedule if it does...</em></h3>
     <div id='baseball-pic-div' className='page-pic-div'>
       <img
         src='https://i.ytimg.com/vi/M1sesd4hHVk/hqdefault.jpg'
@@ -21,12 +24,18 @@ const Baseball = () => (
         <p>We look forward to enjoying this game with you! <strong>Go Bucs!</strong></p>
       </div>
     </div>
-    <p className='blue'><a href='https://groupmatics.events/event/Gilliganrogel' target='blank'>See you at the ballpark!</a></p>
+    <h5><em>We've got an inquiry out to Kevin about refunds in case of cancellation;
+      watch this space (or ask us) for updates! <br />
+      These tickets won't be released to
+      the public; you have only other wedding guests to compete against for the best
+      seats, so there's less of a rush.</em></h5>
     <img
       src='https://bcrogel.herokuapp.com/images/Pirates_game.jpg'
       className='med-image baseball-img page-img'
       alt="At PNC Park for Claire's first Pirates game"
       />
+    <p className='blue'><a href='https://groupmatics.events/event/Gilliganrogel'
+    target='blank'>See you at the ballpark!</a></p>
   </div>
 )
 
