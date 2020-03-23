@@ -2,55 +2,49 @@ import React from 'react'
 
 const Registry = () => (
   <div id='registry-container' className='page-container'>
-    <h1>Choose from among Three Registry Categories</h1>
-    <h2>Donate to the ____ fund:</h2>
-    <div id='money-categories'>
-      <div id='dishwasher' className='registry registry-hover'>
-        <a href='https://www.donsappliances.com/product/bosch-800-series-24-built-in-dishwasher-stainless-steel-shp878wd5n-103858' target='blank'>
+    <h1>Our Registries (3 options)</h1>
+    <div id='registry-explanation'>
+      <p>You may be wondering, why do they even have a registry? They're both grown
+        adults who've lived on their own for many years...</p>
+      <p>Ah, but it has been many years! We've got things that need replacing, in
+        some cases pretty desperately.</p>
+      <p>Also a few fun things that we just like. Because we wanted to offer you
+        the opportunity to buy fun things without having to guess!</p>
+    </div>
+    <h2>Cash Donation</h2>
+    <div id='cash-donation'>
+      <div id='money-categories'>
+        <div id='dishwasher' className='registry registry-hover'>
+          <a href='https://www.donsappliances.com/product/bosch-800-series-24-built-in-dishwasher-stainless-steel-shp878wd5n-103858' target='blank'>
+            <img
+              className='registry-block small-image'
+              id='dishwasher-img'
+              src='https://cdn.avbportal.com/magento-media/catalog/product/s/h/shp878wd5n1.png?w=640'
+              alt='dishwasher'
+              />
+          </a>
+          <h4>Goal: $1750</h4>
+          <p>Bill's dishwasher is... <em>desperately</em> in need of replacement!
+          And, seeing as how Claire just lived for 7 years with no dishwasher
+          (thanks, NYC), and it was the modern convenience she was most looking
+          forward to having access to again... Please help us buy a new dishwasher!</p>
+        </div>
+          <div id='couch' className='registry registry-hover'>
           <img
             className='registry-block small-image'
-            id='dishwasher-img'
-            src='https://cdn.avbportal.com/magento-media/catalog/product/s/h/shp878wd5n1.png?w=640'
-            alt='dishwasher'
+            id='couch-img'
+            src='./images/couch.png'
+            alt='couch'
             />
-        </a>
-        <h4>Goal: $1750</h4>
-        <p><em>for dishwasher and installation</em></p>
+          <h4>Goal: $2100</h4>
+          <p>The couch set, like the dishwasher, had been used by the family for
+            some years before Bill bought the house from his mom! It was a great
+            couch set, but it was past its prime long before Claire entered the
+            picture. (The pro of which is that she gets to help choose what it'll
+            look like...)</p>
+        </div>
       </div>
-      <div id='couch' className='registry registry-hover'>
-        <img
-          className='registry-block small-image'
-          id='couch-img'
-          src='./images/couch.png'
-          alt='couch'
-          />
-        <h4>Goal: $2100</h4>
-        <p><em>couch, recliner, and loveseat all need replacing</em></p>
-      </div>
-      <div id='honeymoon' className='registry registry-hover'>
-        <img
-          className='registry-block small-image'
-          id='honeymoon-img'
-          src='https://www.britainexpress.com/images/attractions/editor2/lagavulin-2.jpg'
-          alt='honeymoon'
-          />
-        <h4>Goal: $6800</h4>
-        <p><em>Current honeymoon plan: Islay, Scotland</em></p>
-        <p>You're welcome to flag some or all of your gift for a particular distillery:<br />
-        <ul id='distillery-list'><strong>
-          <li>❑ <a href='https://www.ardbeg.com/en-int' target='blank'>Ardbeg</a></li>
-          <li>❑ <a href='https://www.malts.com/en-us/distilleries/lagavulin/' target='blank'>Lagavulin</a></li>
-          <li>❑ <a href='https://www.laphroaig.com/' target='blank'>Laphroaig</a></li>
-          <li>❑ <a href='http://www.bowmore.com/node/16' target='blank'>Bowmore</a></li>
-          <li>❑ <a href='https://www.bruichladdich.com/' target='blank'>Bruichladdich</a></li>
-          <li>❑ <a href='https://www.malts.com/en-us/distilleries/caol-ila/' target='blank'>Caol Ila</a></li>
-          <li>❑ <a href='https://bunnahabhain.com/' target='blank'>Bunnahabhain</a></li>
-          <li>❑ <a href='https://ardnahoedistillery.com/' target='blank'>Ardnahoe</a></li>
-          <li>❑ <a href='https://kilchomandistillery.com/' target='blank'>Kilchoman</a></li></strong></ul></p>
-          {/* check mark: ✓ */}
-      </div>
-    </div>
-    <h3>3 ways to reach us:</h3>
+      <h3>3 ways to reach us here and now:</h3>
     <div id='money-links'>
       <div id='easy-money'>
         <div id='paypal' className='registry'>
@@ -66,7 +60,7 @@ const Registry = () => (
           <a href='https://venmo.com/feminaprovita' target='blank'>
             <img
               className='registry-block icon'
-              src='https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/1f/34/74/1f34746c-054a-560c-640c-a9816c5bd3b1/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.png'
+              src='https://www.technobuffalo.com/sites/technobuffalo.com/files/styles/mediumplus/public/wp/2018/01/venmo-logo-wide.png'
               alt='Gift us via Venmo'
             />
           </a>
@@ -79,11 +73,12 @@ const Registry = () => (
           alt='check'
         />
         <h4>Check made out to "Bill Rogel" and/or "Claire Gilligan"</h4>
-        <p>(Avoid "Bill and Claire Rogel"; it's romantic but impractical, as name change
-          paperwork takes <em>forever</em>)</p>
+        <p>(Avoid "Bill and Claire Rogel"; it's romantic but impractical,
+          as name change paperwork takes <em>forever</em>)</p>
       </div>
     </div>
-    <h2>Shop at:</h2>
+  </div>
+    <h2>Traditional Registries</h2>
     <div id='traditional-registries'>
       <div id='bbb-registry' className='registry'>
         <a href='https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/548270669?eventType=Wedding' target='blank'>
@@ -94,8 +89,8 @@ const Registry = () => (
             alt='Bed Bath & Beyond: The Wedding & Gift Registry'
             />
         </a>
-        <p>A lot of traditional registry items, Kitchenaid and accessories, and some
-          fun sports-branded household items</p>
+        <p>A lot of traditional registry items, Kitchenaid and its
+          accessories, and some fun sports-branded household items</p>
       </div>
       <div id='amazon-registry' className='registry'>
         <a href='https://www.amazon.com/wedding/share/swelltoberogel' target='blank'>
@@ -118,10 +113,12 @@ const Registry = () => (
             alt='Ikea Gift Registry'
             />
         </a>
-        <p>Please buy us these bookcases! We own so many books!</p>
+        <p>This may seem a weird place for a registry, but Ikea makes the best
+          bookcases. And we own so many books! (Ask Rege how many books we own,
+          really.) Please buy us these bookcases!</p>
       </div>
     </div>
-    <h2>Give Us Copies of Your Favorite:</h2>
+    <h2>Off-Registry Suggestions (Your Favorite...)</h2>
     <div id='guest-favorites'>
       <div id='marriage-books' className='registry'>
         <h3>Marriage Books</h3>
@@ -131,7 +128,8 @@ const Registry = () => (
           src='https://cdn.pixabay.com/photo/2017/04/20/16/28/books-2246196_1280.jpg'
           alt='marriage books'
           />
-        <p>With a note about what makes this book shine, so we know when to pick it up!</p>
+        <p>With a note about what makes this book shine, so we know when
+          to pick it up!</p>
       </div>
       <div id='cookbooks'  className='registry'>
         <h3>Cookbooks</h3>
@@ -151,8 +149,8 @@ const Registry = () => (
           src='https://www.inquirer.com/resizer/UZP1HHtKI9gNymqz26uC0bbFw3c=/1400x932/smart/arc-anglerfish-arc2-prod-pmn.s3.amazonaws.com/public/CGXYIUB5ZBBA7LFZXDB3O27A6Y.jpg'
           alt='whiskeys'
           />
-        <p>Especially locally made or other uncommon whiskeys that we probably
-          haven't gotten to try!</p>
+        <p>Especially locally made or other uncommon whiskeys that we
+          probably haven't gotten to try!</p>
       </div>
     </div>
   </div>
