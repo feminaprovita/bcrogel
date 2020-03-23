@@ -4,16 +4,19 @@ const FAQ = () => (
   <div id='faq-container' className='page-container'>
     <h1>Frequently Asked Questions</h1>
     <h2 id='coronavirus-faq' className='teal'>Love in the Time of Coronavirus</h2>
-    <p className='teal'>We're not making any big decisions yet, but we're aware that
+    <p className='teal'>We're being careful not to
+    not making any big decisions yet, but we're aware that
     the pandemic may impact our plans, and we're throwing around a variety of contingency
     plans. We will update everybody as needed, whether we make changes to the plan
     or not. The easiest way for us to keep up with you is to give us an email address
-    when you RSVP.</p>
+    when you <a href='http://swelltoberogel.rsvpify.com' target='blank'>RSVP</a>.</p>
     <p className='teal'>If you are not comfortable deciding on an RSVP by May 4, <a
     href='mailto:bcrogel@gmail.com'>just contact us privately</a> and we can
     work out an extension.</p>
-    <p className='teal'>If you RSVP and then feel a need to change your plans, you
-    can update your RSVP at the same link.</p>
+    <p className='teal'>If you <a href='http://swelltoberogel.rsvpify.com'
+    target='blank'>RSVP</a> and then feel a need to change your plans, you can update
+    your <a href='http://swelltoberogel.rsvpify.com' target='blank'>RSVP</a> at
+    the same link.</p>
 
     <h2 id='guest-transportation-faq' className='purple'>Is any transportation going
     to be provided?</h2>
