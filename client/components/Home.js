@@ -3,8 +3,7 @@ import countdown from '../countdown'
 
 const Home = () => (
   <div id='homepage-container' className='page-container'>
-
-<h1>We're still getting married, but...</h1>
+  <h1>We're still getting married, but...</h1>
     <div id='reschedule-div' className='reschedule-pic-div'>
       <img
         src='./images/engagement_9.jpg'
@@ -27,7 +26,7 @@ const Home = () => (
         <p>We'll just have a helluva 1st (or 5th) anniversary party...</p>
       </div>
     </div>
-      <p>Looking for something that used to be on our wedding website? It should all
+    <p>Looking for something that used to be on our wedding website? It should all
       be listed <a href='/former'>here</a>.</p>
     <p id='countdown-text'>{countdown} #SwellToBeRogel</p>
   </div>
