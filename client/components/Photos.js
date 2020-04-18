@@ -3,6 +3,12 @@ import React from 'react'
 const Photos = () => (
   <div id='photo-container' className='page-container'>
     <h1>Photos of Us</h1>
+    <div id='official-photos'>
+      <p>View our <a href='https://hollyferencuhaphotography.pixieset.com/guestlogin/claireandbill/?return=%2Fclaireandbill%2F'
+      target='blank'>engagement photos</a> by the wonderful <a href='http://www.hollyfphotography.com'
+      target='blank'>Holly Ferencuha Photography</a>! Password (case-sensitive) is
+      ClaireBill2020.</p>
+    </div>
     <div id='photos'>
       <img
         className='squishy-image'

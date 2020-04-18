@@ -401,12 +401,13 @@ nav a:hover,
   }
 }
 
-/* ACCOMMODATIONS, FAQ, COOKIE TABLE, BASEBALL */
+/* ACCOMMODATIONS, FAQ, COOKIE TABLE, BASEBALL, RESCHEDULE */
 
 @media (max-width: 400px) {
   .hotel-info,
   .page-pic-div,
-  .story-holder {
+  .story-holder,
+  #reschedule-div {
     flex-direction: column;
     text-align: center;
   }
@@ -423,12 +424,16 @@ nav a:hover,
 
 .hotel-info,
 .page-pic-div,
-.story-holder {
+.story-holder,
+#reschedule-div,
+.registry-div,
+.registry-div-two {
   display: flex;
 }
 
 .story-holder,
-.baseball-img {
+.baseball-img,
+#reschedule-div {
   align-items: center;
   justify-content: center;
 }
@@ -437,7 +442,8 @@ nav a:hover,
 .page-img,
 .story-img,
 #setup-story,
-#proposal-story {
+#proposal-story,
+#former-links {
   padding: 1em;
   text-align: center;
 }
@@ -465,6 +471,13 @@ nav a:hover,
   text-align: center;
 }
 
+.reschedule-img,
+.registry-img {
+  display: block;
+  height: 100%;
+  width: auto;
+}
+
 /* SCHEDULE */
 
 .outline-me > h2,
@@ -476,7 +489,7 @@ nav a:hover,
   text-align: center;
 }
 
-/* ATTRACTIONS */
+/* ATTRACTIONS, some REGISTRY */
 
 #attractions-container .wide-left {
   margin-left: 2vw;
@@ -487,7 +500,9 @@ nav a:hover,
 }
 
 .one-attraction,
-.one-attraction-reverse {
+.one-attraction-reverse,
+.registry-div,
+.registry-div-two {
   display: flex;
   text-align: center;
   justify-content: space-around;
@@ -496,10 +511,12 @@ nav a:hover,
 }
 
 @media (max-width: 400px) {
-  .one-attraction {
+  .one-attraction,
+  .registry-div {
     flex-direction: column;
   }
-  .one-attraction-reverse {
+  .one-attraction-reverse,
+  .registry-div-two {
     flex-direction: column-reverse;
   }
 }
@@ -547,25 +564,6 @@ button:hover {
   cursor:pointer;
   background-color: #3C1474;
 }
-
-/* #top-button {
-  display: none;
-  position: fixed;
-  bottom: 2vh;
-  right: 2vw;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: #4c1992;
-  color: white;
-  cursor: pointer;
-  padding: 1em;
-  font-size: 1.5em;
-}
-#top-button:hover {
-  font-size: 2.1em;
-  font-weight: bolder;
-} */
 
 /* MONEY DANCE */
 
