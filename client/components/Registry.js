@@ -2,14 +2,42 @@ import React from 'react'
 
 const Registry = () => (
   <div id='registry-container' className='page-container'>
-    <h1>Our Registries (3 options)</h1>
-    <div id='registry-explanation'>
-      <p>You may be wondering, why do they even have a registry? They're both grown
-        adults who've lived on their own for many years...</p>
-      <p>Ah, but it has been many years! We've got things that need replacing, in
-        some cases pretty desperately.</p>
-      <p>Also a few fun things that we just like. Because we wanted to offer you
-        the opportunity to buy fun things without having to guess!</p>
+    <h1>Registries in the Time of Coronavirus</h1>
+    <div className='registry-div'>
+      <img
+        src='./images/engagement_17.jpg'
+        className='small-image page-img'
+        alt='another of our favorite engagement photos'
+      />
+      <div id='registry-coronavirus'>
+        <h2>So, now what?</h2>
+        <p>There isn't really set ettiquette for this!</p>
+        <p>We are still getting married on July 4. We are still holding a reception, just a
+          very delayed one.</p>
+        <p>If you want to still give us something, we're honored! Mailing address is
+          below (in footer), and also on all the registries.</p>
+        <p>If not, that's chill, too! Just please don't buy something off the registry
+          now and save it for the reception.</p>
+        <p>But do note that, come July, we'll start to buy the essentials off the
+          registry that we haven't yet received (just being practical).</p>
+        <p>We love you, we miss you, and we're praying for you!</p>
+      </div>
+    </div>
+    <div className='registry-div-two'>
+      <div id='registry-explanation'>
+        <p>You may be wondering, why do they even have a registry? They're both grown
+          adults who've lived on their own for many years...</p>
+        <p>Ah, but it has been many years! We've got things that need replacing, in
+          some cases pretty desperately.</p>
+        <p>Also a few fun things that we just like. Because we wanted to offer you
+          the opportunity to give us fun things without having to guess!</p>
+      </div>
+      <img
+        src='./images/engagement_55.jpg'
+        className='small-image page-img'
+        alt='a silly engagement photos'
+        />
+
     </div>
     <h2>Cash Donation</h2>
     <div id='cash-donation'>
