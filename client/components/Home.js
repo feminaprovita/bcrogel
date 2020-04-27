@@ -15,7 +15,7 @@ const Home = () => (
           <p>Details to follow, when we have them (when it's clearly safe to gather
             in such large numbers).</p>
         <h2>We will not postpone the sacrament!</h2>
-        <p>It'll be a very small ceremoy (immediate family only), and we hope to
+        <p>It'll be a very small ceremony (immediate family only), and we hope to
           livestream it.</p>
         <p>We will soon have an email signup page here, for those who want to be kept
           up-to-date.</p>
