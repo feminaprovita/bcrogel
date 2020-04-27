@@ -286,6 +286,10 @@ nav a:hover,
   .smaller-image {
     max-width: 46vw;
   }
+  #reschedule-img {
+    width: 100%;
+    height: auto;
+  }
   .registry {
     padding: 1vw;
     max-width: 88vw;
@@ -300,6 +304,10 @@ nav a:hover,
     max-height: 10vw;
     max-width: 18vw;
     margin: 1vw 0vw;
+  }
+  #reschedule-img {
+    height: 100%;
+    width: auto;
   }
 }
 
@@ -455,7 +463,8 @@ nav a:hover,
 }
 
 #accommodations-container > .purple,
-#faq-container > .purple {
+#faq-container > .purple,
+#homepage-container > .purple {
   background-color: #4c1992;
   text-align: center;
 }
@@ -471,11 +480,9 @@ nav a:hover,
   text-align: center;
 }
 
-.reschedule-img,
+#reschedule-img,
 .registry-img {
   display: block;
-  height: 100%;
-  width: auto;
 }
 
 /* SCHEDULE */

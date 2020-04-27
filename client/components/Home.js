@@ -7,7 +7,8 @@ const Home = () => (
     <div id='reschedule-div' className='reschedule-pic-div'>
       <img
         src='./images/engagement_9.jpg'
-        className='small-image reschedule-img page-img'
+        className='med-image page-img'
+        id='reschedule-img'
         alt='another of our favorite engagement photos'
       />
       <div id='reschedule-text'>
@@ -15,10 +16,10 @@ const Home = () => (
           <p>Details to follow, when we have them (when it's clearly safe to gather
             in such large numbers).</p>
         <h2>We will not postpone the sacrament!</h2>
-        <p>It'll be a very small ceremony (immediate family only), and we hope to
-          livestream it.</p>
+        <p>It'll be a <en>very</en> small ceremony (immediate family only), and
+          we hope to livestream it.</p>
         <p>We will soon have an email signup page here, for those who want to be kept
-          up-to-date.</p>
+          up to date.</p>
         <p>In the meantime, you can follow our <a href='https://www.facebook.com/groups/swelltoberogel/'
         target='blank'>facebook page</a> for the latest scoop.</p>
         <h2>We're sad to miss having you all on the day, but it's what we need to do
@@ -26,6 +27,9 @@ const Home = () => (
         <p>We'll just have a helluva 1st (or 5th) anniversary party...</p>
       </div>
     </div>
+    <p className='purple'>For any questions you may have that we ourselves shouldn't
+      know the answers to, you can email Claire's sister and matron of honor Theresa at <a
+      href='mailto:theresag908@gmail.com'>theresag908@gmail.com</a>.</p>
     <p>Looking for something that used to be on our wedding website? It should all
       be listed <a href='/former'>here</a>.</p>
     <p id='countdown-text'>{countdown} #SwellToBeRogel</p>
