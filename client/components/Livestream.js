@@ -1,5 +1,4 @@
 import React from 'react'
-import countdown from '../countdown'
 
 const Livestream = () => (
   <div id='livestream-container' className='page-container'>
@@ -52,10 +51,6 @@ const Livestream = () => (
             The time of singing of birds is come.<br/>
             Arise my love, my fair one, and come away.</p>
         <h3>Introductory Rites</h3>
-          <h4>Kyrie</h4>
-            <p>Lord, have mercy. Lord, have mercy.<br/>
-            Christ, have mercy. Christ, have mercy.<br/>
-            Lord, have mercy. Lord, have mercy.</p>
           <h4>Gloria</h4>
             <p>Glory to God in the highest,<br/>
             and on earth peace to people of good will.<br/>
