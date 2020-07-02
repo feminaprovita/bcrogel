@@ -2,7 +2,7 @@ import React from 'react'
 import {withRouter, Route, Switch} from 'react-router-dom'
 import {Home, OurStory, Registry, Photos, OurStoryLong, Former, Livestream, Schedule,
   Accommodations, Attractions, RSVP, CookieTable, Choir, FAQ, Baseball, MoneyDance,
-  ScavengerHunt} from './components'
+  ScavengerHunt, Solid} from './components'
 
 const Routes = () => (
   <Switch>
@@ -23,6 +23,7 @@ const Routes = () => (
     <Route exact path="/scavengerhunt" component={ScavengerHunt} />
     <Route exact path="/former" component={Former} />
     <Route exact path="/livestream" component={Livestream} />
+    <Route exact path="/solid" component={Solid} />
   </Switch>
 )
 

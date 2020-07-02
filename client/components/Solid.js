@@ -1,9 +1,8 @@
 import React from 'react'
 
-const Livestream = () => (
-  <div id='livestream-container' className='page-container'>
-    <div id='solid-link'><a href='/solid/'>Click here</a> for a background-free version</div>
-    <div id='program-text'>
+const Solid = () => (
+  <div id='solid-container' className='page-container'>
+    <div id='solid-text'>
         <h3>Preludes</h3>
           <h4>If Ye Love Me –Thomas Tallis</h4>
             <p>If ye love me, keep my commandments. <br/>
@@ -242,4 +241,4 @@ const Livestream = () => (
   </div>
 )
 
-export default Livestream
+export default Solid
