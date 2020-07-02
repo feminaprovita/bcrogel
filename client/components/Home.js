@@ -12,7 +12,8 @@ const Home = () => (
         alt='another of our favorite engagement photos'
       />
       <div id='reschedule-text'>
-        <h2 id='countdown-text'>{countdown} #SwellToBeRogel</h2>
+        {/* <h2 id='countdown-text'>{countdown} #SwellToBeRogel</h2> */}
+        <h2>We are getting married in 2 days! #SwellToBeRogel</h2>
         <p>&#10087;  &#10087;  &#10087;  &#10087;  &#10087; &#10087;  &#10087;
           &#10087;  &#10087;  &#10087; &#10087;  &#10087;  &#10087;  &#10087;  &#10087;</p>
         <h2>Wedding Mass at 12 noon on Saturday, July 4&mdash;<a href='https://youtu.be/w0jbtiVQ0AY' target='blank'>Watch us on YouTube!</a></h2>
