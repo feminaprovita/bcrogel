@@ -30,10 +30,10 @@ const Home = () => (
             reception:</h3>
             <p><a href='https://drive.google.com/file/d/1qc3tfJnf9lXU6gKP1FMkqkWmV-d0vbv3/view?usp=sharing'
             target='blank'>All manner of pups!</a> Ready for creative interpretations.</p>
-            <p>Nobody has too much gravitas for <a href='https://drive.google.com/file/d/1_46CHXzmyDSbE4Bhvg1uirVDa3dtRRjX/view?usp=sharing'
-            target='blank'>this lovely image</a> I commissioned from the brilliant <a
-            href='http://elyssadraws.com' target='blank'>Elyssa Hilton</a>.</p>
-            <p>A larger version of the lovely image of the <a href='https://drive.google.com/file/d/1ckWL-E6LlZvsp0bURs2l188Ur8OChzBe/view?usp=sharing' target='blank'><em>Espousal of the Blessed Virgin
+            <p>Check out this lovely, if largely unclear, <a href='https://drive.google.com/file/d/1_46CHXzmyDSbE4Bhvg1uirVDa3dtRRjX/view?usp=sharing'
+            target='blank'>drawing</a> I commissioned from the brilliant <a href='http://elyssadraws.com'
+            target='blank'>Elyssa Hilton</a>.</p>
+            <p>And finally, a larger version of the delightful image of the <a href='https://drive.google.com/file/d/1ckWL-E6LlZvsp0bURs2l188Ur8OChzBe/view?usp=sharing' target='blank'><em>Espousal of the Blessed Virgin
             Mary and St. Joseph</em></a> that's adorning our program, made by the
             wonderful <a href='http://matthewalderman.com' target='blank'>Matthew Alderman</a>.</p>
         <p>&#10087;  &#10087;  &#10087;  &#10087;  &#10087; &#10087;  &#10087;
