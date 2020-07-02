@@ -2,7 +2,6 @@ import React from 'react'
 
 const Livestream = () => (
   <div id='livestream-container' className='page-container'>
-    {/* <p>There will be an email signup here. It's just not ready set.</p> */}
     <div id='program-text'>
         <h3>Preludes</h3>
           <h4>If Ye Love Me –Thomas Tallis</h4>
@@ -96,7 +95,10 @@ const Livestream = () => (
           <h4>Universal Prayer (Prayer of the Faithful)</h4>
       <h2>The Liturgy of the Eucharist</h2>
         <h3>Offertory</h3>
-          <p><em>*ad orientem note*</em></p>
+          <p><em>You'll notice that Fr. Alek is facing the altar, like we are,
+            rather than facing us. This posture (never abolished, only made optional)
+            enables us to use the high altar here. We both find it prayerful, and
+            we hope you do, too!</em></p>
           <h4>Offertory Antiphon (Ps 31:15-16)</h4>
             <p><em>In te speravi, Domine: dixi: Tu es Deus meus, in manibus tuis tempora mea.</em></p>
             <p>In you I have put my trust, O Lord; I said: "You are my God, my destiny is in your hands."</p>

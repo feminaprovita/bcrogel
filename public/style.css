@@ -17,11 +17,11 @@ a {
 }
 
 a:link {
-  color: #FF55FF;
+  color: greenyellow;
 }
 
 a:visited {
-  color: greenyellow;
+  color: #FF76C0;
 }
 
 a:hover {
@@ -71,12 +71,11 @@ nav a:hover,
   width: 98vw;
 }
 
-/* 912 */
-/* one row */
+/* // one row
 @media (min-width: 912px) {
-  /* #navlink-container {
+  #navlink-container {
     height: 5vh;
-  } */
+  }
   .page-container {
     margin-top: 2vh;
     margin-bottom: 1vh;
@@ -85,15 +84,15 @@ nav a:hover,
     font-size: 1.2em;
     padding: 0.5em;
   }
-}
+} */
 
-/* two rows */
-@media (min-width: 495px) and (max-width: 840px) {
+/* desktop */
+@media (min-width: 1025px) /* and (max-width: 840px)*/ {
   #navlink-container {
-    height: 10vh;
+    height: 4vh;
   }
   .page-container {
-    margin-top: 10vh;
+    margin-top: 4.5vh;
     margin-bottom: 4vh;
   }
   .navlink-one {
@@ -102,14 +101,14 @@ nav a:hover,
   }
 }
 
-/* three rows, tablet */
-@media (min-width: 331px) and (max-width: 494px) {
+/* tablet */
+@media (min-width: 443px) and (max-width: 1024px) {
   #navlink-container {
-    height: 14vh;
+    height: 3vh;
   }
   .page-container {
-    margin-top: 18vh;
-    margin-bottom: 6vh;
+    margin-top: 3.2vh;
+    margin-bottom: 2vh;
   }
   .navlink-one {
     font-size: 1.1em;
@@ -117,10 +116,10 @@ nav a:hover,
   }
 }
 
-/* three rows, mobile */
-@media (max-width: 330px) {
+/* two rows, mobile */
+@media (max-width: 442px) {
   #navlink-container {
-    height: 14vh;
+    height: 9.5vh;
   }
   .page-container {
     margin-top: 18vh;
@@ -269,7 +268,7 @@ nav a:hover,
   list-style-type: none;
 }
 
-@media (max-width: 412px) {
+@media (max-width: 415px) {
   #money-categories,
   #traditional-registries,
   #money-links,
@@ -347,7 +346,7 @@ nav a:hover,
   box-shadow: 0vw;
 }
 
-@media (max-width: 412px) {
+@media (max-width: 415px) {
   #photo-container {
     margin-bottom: 23vw;
   }
@@ -401,7 +400,7 @@ nav a:hover,
   column-count: 2;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 415px) {
   #photos {
   -moz-column-count:  1;
   -webkit-column-count: 1;
@@ -411,7 +410,7 @@ nav a:hover,
 
 /* ACCOMMODATIONS, FAQ, COOKIE TABLE, BASEBALL, RESCHEDULE */
 
-@media (max-width: 400px) {
+@media (max-width: 415px) {
   .hotel-info,
   .page-pic-div,
   .story-holder,
@@ -517,7 +516,7 @@ nav a:hover,
   align-content: space-around;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 415px) {
   .one-attraction,
   .registry-div {
     flex-direction: column;
