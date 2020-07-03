@@ -2,7 +2,9 @@ import React from 'react'
 
 const Livestream = () => (
   <div id='livestream-container' className='page-container'>
-    <div id='solid-link'><a href='/solid/'>Click here</a> for a background-free version</div>
+    <div id='solid-link'><h2><a href='/solid/'>Click here</a> for a background-free version</h2></div>
+    <div id='solid-link'><h2><a href='https://drive.google.com/file/d/1O6oQabIetleIBY34p22yoFCyfNa9YYgp/view?usp=sharing'
+    target='blank'>Click here</a> for a printable version</h2></div>
     <div id='program-text'>
         <h3>Preludes</h3>
           <h4>If Ye Love Me –Thomas Tallis</h4>
