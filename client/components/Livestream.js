@@ -47,7 +47,7 @@ const Livestream = () => (
             Let us fear, and let us love the living God. <br/>
             And may we love each other with a sincere heart. Amen.</p>
           <h4>Rise Up, My Love, My Fair One –Healey Willan</h4>
-            <p>Rise up my love, my fair one, and come away.
+            <p>Rise up my love, my fair one, and come away.<br/>
             For lo, the winter is past, the rain is over and gone.<br/>
             The flowers appear upon the earth.<br/>
             The time of singing of birds is come.<br/>
