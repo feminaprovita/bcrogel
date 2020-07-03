@@ -2,6 +2,8 @@ import React from 'react'
 
 const Solid = () => (
   <div id='solid-container' className='page-container'>
+<div id='solid-link'><h2><a href='https://drive.google.com/file/d/1O6oQabIetleIBY34p22yoFCyfNa9YYgp/view?usp=sharing'
+    target='blank'>Click here</a> for a printable version</h2></div>
     <div id='solid-text'>
         <h3>Preludes</h3>
           <h4>If Ye Love Me –Thomas Tallis</h4>
