@@ -3,7 +3,7 @@ import countdown from '../countdown'
 
 const Home = () => (
   <div id='homepage-container' className='page-container'>
-  <h1>Watch our wedding on <a href='https://youtu.be/w0jbtiVQ0AY' target='blank'>livestream</a>!</h1>
+  <h1>Watch our wedding on <a href='https://youtu.be/w0jbtiVQ0AY?t=999' target='blank'>livestream</a>!</h1>
     <div id='reschedule-div' className='reschedule-pic-div'>
       <img
         src='./images/engagement_9.jpg'
@@ -13,10 +13,10 @@ const Home = () => (
       />
       <div id='reschedule-text'>
         {/* <h2 id='countdown-text'>{countdown} #SwellToBeRogel</h2> */}
-        <h2>We are getting married in 2 days! #SwellToBeRogel</h2>
+        <h2>We are married! Woooooooooo! #SwellToBeRogel</h2>
         <p>&#10087;  &#10087;  &#10087;  &#10087;  &#10087; &#10087;  &#10087;
           &#10087;  &#10087;  &#10087; &#10087;  &#10087;  &#10087;  &#10087;  &#10087;</p>
-        <h2>Wedding Mass at 12 noon on Saturday, July 4&mdash;<a href='https://youtu.be/w0jbtiVQ0AY' target='blank'>Watch us on YouTube!</a></h2>
+        <h2>Wedding Mass is at 12 noon on Saturday, July 4&mdash;<a href='https://youtu.be/w0jbtiVQ0AY?t=999' target='blank'>Watch us on YouTube!</a></h2>
           <p>(Note the time change vs our original plans.)</p>
           <p>It will be one-way via YouTube, not two-way via Zoom. You won't have
             to worry about anybody seeing you watching us in your pajamas! Nonetheless...</p>

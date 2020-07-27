@@ -3,7 +3,12 @@ import React from 'react'
 const Photos = () => (
   <div id='photo-container' className='page-container'>
     <h1>Photos of Us</h1>
-    <div id='official-photos'>
+    <div id='wedding-photos'>
+      <p>Here are <a href='http://www.hollyfphotography.com' target='blank'>Holly</a>'s
+      beautiful images <a href='https://www.onlinepictureproof.com/hollyfphotography/albums/weddings/756746/?loginpage'
+      target='blank'>from the day itself</a>! Password (case-sensitive) is Rogel70420.</p>
+    </div>
+    <div id='engagement-photos'>
       <p>View our <a href='https://hollyferencuhaphotography.pixieset.com/guestlogin/claireandbill/?return=%2Fclaireandbill%2F'
       target='blank'>engagement photos</a> by the wonderful <a href='http://www.hollyfphotography.com'
       target='blank'>Holly Ferencuha Photography</a>! Password (case-sensitive) is
