@@ -13,7 +13,7 @@ const Home = () => (
       />
       <div id='reschedule-text'>
         {/* <h2 id='countdown-text'>{countdown} #SwellToBeRogel</h2> */}
-        <h2>We are married! Woooooooooo! #SwellToBeRogel</h2>
+        <h2>We are married! Thanks for all your love. #SwellToBeRogel</h2>
         <p>&#10087;  &#10087;  &#10087;  &#10087;  &#10087; &#10087;  &#10087;
           &#10087;  &#10087;  &#10087; &#10087;  &#10087;  &#10087;  &#10087;  &#10087;</p>
         <h2>Wedding Mass is at 12 noon on Saturday, July 4&mdash;<a href='https://youtu.be/w0jbtiVQ0AY?t=999' target='blank'>Watch us on YouTube!</a></h2>
