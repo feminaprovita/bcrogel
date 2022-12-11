@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/feminaprovita/bcrogel#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "morgan": "^1.10.0",
     "node-gyp": "^6.1.0",
     "pg": "^7.18.2",
